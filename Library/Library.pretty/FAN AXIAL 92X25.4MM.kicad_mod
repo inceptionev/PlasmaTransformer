@@ -1,0 +1,130 @@
+(footprint "FAN AXIAL 92X25.4MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "FAN AXIAL 92X25.4MM")
+	(tags "FAN AXIAL 92X25.4MM")
+	(property "Reference" "REF**"
+		(at 0 38.5 0)
+		(layer "F.SilkS")
+		(uuid "233c40cd-78a5-4db6-ad99-2a2be6590237")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FAN AXIAL 92X25.4MM"
+		(at 0 42.25 0)
+		(layer "F.Fab")
+		(uuid "fbe29008-ef15-4cb4-9f44-e9b4965ca30a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7c3a107-a181-44a6-9e0b-bc6cfd0e9ea8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fb14beb-afa6-416a-a8ff-886807b2b042")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -46.5 -46.5)
+		(end 46.5 46.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2b201203-f93f-4dc0-8fe5-e49431d60cf1")
+	)
+	(fp_rect
+		(start -46 -46)
+		(end 46 46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "da284295-c2fb-4b5b-a4a9-651912ff13e3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 40.25 0)
+		(layer "F.Fab")
+		(uuid "66be6be4-4a3f-4f48-bdfc-b5517b0882a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -41.25 -41.25)
+		(size 4.5 4.5)
+		(drill 4.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "c63518ec-7582-4e59-be36-3edfa2edb476")
+	)
+	(pad "" np_thru_hole circle
+		(at -41.25 41.25)
+		(size 4.5 4.5)
+		(drill 4.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "038d04d1-0630-422a-8d59-0894d442a1cf")
+	)
+	(pad "" np_thru_hole circle
+		(at 41.25 -41.25)
+		(size 4.5 4.5)
+		(drill 4.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "a3c25509-3f2e-428e-9602-2665fca49e5f")
+	)
+	(pad "" np_thru_hole circle
+		(at 41.25 41.25)
+		(size 4.5 4.5)
+		(drill 4.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "75e75f9b-d25f-4ad5-92e9-e8cf2bb63e39")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

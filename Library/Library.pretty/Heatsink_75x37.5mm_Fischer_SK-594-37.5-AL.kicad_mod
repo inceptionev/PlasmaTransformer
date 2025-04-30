@@ -1,0 +1,206 @@
+(footprint "Heatsink_75x37.5mm_Fischer_SK-594-37.5-AL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Heatsink, 75 x 37.5mm, 25mm tall, Fischer 594 37,5 AL")
+	(tags "heatsink")
+	(property "Reference" "REF**"
+		(at 0 20.5 0)
+		(layer "F.SilkS")
+		(uuid "d6a2acc8-812f-472e-ad8e-083082affb55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Heatsink_70x37.5mm_Fischer_SK-594-37.5-AL"
+		(at -8.8 15.3 0)
+		(layer "F.Fab")
+		(uuid "e78c59b2-facc-432a-bd85-8f0c82c44870")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d3037db-6481-419b-9030-53c1290dcb6b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4dd7899-ce3b-41bd-83e0-238eb68d3fa1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -37.6 -18.9)
+		(end -37.6 18.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f3747d57-3ba6-4a1a-a3ae-c6285e568fd0")
+	)
+	(fp_line
+		(start -37.6 -18.9)
+		(end 37.6 -18.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd1596f1-882b-448e-ba29-5ba324aa3f35")
+	)
+	(fp_line
+		(start 37.6 18.9)
+		(end -37.6 18.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "30c7a44f-9ea8-4a41-a14d-a6f04bcee5e9")
+	)
+	(fp_line
+		(start 37.6 18.9)
+		(end 37.6 -18.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c7846b8-96da-43b0-9ec4-7efeb60497f7")
+	)
+	(fp_line
+		(start -37.5 -18.75)
+		(end -37.5 18.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7d04675-4aee-433a-92bf-05bd55b775f2")
+	)
+	(fp_line
+		(start -37.5 -18.75)
+		(end 37.5 -18.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "298e5288-d580-43f3-b502-e3d162474619")
+	)
+	(fp_line
+		(start -37.5 18.75)
+		(end 37.5 18.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a025a85-d5ed-44a3-97ae-033c46cf3711")
+	)
+	(fp_line
+		(start 37.5 -18.75)
+		(end 37.5 18.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d65a8f4a-f426-479b-bb42-83eb77b66943")
+	)
+	(fp_rect
+		(start -8 -10.5)
+		(end 8 10.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2e6dd616-4885-4407-b4f5-a8249a9e6c74")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.25 22.25 0)
+		(layer "F.Fab")
+		(uuid "66be6be4-4a3f-4f48-bdfc-b5517b0882a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -34.25 -15.5)
+		(size 3.4 3.4)
+		(drill 3.4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "75e75f9b-d25f-4ad5-92e9-e8cf2bb63e39")
+	)
+	(pad "" np_thru_hole circle
+		(at -34.25 15.5)
+		(size 3.4 3.4)
+		(drill 3.4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "8b7be5ef-bfa3-41e1-8744-752d2754ce82")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -4.6)
+		(size 3.4 3.4)
+		(drill 3.4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "2a988bd4-8300-431e-9161-1a3a15837807")
+	)
+	(pad "" np_thru_hole circle
+		(at 34.25 -15.5)
+		(size 3.4 3.4)
+		(drill 3.4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "a3d8e1ed-2c72-48fc-bf77-f3641bace3f3")
+	)
+	(pad "" np_thru_hole circle
+		(at 34.25 15.5)
+		(size 3.4 3.4)
+		(drill 3.4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "8f3a4ad2-c011-478f-be69-3b2372502536")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
