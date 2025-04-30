@@ -2932,6 +2932,12 @@
 		(uuid "35f09c75-9c69-4da3-9f46-eda37ed1068a")
 	)
 	(junction
+		(at 203.2 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4621a6ff-8fa2-4907-9f8c-f8f46649268b")
+	)
+	(junction
 		(at 223.52 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2972,12 +2978,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac8b7e93-5030-4649-adfc-dae88aaa026d")
-	)
-	(junction
-		(at 257.81 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b080116a-81e5-4f1b-85d1-9b3da6e9d5ab")
 	)
 	(junction
 		(at 177.8 82.55)
@@ -3323,16 +3323,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 91.44) (xy 257.81 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53d7b0a1-541f-498b-a320-b41342735907")
-	)
-	(wire
-		(pts
 			(xy 257.81 91.44) (xy 232.41 91.44)
 		)
 		(stroke
@@ -3373,7 +3363,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 91.44) (xy 222.25 91.44)
+			(xy 195.58 91.44) (xy 203.2 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3420,6 +3410,16 @@
 			(type default)
 		)
 		(uuid "73b89289-5400-49c4-978f-e482dc362c3f")
+	)
+	(wire
+		(pts
+			(xy 203.2 91.44) (xy 222.25 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775149f8-5f51-4663-bdfb-c847bca28fd3")
 	)
 	(wire
 		(pts
@@ -3510,16 +3510,6 @@
 			(type default)
 		)
 		(uuid "8f54d8d7-4c33-46ed-b0dd-62804b52e51d")
-	)
-	(wire
-		(pts
-			(xy 264.16 91.44) (xy 264.16 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9105558c-c19a-4ffc-91b9-4426a88fced1")
 	)
 	(wire
 		(pts
@@ -5055,7 +5045,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 264.16 86.36 0)
+		(at 203.2 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5064,7 +5054,7 @@
 		(fields_autoplaced yes)
 		(uuid "696286d2-d232-488a-90d4-c326f41b076e")
 		(property "Reference" "H1"
-			(at 266.7 83.8199 0)
+			(at 205.74 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5063,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 266.7 86.3599 0)
+			(at 205.74 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5072,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad"
-			(at 264.16 86.36 0)
+			(at 203.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5081,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 86.36 0)
+			(at 203.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5090,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 264.16 86.36 0)
+			(at 203.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
