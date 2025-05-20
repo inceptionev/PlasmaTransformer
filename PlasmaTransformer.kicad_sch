@@ -4439,7 +4439,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 248.92 73.66 90)
 			(effects
 				(font
@@ -4467,6 +4467,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 248.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-12NF1003U"
+			(at 248.92 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 248.92 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,6 +4647,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 105.41 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 105.41 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7e629e10-9d77-4290-a8ea-11e50b1b5e63")
 		)
@@ -4651,7 +4687,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "28bbe416-852a-4c72-8ad9-b0d31dc08649")
 		(property "Reference" "HS1"
@@ -4997,6 +5033,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 134.62 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 134.62 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f2bc15a2-a098-4bd5-a4eb-76d356f72ba9")
 		)
@@ -5057,6 +5111,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 191.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805JR-070RL"
+			(at 191.77 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 191.77 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,7 +5430,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "49.9"
 			(at 144.526 144.78 90)
 			(effects
 				(font
@@ -5386,6 +5458,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0749R9L"
+			(at 144.78 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 144.78 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,6 +5543,24 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SJ-3523-SMT-TR"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CUI"
 			(at 130.81 147.32 0)
 			(effects
 				(font
@@ -5574,7 +5682,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "696286d2-d232-488a-90d4-c326f41b076e")
 		(property "Reference" "H1"
@@ -5825,7 +5933,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "49.9"
 			(at 163.576 138.43 90)
 			(effects
 				(font
@@ -5853,6 +5961,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 163.83 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0749R9L"
+			(at 163.83 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 163.83 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5892,7 +6018,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 241.3 73.66 90)
 			(effects
 				(font
@@ -5920,6 +6046,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 241.3 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-12NF1003U"
+			(at 241.3 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 241.3 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +6103,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 233.68 73.66 90)
 			(effects
 				(font
@@ -5987,6 +6131,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 233.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-12NF1003U"
+			(at 233.68 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 233.68 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,6 +6409,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "150120AS75000"
+			(at 243.84 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth"
+			(at 243.84 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99ff073d-f214-49a4-918e-48bc266377d6")
 		)
@@ -6279,7 +6459,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "49.9"
 			(at 163.576 43.18 90)
 			(effects
 				(font
@@ -6307,6 +6487,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 163.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0749R9L"
+			(at 163.83 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 163.83 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,7 +6841,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9629dbdf-1568-479f-be6d-93293e7de7bf")
 		(property "Reference" "H2"
@@ -6783,7 +6981,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 226.06 73.66 90)
 			(effects
 				(font
@@ -6811,6 +7009,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 226.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-12NF1003U"
+			(at 226.06 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 226.06 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,6 +7169,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0805FR-071K8L"
+			(at 124.46 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 124.46 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d4fc486a-fab2-4d62-8473-22a1284afccd")
 		)
@@ -6973,9 +7207,9 @@
 		(at 251.46 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a2fb358f-0506-461d-88d2-c1ce08e54f15")
 		(property "Reference" "L1"
@@ -7563,6 +7797,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0805FR-07680RL"
+			(at 247.65 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 247.65 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "19cd5451-f4d4-4969-980e-6ffdee3b165b")
 		)
@@ -7961,6 +8213,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-073KL"
+			(at 124.46 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 124.46 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
