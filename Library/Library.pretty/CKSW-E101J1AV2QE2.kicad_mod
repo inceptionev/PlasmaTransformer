@@ -37,7 +37,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "SWITCH ROCKER SPDT 7.5A 125V"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -140,20 +140,6 @@
 		(layer "F.CrtYd")
 		(uuid "5cb59855-0bf3-4780-8d31-446582a14187")
 	)
-	(pad "" np_thru_hole circle
-		(at -16.51 -2.54)
-		(size 1.85 1.85)
-		(drill 1.85)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "807766d9-f15c-4c6c-aaab-7d2239e163b5")
-	)
-	(pad "" np_thru_hole circle
-		(at -16.51 2.54)
-		(size 1.85 1.85)
-		(drill 1.85)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "d019ff3f-7ba3-4546-bd32-5bebba701a21")
-	)
 	(pad "1" thru_hole oval
 		(at -3.81 0)
 		(size 2.8 3.8)
@@ -180,6 +166,22 @@
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "8abf594e-be09-429e-845a-8952b886870f")
+	)
+	(pad "M1" thru_hole circle
+		(at -16.51 -2.54)
+		(size 2.7 2.7)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "807766d9-f15c-4c6c-aaab-7d2239e163b5")
+	)
+	(pad "M2" thru_hole circle
+		(at -16.51 2.54)
+		(size 2.7 2.7)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d019ff3f-7ba3-4546-bd32-5bebba701a21")
 	)
 	(embedded_fonts no)
 )

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 3.5,
-          "width": 2.0
+          "drill": 3.4,
+          "height": 3.4,
+          "width": 3.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -458,7 +458,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -478,7 +478,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PlasmaTransformer.kicad_pro",
+    "filename": "PlasmaTransformer-DualFET.kicad_pro",
     "version": 3
   },
   "net_settings": {
