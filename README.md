@@ -14,9 +14,15 @@ The most current work is on the 20cm diameter globe size, but files are also pro
   <img src="https://github.com/inceptionev/PlasmaTransformer/blob/master/images/3globes.jpg" width="400" align="center">
 </p>
 
-KiCAD PCB files are found in the root folder.
+KiCAD PCB files are found in the root folder.  If you want to edit the design, the files are in the root folder.  If you just want to make the boards, you need:
+- /manufacturing/20250526-PlasmaTransformer-Rev2.zip
+- /bom/ibom.html
 
-3d print files and a dxf for the heatsink hole pattern are found in the 3D Print and CNC folder.  The heatsink holes are all M3 drill/tap.
+3d print design files and a dxf for the heatsink hole pattern are found in the 3D Print and CNC folder.  The heatsink holes are all M3 drill/tap.
+
+If you just want to print the files, look here:
+- /3D Print and CNC/20cm Globe STL 3D Print Set
+- /3D Print and CNC/13cm Globe STL 3D Print Set
 
 ## Known successful values from experimentation:
 
