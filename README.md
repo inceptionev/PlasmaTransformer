@@ -1,13 +1,18 @@
 # Plasma Transformer
+
+<p align="center">
+  <img src="https://github.com/inceptionev/PlasmaTransformer/blob/master/images/20cmGlobe.jpg" width="400">
+</p>
+
 ## An open-source plasma toroid project by inceptionev (Dr. Bunga)
 
-![20cm Globe](images/20cmGlobe.jpg)
-
-This project mainly focuses on creating a driver and 3D-printed support structure that allows for safe continuous operation of a plasma toroid.  The objectives are stable operation of a levitating halo of plasma while providing airflow to keep both the electronics and the globe cool.  The globes are filled with a low-pressure of xenon gas.
+This project mainly focuses on creating a driver and 3D-printed support structure that allows for safe continuous operation of a plasma toroid.  The objectives are stable operation of a levitating halo of plasma at maximum height above the coil, while providing airflow to keep both the electronics and the globe cool.  The globes are filled with a low-pressure of xenon gas.
 
 The most current work is on the 20cm diameter globe size, but files are also provided for the 13cm globe.
 
-![13cm and 20cm Globes](images/3globes.jpg)
+<p align="center">
+  <img src="https://github.com/inceptionev/PlasmaTransformer/blob/master/images/3globes.jpg" width="400" align="center">
+</p>
 
 KiCAD PCB files are found in the root folder.
 
