@@ -44,6 +44,7 @@ If you just want to print the files, look here:
   - Bend the MOSFET pins up 90 degrees
   - Put the standoffs into the heatsink
 - Mount the heatsink to the PCB, threading the MOSFET pins through the holes in the board.  Make sure the MOSFET is loose so it can move into alighment with the board.
+- Now tighten the screw mounting the MOSFET to the heatsink.
 - Solder the MOSFET in.
 - Add connector to the fan.  Pin 1 is positive.
 - Mount the foot and the fan to the bottom with the M4*35mm screws, threading the fan wires through the notch in the bottom.
