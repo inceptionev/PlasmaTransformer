@@ -6833,7 +6833,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-134K7L"
 			(at 250.19 22.86 90)
 			(effects
 				(font
@@ -7001,6 +7001,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 38.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRA2512-FZ-R050ELF"
+			(at 38.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 38.1 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7253,7 +7271,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-1322KL"
 			(at 191.77 38.1 90)
 			(effects
 				(font
@@ -7262,7 +7280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 191.77 38.1 90)
 			(effects
 				(font
@@ -7667,6 +7685,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "ESQ-102-33-G-S"
+			(at 266.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 266.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "26708da4-99fd-4a4f-ba4b-ed1b0c92a3d7")
 		)
@@ -7889,7 +7925,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-134K7L"
 			(at 238.76 34.29 90)
 			(effects
 				(font
@@ -7967,6 +8003,24 @@
 			)
 		)
 		(property "Description" "Single General-Purpose Voltage Comparator with Open-Collector Output, SOT-23-5"
+			(at 226.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM397MF/NOPB"
+			(at 226.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
 			(at 226.06 40.64 0)
 			(effects
 				(font
@@ -8145,6 +8199,24 @@
 			)
 		)
 		(property "Description" "12A Id, 55V Vds, RdsOn 25mOhm, N-Channel Enhancement Mode MOSFET, SOT-223"
+			(at 246.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BUK9832-55A/CUX"
+			(at 246.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
 			(at 246.38 40.64 0)
 			(effects
 				(font
@@ -9351,7 +9423,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805JR-070RL"
 			(at 176.53 38.1 90)
 			(effects
 				(font
@@ -9360,7 +9432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 176.53 38.1 90)
 			(effects
 				(font
@@ -10026,7 +10098,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-1322KL"
 			(at 180.34 49.53 90)
 			(effects
 				(font
@@ -10035,7 +10107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 180.34 49.53 90)
 			(effects
 				(font
@@ -10209,7 +10281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 198.12 41.91 0)
 			(effects
 				(font
@@ -10218,7 +10290,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E226ME44L"
 			(at 196.85 33.02 0)
 			(effects
 				(font
@@ -10362,7 +10434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung"
 			(at 234.95 27.94 0)
 			(effects
 				(font
@@ -10371,7 +10443,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21B104KCFNNNE"
 			(at 233.68 19.05 0)
 			(effects
 				(font
@@ -10940,10 +11012,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "84d04d52-36fc-48e8-a8c8-30b22a476593")
 		(property "Reference" "D5"
-			(at 187.96 40.6399 90)
+			(at 180.848 43.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10958,6 +11029,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
@@ -11015,12 +11087,11 @@
 			)
 		)
 		(property "MPN" "1N4148WX-TP"
-			(at 185.42 41.91 90)
+			(at 177.546 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11486,7 +11557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 81.28 83.82 0)
 			(effects
 				(font
@@ -11495,7 +11566,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM43DR7LW104KW01K"
 			(at 80.01 74.93 0)
 			(effects
 				(font
@@ -12645,7 +12716,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-1322KL"
 			(at 204.47 43.18 90)
 			(effects
 				(font
@@ -12654,7 +12725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 204.47 43.18 90)
 			(effects
 				(font
@@ -13163,7 +13234,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805JR-070RL"
 			(at 199.39 30.48 90)
 			(effects
 				(font
@@ -13172,7 +13243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 199.39 30.48 90)
 			(effects
 				(font
@@ -13565,6 +13636,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 262.89 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESQ-102-33-G-S"
+			(at 262.89 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
 			(at 262.89 27.94 0)
 			(effects
 				(font

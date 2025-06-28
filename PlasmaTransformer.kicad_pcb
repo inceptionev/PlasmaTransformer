@@ -64,7 +64,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -1403,6 +1402,32 @@
 				)
 			)
 		)
+		(property "MPN" "ESQ-102-33-G-S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b9b4524-2254-4554-a7f5-3c4befd61c01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dda6412-14c8-46da-93b4-acbfac176334")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f48d0e17-ea0c-478f-b8a7-7aebefa665fd")
 		(sheetname "/")
@@ -1885,6 +1910,32 @@
 				)
 			)
 		)
+		(property "MPN" "CRA2512-FZ-R050ELF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c62aa072-1b1b-4fc7-beba-bcf26433539e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64ff906c-c994-4eaf-87ce-7737a3ca3a0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1182bed9-9667-43bb-aa2c-4c70c545c798")
 		(sheetname "/")
@@ -2313,7 +2364,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2326,7 +2377,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21B104KCFNNNE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3658,7 +3709,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-1322KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3671,7 +3722,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4465,7 +4516,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-134K7L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4692,7 +4743,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-134K7L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6823,7 +6874,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805JR-070RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6836,7 +6887,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10629,7 +10680,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805JR-070RL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10642,7 +10693,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11621,7 +11672,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-1322KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11634,7 +11685,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14569,6 +14620,32 @@
 				)
 			)
 		)
+		(property "MPN" "LM397MF/NOPB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d595fbfa-9e77-483d-8e1f-87c92f718fe7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "261b9cdc-ac06-423f-acbe-13dcbc88fac9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/369d8683-278e-4e73-8c88-595373e3443c")
 		(sheetname "/")
@@ -15087,7 +15164,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-1322KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15100,7 +15177,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16196,7 +16273,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16209,7 +16286,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM43DR7LW104KW01K"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18176,6 +18253,32 @@
 				)
 			)
 		)
+		(property "MPN" "ESQ-102-33-G-S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0a88b07-37a6-4953-9767-aec6c8847738")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d03909d8-6076-4c3e-914e-f2d7f6740ac0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2cd7311a-1f07-4e3b-a191-d1a211884f27")
 		(sheetname "/")
@@ -19356,7 +19459,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9"
+		(property "Value" "499"
 			(at 0 2.28 180)
 			(layer "F.Fab")
 			(uuid "6f61d55c-6d6f-43f0-ac07-a079d1722c5e")
@@ -19393,7 +19496,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC2010FK-0749R9L"
+		(property "MPN" "RC2010FK-07499RL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19616,6 +19719,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "BUK9832-55A/CUX"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "271a0034-810e-43bf-9301-b7ccb7aa6a7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "796d4737-e4b7-4a30-a548-f24bb1b5ff5f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20186,7 +20315,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9"
+		(property "Value" "499"
 			(at 0 2.28 180)
 			(layer "F.Fab")
 			(uuid "73127614-c1b2-4faa-87b6-496d8b41a3e5")
@@ -20223,7 +20352,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC2010FK-0749R9L"
+		(property "MPN" "RC2010FK-07499RL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21132,7 +21261,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21145,7 +21274,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E226ME44L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23885,7 +24014,15 @@
 		(width 3)
 		(layer "B.Cu")
 		(net 36)
-		(uuid "74598dc2-fa60-4d24-861d-8db86cf238c5")
+		(uuid "696acf9c-ed36-406d-8179-a45a6bb3a934")
+	)
+	(segment
+		(start 100 107.5)
+		(end 100 100.29)
+		(width 3)
+		(layer "B.Cu")
+		(net 36)
+		(uuid "8e395df6-5628-4aa6-b8cd-4f1117651f2c")
 	)
 	(segment
 		(start 91.71 92)
@@ -23896,14 +24033,6 @@
 		(uuid "98aa775b-6489-4952-ae61-148e66da1f32")
 	)
 	(segment
-		(start 105 134.300001)
-		(end 105 112.5)
-		(width 3)
-		(layer "B.Cu")
-		(net 36)
-		(uuid "99f3ebb6-5800-4eb2-95a8-98bee744e184")
-	)
-	(segment
 		(start 100 100.29)
 		(end 91.71 92)
 		(width 1)
@@ -23912,12 +24041,12 @@
 		(uuid "a1234f1d-5a00-4cf0-b4b3-bee6f7868492")
 	)
 	(segment
-		(start 100 107.5)
-		(end 100 100.29)
+		(start 105 140)
+		(end 105 112.5)
 		(width 3)
 		(layer "B.Cu")
 		(net 36)
-		(uuid "d1fdfbba-7c63-44c4-8328-4a039594c692")
+		(uuid "b19522e9-31fa-4094-918e-b1744ce8e0e1")
 	)
 	(segment
 		(start 72.7125 82.6125)
