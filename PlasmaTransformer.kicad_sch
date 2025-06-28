@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "3647fd41-d415-410e-af0c-f9576953ab1f")
 	(paper "A4")
+	(title_block
+		(title "Plasma Transformer")
+		(rev "3")
+		(company "E. CHIU | Circuits Performers LLC")
+	)
 	(lib_symbols
 		(symbol "Comparator:LM397"
 			(pin_names
