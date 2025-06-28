@@ -4015,6 +4015,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B334KBFNNNE"
+			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8df4ca40-3570-460d-bc6d-69e001302ad8")
 		)
@@ -4166,6 +4184,24 @@
 		)
 		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
 			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B140-E3/61T"
+			(at 172.72 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 172.72 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,6 +4622,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "M20-9990245"
+			(at 57.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 57.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30c3643e-998d-4ce2-9321-553018be35c8")
 		)
@@ -4884,6 +4938,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "KGM21NR71H104KT"
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aaeb22a6-27c1-4f6f-8b07-390362e28192")
 		)
@@ -4945,6 +5017,24 @@
 			)
 		)
 		(property "Description" "Photoflash Capacitor Charger IC"
+			(at 160.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LT3468ES5-1#TRMPBF"
+			(at 160.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
 			(at 160.02 95.25 0)
 			(effects
 				(font
@@ -5100,7 +5190,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C3216X7R1E475K160AC"
 			(at 135.89 74.93 0)
 			(effects
 				(font
@@ -5109,7 +5199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 135.89 74.93 0)
 			(effects
 				(font
@@ -5188,6 +5278,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0805FR-1310KP"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e55070a7-2b9e-4a54-9925-9d057358a665")
 		)
@@ -5232,7 +5340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 129.54 71.12 0)
 			(effects
 				(font
@@ -5256,6 +5364,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "RC0805FR-07150RL"
+			(at 129.54 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 129.54 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5463,6 +5589,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0805FR-1310KP"
+			(at 138.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 138.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7173e9eb-8a3a-4975-945d-f808d99b568e")
 		)
@@ -5531,6 +5675,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "C1206C473KCRACTU"
+			(at 209.55 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at 209.55 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5735,6 +5897,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "M20-9990245"
+			(at 57.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 57.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ff68c7b-37c1-4c13-8fae-bbfec080944f")
 		)
@@ -5871,6 +6051,24 @@
 				)
 			)
 		)
+		(property "MPN" "GSD2004S-E3-08"
+			(at 194.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 194.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6cac2ffa-8618-4e3c-aa35-dccdf2ed45b3")
 		)
@@ -5936,6 +6134,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 125.73 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-1310KP"
+			(at 125.73 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 125.73 105.41 0)
 			(effects
 				(font
