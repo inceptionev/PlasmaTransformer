@@ -6,17 +6,17 @@
 
 ## An open-source plasma toroid project by inceptionev (Dr. Bunga)
 
-This project mainly focuses on creating a driver and 3D-printed support structure that allows for safe continuous operation of a plasma toroid.  The objectives are stable operation of a levitating halo of plasma at maximum height above the coil, while providing airflow to keep both the electronics and the globe cool.  The globes are filled with a low-pressure of xenon gas.
+This project mainly focuses on creating a driver and 3D-printed support structure that allows for safe continuous operation of a plasma toroid.  The objectives are stable operation of a levitating halo of plasma at maximum height above the coil and protection against touching energized components, while providing airflow to keep both the electronics and the globe cool.  The globes are filled with a low-pressure of xenon gas.
 
-The most current work is on the 20cm diameter globe size, but files are also provided for the 13cm globe.
+Native design files and manufacturing files in gerber and stl format are provided for the 20cm and 13cm globe sizes.
 
 <p align="center">
   <img src="https://github.com/inceptionev/PlasmaTransformer/blob/master/images/3globes.jpg" width="400" align="center">
 </p>
 
-KiCAD PCB files are found in the root folder.  If you want to edit the design, the files are in the root folder.  If you just want to make the boards, you need:
-- /manufacturing/20250526-PlasmaTransformer-Rev2.zip
-- /bom/ibom.html
+KiCAD PCB files are found in the /Plasma Transformer PCB folder.  If you want to edit the design, the files are in the folder.  If you just want to make the boards, you need:
+- Plasma Transformer PCB/manufacturing/20250627-PlasmaTransformer-Rev3.zip
+- Plasma Transformer/bom/ibom.html
 
 3d print design files and a dxf for the heatsink hole pattern are found in the 3D Print and CNC folder.  The heatsink holes are all M3 drill/tap.
 
@@ -25,7 +25,7 @@ If you just want to print the files, look here:
 - /3D Print and CNC/13cm Globe STL 3D Print Set
 
 ## Additional Materials Needed:
-- 14 AWG magnet wire
+- 12 AWG magnet wire (2mm dia)
 - 12mm or 1/2" polyimide (kapton) tape
 - 4x M4*35mm self tapping screws
 - 4x M4*12mm self tapping screws
@@ -35,6 +35,7 @@ If you just want to print the files, look here:
 - The appropriate capacitor values from the list below
 - Thermal pad for TO-247 MOSFET (example: SPK4-0.006-00-104)
 - M3*20mm screw, washer, and lockwasher for mounting MOSFET
+- 4mm OD x 2.5mm ID PTFE tube (commonly sold as Bowden tube for 1.76mm filament 3D printers)
 
 ## Assembly instructions:
 - Assemble the PCB per the BOM EXCEPT for the MOSFET.  That component will be soldered last.
@@ -52,10 +53,13 @@ If you just want to print the files, look here:
 - Mount the PCB to the cooling shroud with the M4*12mm screws
 - Make the coil
   - Print out the coil form in the folder for the globe size you are using
-  - Push approximately 14cm of 14AWG wire through the hole in the coil form, then bend it 90 degrees to follow the coil form AWAY from the notch
+  - Push approximately 14cm of 12AWG wire (10cm if using the 13cm globe) through the hole in the coil form, then bend it 90 degrees to follow the coil form AWAY from the notch
   - Wrap 3 turns around the coil form working from the bottom up (this ensures that the higher-voltage RF node is on the bottom of the coil, away from the globe - this helps with levitation)
-  - After the 3rd turn when you return to the notch, bend another 90 degree in the wire and make another 14cm tail.
-  - Use the notches in the coil form to wrap the coil with polyimide tape to keep the coil.
+  - After the 3rd turn when you return to the notch, continue for another 14cm for the 20cm Globe, or for another 10cm for the 13cm Globe, then cut the wire.
+  - Remove the coil from the form.
+  - Add a 176cm (114.4cm if using the 13cm globe) length of bowden tube to insulate the three turns of coil minus a 9mm gap.
+  - Place the now insulated coil back onto the form.  Make sure the turns stack nicely without crossing over, except at the very end.
+  - Use the notches in the coil form to wrap the coil with polyimide tape to keep the coil in shape.
   - Remove the coil from the form and wrap the coil again where the tail meets the coil
   - Open the coil terminal latches and fit the coil into the assembly with the PCB, making bends to allow for the envelope of the globe.
   - Trim the coil tails if necessary.
