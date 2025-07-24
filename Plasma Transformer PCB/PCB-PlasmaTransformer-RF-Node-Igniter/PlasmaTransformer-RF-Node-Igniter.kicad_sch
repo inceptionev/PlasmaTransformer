@@ -1752,156 +1752,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Zener"
 			(pin_numbers
 				(hide yes)
@@ -4717,7 +4567,7 @@
 		)
 		(uuid "32f4bac5-e14b-4faf-9dab-84ddb5de6ace")
 	)
-	(text "Recommended Resonant Cap:\n20cm Globe: 2x 24pF 564RC0GAJ602EJ240J\n13cm Globe: 5x 12pF CGP1C120KNSDAAWL25"
+	(text "Recommended Resonant Cap:\n20cm Globe: 3x 24pF 564RC0GAJ602EJ240J\n13cm Globe: 5x 12pF CGP1C120KNSDAAWL25"
 		(exclude_from_sim no)
 		(at 225.806 95.25 0)
 		(effects
@@ -8066,7 +7916,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
+		(lib_id "Device:D")
 		(at 238.76 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8082,7 +7932,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "D"
 			(at 238.4425 48.26 0)
 			(effects
 				(font
@@ -8109,7 +7959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Diode"
 			(at 238.76 52.07 0)
 			(effects
 				(font
@@ -8118,7 +7968,15 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ADS12B3-ASARH"
+		(property "MPN" "VS-E7FX0112-M3/I"
+			(at 239.522 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
 			(at 238.76 52.07 0)
 			(effects
 				(font
@@ -8127,7 +7985,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Luminus Devices"
+		(property "Sim.Device" "D"
+			(at 238.76 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 238.76 52.07 0)
 			(effects
 				(font
@@ -8826,7 +8693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
+		(lib_id "Device:D")
 		(at 238.76 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8842,7 +8709,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "D"
 			(at 239.0775 52.07 0)
 			(effects
 				(font
@@ -8869,7 +8736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Diode"
 			(at 238.76 48.26 0)
 			(effects
 				(font
@@ -8878,7 +8745,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ADS12B3-ASARH"
+		(property "MPN" "VS-E7FX0112-M3/I"
 			(at 238.76 48.26 0)
 			(effects
 				(font
@@ -8887,7 +8754,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Luminus Devices"
+		(property "Manufacturer" "Vishay"
+			(at 238.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 238.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 238.76 48.26 0)
 			(effects
 				(font
@@ -11845,7 +11730,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
+		(lib_id "Device:D")
 		(at 238.76 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11861,7 +11746,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "D"
 			(at 239.0775 48.26 0)
 			(effects
 				(font
@@ -11888,7 +11773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Diode"
 			(at 238.76 44.45 0)
 			(effects
 				(font
@@ -11897,7 +11782,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ADS12B3-ASARH"
+		(property "MPN" "VS-E7FX0112-M3/I"
 			(at 238.76 44.45 0)
 			(effects
 				(font
@@ -11906,7 +11791,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Luminus Devices"
+		(property "Manufacturer" "Vishay"
+			(at 238.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 238.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 238.76 44.45 0)
 			(effects
 				(font
@@ -13073,7 +12976,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
+		(lib_id "Device:D")
 		(at 238.76 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13089,7 +12992,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "D"
 			(at 238.4425 36.83 0)
 			(effects
 				(font
@@ -13116,7 +13019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Diode"
 			(at 238.76 40.64 0)
 			(effects
 				(font
@@ -13125,7 +13028,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ADS12B3-ASARH"
+		(property "MPN" "VS-E7FX0112-M3/I"
 			(at 238.76 40.64 0)
 			(effects
 				(font
@@ -13134,7 +13037,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Luminus Devices"
+		(property "Manufacturer" "Vishay"
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 238.76 40.64 0)
 			(effects
 				(font
