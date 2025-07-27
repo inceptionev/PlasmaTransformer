@@ -1,0 +1,3 @@
+This is a screw mountable case for an adjustable DC-DC stepdown power supply that makes it easy to power the plasma toroid from various power sources.  The external voltage control makes changing the power level easy.
+
+This DC-DC converter goes my name different names, and comes from labels like Drok and Go DIY, but it usually is called something like 6-75V CNC adjustable supply.  This is one such example: https://www.amazon.com/dp/B0D9LB3YQN
