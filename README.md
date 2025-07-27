@@ -8,6 +8,10 @@
 
 This project mainly focuses on creating a driver and 3D-printed support structure that allows for safe continuous operation of a plasma toroid.  The objectives are stable operation of a levitating halo of plasma at maximum height above the coil and protection against touching energized components, while providing airflow to keep both the electronics and the globe cool.  The globes are filled with a low-pressure of xenon gas.
 
+Special thanks to:  
+Sky-guided, whose inductive oscillation indicator design is used in this project.  
+@ltwin8, whose RF node parasitic auto-igniter design is used in this project and was detailed in https://github.com/inceptionev/PlasmaTransformer/issues/1  
+
 Native design files and manufacturing files in gerber and stl format are provided for the 20cm and 13cm globe sizes.
 
 <p align="center">
@@ -77,7 +81,7 @@ Gate-Drain Cap:
 - 13cm Globe: 220nF + 220nF
 
 Resonant Cap:
-- 20cm Globe: 2x 24pF 564RC0GAJ602EJ240J
+- 20cm Globe: 3x 24pF 564RC0GAJ602EJ240J
 - 13cm Globe: 5x 12pF CGP1C120KNSDAAWL25
 
 Gate-Source Cap:
