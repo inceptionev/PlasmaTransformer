@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Plasma Transformer")
-		(rev "3")
+		(rev "4")
 		(company "E. CHIU | Circuits Performers LLC")
 	)
 	(lib_symbols
@@ -2962,156 +2962,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:Heatsink"
 			(pin_names
 				(offset 1.016)
@@ -4678,12 +4528,6 @@
 		(uuid "0893e4ce-c83a-45b6-832f-ca54c0a12c60")
 	)
 	(junction
-		(at 31.75 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "131dc396-b3d3-4018-893b-0f4d7885e04c")
-	)
-	(junction
 		(at 223.52 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4804,18 +4648,6 @@
 		(uuid "73022528-587b-4b12-98c1-aa24d9d29bef")
 	)
 	(junction
-		(at 233.68 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7381cbac-d3f5-4f71-8ebd-4833061e8791")
-	)
-	(junction
-		(at 213.36 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "772f5e94-94d8-4b59-b9fa-4babc1a55820")
-	)
-	(junction
 		(at 185.42 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4874,6 +4706,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac8b7e93-5030-4649-adfc-dae88aaa026d")
+	)
+	(junction
+		(at 231.14 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad139515-eff8-4d41-a153-e7bc26d8e451")
 	)
 	(junction
 		(at 158.75 59.69)
@@ -4942,6 +4780,12 @@
 		(uuid "ca4f6d31-6f0f-455c-a7bd-99d49d51babd")
 	)
 	(junction
+		(at 220.98 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d25a6e17-8af6-475e-b0c6-54119f2cd828")
+	)
+	(junction
 		(at 257.81 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4952,6 +4796,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbd9543c-6c0d-45cc-ad78-82e737f2a7a0")
+	)
+	(junction
+		(at 223.52 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8e6f183-a626-4dd2-afde-383c11841796")
 	)
 	(junction
 		(at 158.75 83.82)
@@ -4977,12 +4827,6 @@
 		(color 0 0 0 0)
 		(uuid "f7c6d156-d36b-468c-8c46-c3c095e49faf")
 	)
-	(junction
-		(at 233.68 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8cb4011-fc6a-40dc-9b56-53a679c7285e")
-	)
 	(no_connect
 		(at 22.86 104.14)
 		(uuid "1beca9ce-f564-4c84-9ae1-3d050f4c4c16")
@@ -5004,10 +4848,6 @@
 		(uuid "59967152-7fcf-499b-8247-af3dd6719a25")
 	)
 	(no_connect
-		(at 40.64 107.95)
-		(uuid "5ca28f86-17ee-4a9b-b847-7316d0deabd6")
-	)
-	(no_connect
 		(at 63.5 148.59)
 		(uuid "5e016a07-eefc-4687-bcf8-fee2dec982d9")
 	)
@@ -5023,13 +4863,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 105.41) (xy 254 105.41)
+			(xy 231.14 134.62) (xy 243.84 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04da0b47-12cf-4dfc-b527-037488ba80b9")
+		(uuid "059ac2dc-918d-4f40-ba37-e77c1873d2e7")
 	)
 	(wire
 		(pts
@@ -5053,7 +4893,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 128.27) (xy 233.68 134.62)
+			(xy 231.14 128.27) (xy 231.14 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5153,13 +4993,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 105.41) (xy 213.36 110.49)
+			(xy 223.52 120.65) (xy 231.14 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b3e7a79-9019-4a68-a376-c80b49c9d348")
+		(uuid "1961d3a6-61a1-462c-b59b-e490033b465d")
 	)
 	(wire
 		(pts
@@ -5193,7 +5033,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 134.62) (xy 213.36 134.62)
+			(xy 200.66 134.62) (xy 213.36 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5210,6 +5050,16 @@
 			(type default)
 		)
 		(uuid "1ea23e5c-fe61-4601-9cb3-e55526214ef3")
+	)
+	(wire
+		(pts
+			(xy 222.25 105.41) (xy 223.52 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff2fcd0-e077-41d3-803c-f16c421146b9")
 	)
 	(wire
 		(pts
@@ -5283,16 +5133,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 134.62) (xy 254 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2532837b-2c0d-4d75-ab9f-50eee4fa50c4")
-	)
-	(wire
-		(pts
 			(xy 158.75 67.31) (xy 156.21 67.31)
 		)
 		(stroke
@@ -5303,17 +5143,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 105.41) (xy 213.36 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b1afff7-d108-46bb-8c94-d808a3ba32c5")
-	)
-	(wire
-		(pts
-			(xy 254 134.62) (xy 254 128.27)
+			(xy 243.84 134.62) (xy 243.84 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5323,7 +5153,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 99.06) (xy 31.75 99.06)
+			(xy 30.48 99.06) (xy 43.18 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5383,6 +5213,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 105.41) (xy 226.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4a230f-dfaa-4f9c-84af-0528893a92eb")
+	)
+	(wire
+		(pts
 			(xy 166.37 69.85) (xy 158.75 69.85)
 		)
 		(stroke
@@ -5420,6 +5260,16 @@
 			(type default)
 		)
 		(uuid "4190a120-463d-4763-b0fd-099d04f5181c")
+	)
+	(wire
+		(pts
+			(xy 220.98 120.65) (xy 213.36 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422105f0-13a4-4e3c-91f2-8c28b848d4e6")
 	)
 	(wire
 		(pts
@@ -5463,26 +5313,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 105.41) (xy 233.68 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49a12963-f5a8-4638-a77d-7080fdd04b1c")
-	)
-	(wire
-		(pts
-			(xy 222.25 105.41) (xy 233.68 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a7391bf-e056-49e5-a608-6962a4bf16cb")
-	)
-	(wire
-		(pts
 			(xy 151.13 82.55) (xy 151.13 83.82)
 		)
 		(stroke
@@ -5503,13 +5333,23 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 128.27) (xy 193.04 134.62)
+			(xy 200.66 128.27) (xy 200.66 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4ba64554-ce8b-43e0-bf49-3b8d77925732")
+	)
+	(wire
+		(pts
+			(xy 218.44 105.41) (xy 220.98 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed8d33a-5c57-49f5-ad49-f2b942ac6072")
 	)
 	(wire
 		(pts
@@ -5583,6 +5423,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 118.11) (xy 243.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aef4b5c-3583-4e97-8c15-46a9e8133926")
+	)
+	(wire
+		(pts
 			(xy 257.81 77.47) (xy 275.59 77.47)
 		)
 		(stroke
@@ -5633,23 +5483,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 105.41) (xy 254 110.49)
+			(xy 220.98 118.11) (xy 220.98 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "696bbe2d-6391-4361-ae3e-af1b99cea473")
-	)
-	(wire
-		(pts
-			(xy 31.75 99.06) (xy 30.48 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69c28f7b-ca9a-4dc8-b34d-fffb820b9436")
+		(uuid "6b3e9916-6de9-4e96-acdb-c39767b53d53")
 	)
 	(wire
 		(pts
@@ -5673,13 +5513,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 105.41) (xy 222.25 105.41)
+			(xy 220.98 105.41) (xy 222.25 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73b89289-5400-49c4-978f-e482dc362c3f")
+		(uuid "7015697f-829c-4740-83c9-099708a674d2")
 	)
 	(wire
 		(pts
@@ -5783,16 +5623,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 99.06) (xy 41.91 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "853dcf20-423a-4ef1-b0d8-aaeb02189bcf")
-	)
-	(wire
-		(pts
 			(xy 105.41 77.47) (xy 124.46 77.47)
 		)
 		(stroke
@@ -5883,13 +5713,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 110.49) (xy 193.04 105.41)
+			(xy 200.66 120.65) (xy 200.66 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a9f27c5-2904-47d0-9338-23901861e03b")
+		(uuid "9a326f87-0f58-4a4b-a7d8-1d8610004b8b")
 	)
 	(wire
 		(pts
@@ -6143,7 +5973,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 134.62) (xy 233.68 134.62)
+			(xy 223.52 134.62) (xy 231.14 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6203,16 +6033,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 107.95) (xy 40.64 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd1a5d76-1713-4579-8fb4-91ebc2f5a50f")
-	)
-	(wire
-		(pts
 			(xy 223.52 40.64) (xy 229.87 40.64)
 		)
 		(stroke
@@ -6220,6 +6040,16 @@
 			(type default)
 		)
 		(uuid "cd1b8f51-563b-4846-ae6a-b6e17c01b616")
+	)
+	(wire
+		(pts
+			(xy 226.06 118.11) (xy 243.84 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4b46c4-7be5-42b2-b22d-8b275e0a053e")
 	)
 	(wire
 		(pts
@@ -6240,6 +6070,16 @@
 			(type default)
 		)
 		(uuid "d0bcb939-4df4-41e9-8fd3-07ca7bd997da")
+	)
+	(wire
+		(pts
+			(xy 200.66 118.11) (xy 218.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4671e93-ae39-4c53-afeb-632aa301414a")
 	)
 	(wire
 		(pts
@@ -6323,16 +6163,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 99.06) (xy 31.75 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dff5d399-cd36-4fae-bd59-3bb6a561740b")
-	)
-	(wire
-		(pts
 			(xy 238.76 91.44) (xy 245.11 91.44)
 		)
 		(stroke
@@ -6360,6 +6190,16 @@
 			(type default)
 		)
 		(uuid "e4278f44-50a5-43dd-99b0-cf0c596f3104")
+	)
+	(wire
+		(pts
+			(xy 223.52 118.11) (xy 223.52 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88ad3f9-a3b7-4b94-9301-a867325e7659")
 	)
 	(wire
 		(pts
@@ -6460,16 +6300,6 @@
 			(justify left bottom)
 		)
 		(uuid "559e64a1-bc90-4d3a-ad1f-84927834a82f")
-	)
-	(label "GND-IN"
-		(at 33.02 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5847e0b5-8d58-4b77-a411-b58a154bad9d")
 	)
 	(label "GATE"
 		(at 185.42 88.9 90)
@@ -6723,91 +6553,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 38.1 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1182bed9-9667-43bb-aa2c-4c70c545c798")
-		(property "Reference" "R1"
-			(at 37.846 96.774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.05"
-			(at 38.1 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 38.1 100.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 38.1 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRA2512-FZ-R050ELF"
-			(at 38.1 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 38.1 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "482aa77c-2c48-4c17-a1ef-8d2b6cc5e98e")
-		)
-		(pin "2"
-			(uuid "2f0010ee-b8fa-4d2d-9263-53aa651c2a00")
-		)
-		(instances
-			(project ""
-				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer_MountingPin")
 		(at 124.46 91.44 0)
 		(unit 1)
@@ -6892,92 +6637,6 @@
 			(project ""
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 254 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a23ed99-8459-42c9-8bbc-e0ee4102a34a")
-		(property "Reference" "JP4"
-			(at 255.27 114.2999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 255.27 116.8399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 254 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 254 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "M20-9990245"
-			(at 251.206 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Harwin"
-			(at 254 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9acce29b-a836-4fea-b381-c0818b548dfb")
-		)
-		(pin "1"
-			(uuid "900782ee-3fc7-47c3-b39f-e954749bd95e")
-		)
-		(instances
-			(project "PlasmaInductor-Top"
-				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
-					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -7463,7 +7122,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 233.68 124.46 0)
+		(at 231.14 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7472,7 +7131,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f134f88-99a6-451a-9219-38c46a3e3efc")
 		(property "Reference" "C5"
-			(at 237.49 123.1899 0)
+			(at 234.95 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7481,7 +7140,7 @@
 			)
 		)
 		(property "Value" "1.8nF"
-			(at 237.49 125.7299 0)
+			(at 234.95 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7490,7 +7149,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
-			(at 234.6452 128.27 0)
+			(at 232.1052 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7499,7 +7158,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 124.46 0)
+			(at 231.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7508,7 +7167,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 233.68 124.46 0)
+			(at 231.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7517,7 +7176,7 @@
 			)
 		)
 		(property "MPN" "C1812C182JCGACTU"
-			(at 233.68 124.46 0)
+			(at 231.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,7 +7185,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 233.68 124.46 0)
+			(at 231.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9128,92 +8787,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 213.36 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6af9e10b-6756-4888-8062-34de3317f8a5")
-		(property "Reference" "JP2"
-			(at 214.63 114.2999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 214.63 116.8399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 213.36 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 213.36 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "M20-9990245"
-			(at 210.82 115.824 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Harwin"
-			(at 213.36 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dce10736-d9b0-42dc-9a9d-0f8e22070d3b")
-		)
-		(pin "1"
-			(uuid "b7ccc479-0c75-414d-8daf-9eb832e9a828")
-		)
-		(instances
-			(project "PlasmaInductor-Top"
-				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 163.83 97.79 90)
 		(unit 1)
@@ -9300,7 +8873,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 254 124.46 0)
+		(at 243.84 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9309,7 +8882,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d276f25-3ca7-4ef8-b90f-496c9b2d00c1")
 		(property "Reference" "C6"
-			(at 257.81 123.1899 0)
+			(at 247.65 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9318,7 +8891,7 @@
 			)
 		)
 		(property "Value" "1.8nF"
-			(at 257.81 125.7299 0)
+			(at 247.65 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9327,7 +8900,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
-			(at 254.9652 128.27 0)
+			(at 244.8052 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9336,7 +8909,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 124.46 0)
+			(at 243.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9345,7 +8918,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 254 124.46 0)
+			(at 243.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9354,7 +8927,7 @@
 			)
 		)
 		(property "MPN" "C1812C182JCGACTU"
-			(at 254 124.46 0)
+			(at 243.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9363,7 +8936,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 254 124.46 0)
+			(at 243.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10003,7 +9576,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 193.04 124.46 0)
+		(at 200.66 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10011,7 +9584,7 @@
 		(dnp no)
 		(uuid "82aafba5-792e-4ccf-94ee-48423e0d24ff")
 		(property "Reference" "C3"
-			(at 196.85 123.1899 0)
+			(at 204.47 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10020,7 +9593,7 @@
 			)
 		)
 		(property "Value" "2.7nF"
-			(at 196.85 125.7299 0)
+			(at 204.47 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10029,7 +9602,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
-			(at 194.0052 128.27 0)
+			(at 201.6252 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10038,7 +9611,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 124.46 0)
+			(at 200.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10047,7 +9620,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 193.04 124.46 0)
+			(at 200.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10056,7 +9629,7 @@
 			)
 		)
 		(property "MPN" "1812GC272KAT1A"
-			(at 193.04 124.46 0)
+			(at 200.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10065,7 +9638,7 @@
 			)
 		)
 		(property "Manufacturer" "Kyocera"
-			(at 193.04 124.46 0)
+			(at 200.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10847,6 +10420,112 @@
 			(project "PlasmaInductor-Top"
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 220.98 110.49 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9df182ab-9c05-4cfa-986a-38b361d96fdf")
+		(property "Reference" "J6"
+			(at 213.868 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_02x04_Odd_Even"
+			(at 218.44 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 220.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 220.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TSW-104-07-F-D"
+			(at 207.264 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 220.98 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ae19430c-0070-4b49-a9b2-8c39f5f2cdc8")
+		)
+		(pin "6"
+			(uuid "665d84ed-edff-4a82-8e0d-028f6b4450fd")
+		)
+		(pin "5"
+			(uuid "0a32e127-b347-4490-bea7-e838e93f5eee")
+		)
+		(pin "2"
+			(uuid "c03d9368-d590-441f-9810-0cc81dcce6ce")
+		)
+		(pin "1"
+			(uuid "8c3e680d-0553-456d-84d5-8ad3c8b47bd5")
+		)
+		(pin "4"
+			(uuid "f5b3bfc5-9e25-48e1-81d9-f2bd96d5b9b8")
+		)
+		(pin "7"
+			(uuid "a8d78176-47d2-491d-82a6-9b3cb4f63336")
+		)
+		(pin "8"
+			(uuid "ef1f64a2-1317-4110-8707-be1e08ed6cf6")
+		)
+		(instances
+			(project "PlasmaTransformer-RF-Node-Igniter"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -12673,92 +12352,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 233.68 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6bdbbd8-1551-4b0f-9135-815db07fa0c8")
-		(property "Reference" "JP3"
-			(at 234.95 114.2999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 234.95 116.8399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 233.68 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 233.68 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "M20-9990245"
-			(at 231.14 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Harwin"
-			(at 233.68 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "666d6a44-4080-4ecf-bb85-1904c2922fa5")
-		)
-		(pin "1"
-			(uuid "6f4c3ab2-d3ea-4230-864a-98eed7e95e4e")
-		)
-		(instances
-			(project "PlasmaInductor-Top"
-				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 138.43 135.89 0)
 		(unit 1)
@@ -12819,92 +12412,6 @@
 			(project "PlasmaInductor-Top"
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 193.04 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fbd790c7-d04c-4569-8ea0-c2435d3fa072")
-		(property "Reference" "JP1"
-			(at 194.31 114.2999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 194.31 116.8399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 193.04 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 193.04 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "M20-9990245"
-			(at 190.246 115.824 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Harwin"
-			(at 193.04 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4a5a363d-55d2-481f-b1cd-56d788ffcbaf")
-		)
-		(pin "1"
-			(uuid "1c140f5e-2ecf-4283-b5e9-273d9b17164c")
-		)
-		(instances
-			(project ""
-				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
