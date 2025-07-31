@@ -19,10 +19,14 @@ Native design files and manufacturing files in gerber and stl format are provide
 </p>
 
 KiCAD PCB files are found in the /Plasma Transformer PCB folder.  If you want to edit the design, the files are in the folder.  If you just want to make the boards, you need:
-- Plasma Transformer PCB/manufacturing/20250627-PlasmaTransformer-Rev3.zip
-- Plasma Transformer/bom/ibom.html
+- Plasma Transformer PCB/manufacturing/[the zip file with the latest rev]
+- Plasma Transformer/bom/[the bom file matching that rev]
 
 3d print design files and a dxf for the heatsink hole pattern are found in the 3D Print and CNC folder.  The heatsink holes are all M3 drill/tap.
+
+<p align="center">
+  <img src="https://github.com/inceptionev/PlasmaTransformer/blob/master/images/pcbRev4.jpg" width="400">
+</p>
 
 If you just want to print the files, look here:
 - /3D Print and CNC/20cm Globe STL 3D Print Set
@@ -85,5 +89,5 @@ Resonant Cap:
 - 13cm Globe: 5x 12pF CGP1C120KNSDAAWL25
 
 Gate-Source Cap:
-- 20cm Globe: 2.7nF + 1.8nF + 1.8nF
+- 20cm Globe: 2.7nF + 3.6nF + 1.8nF + 1.8nF
 - 13cm Globe: 2.7nF
