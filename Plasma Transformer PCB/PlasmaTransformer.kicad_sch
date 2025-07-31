@@ -8458,7 +8458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
+		(property "Footprint" "ALibrary:SMA_Amphenol_901-144_Vertical"
 			(at 172.72 97.79 0)
 			(effects
 				(font
@@ -8485,7 +8485,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RFPC-SMA27-F"
+		(property "MPN" "RFPC-SMA28-F"
 			(at 172.72 97.79 0)
 			(effects
 				(font
@@ -8546,7 +8546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
+		(property "Footprint" "ALibrary:SMA_Amphenol_901-144_Vertical"
 			(at 218.44 64.77 0)
 			(effects
 				(font
@@ -8573,7 +8573,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RFPC-SMA27-F"
+		(property "MPN" "RFPC-SMA28-F"
 			(at 218.44 64.77 0)
 			(effects
 				(font
@@ -9082,7 +9082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
+		(property "Footprint" "ALibrary:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
 			(at 130.81 133.35 0)
 			(effects
 				(font
@@ -11778,7 +11778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:CKSW-E101J1AV2QE2"
+		(property "Footprint" "ALibrary:CKSW-E101J1AV2QE2"
 			(at 49.53 80.01 0)
 			(effects
 				(font
@@ -12705,7 +12705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:CONN_2604-3101_WAG"
+		(property "Footprint" "ALibrary:CONN_2604-3101_WAG"
 			(at 256.54 54.61 0)
 			(effects
 				(font
@@ -12876,7 +12876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:CONN_2604-3101_WAG"
+		(property "Footprint" "ALibrary:CONN_2604-3101_WAG"
 			(at 257.81 67.31 0)
 			(effects
 				(font

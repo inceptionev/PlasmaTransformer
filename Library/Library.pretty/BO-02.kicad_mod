@@ -1,0 +1,117 @@
+(footprint "BO-02"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tokyo Coil 8mm 5kV Xe photoflash trigger")
+	(property "Reference" "REF**"
+		(at 0.2 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "90500823-0828-438e-92cc-9591f35964ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at -0.05 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1cdc07fd-2af4-4270-849d-a4eb6ba544e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.25 -17.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aab8a1a7-793a-4c3f-b7c5-4c6586a30ff8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.25 -17.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8b5e5fe-ac2b-43d2-be8c-8815ae5bc4f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.75 -1.25)
+		(end 2.75 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a5b40593-645a-4e34-93b7-c7eb36abba25")
+	)
+	(fp_rect
+		(start -4.4 -1.5)
+		(end 4.3 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fb179d0d-c5ad-4d1f-80be-c5764182eebf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.05 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "54e445ee-75e0-4909-a2cb-3ae0e5652616")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.675 0.95)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "a5fe2d4c-fe76-4477-be88-d4dd4071f8b2")
+	)
+	(pad "2" smd roundrect
+		(at -3.675 -0.95)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "a4d42b73-0258-4b16-9966-e421bb3a2b36")
+	)
+	(pad "3" smd roundrect
+		(at 3.675 0)
+		(size 1.1 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "76290c94-4768-40a3-8746-b4e82e095c88")
+	)
+	(embedded_fonts no)
+)

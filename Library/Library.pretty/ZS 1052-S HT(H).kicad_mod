@@ -1,0 +1,209 @@
+(footprint "ZS 1052-S HT(H)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 7.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0ebbe097-b860-48a5-9a2b-feab9d1b3858")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ZS 1052-S HT(H)"
+		(at 2 0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00e9d2fd-a206-4001-9d3a-9d0e745984a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/29/ZS_1052-S_HT%28H%29_DwgSpec.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffcd0e2e-daa3-457e-a8a6-c7bfc498cf7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81ee3af5-b449-4a97-94b0-1fe6c2a6f246")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "ZS 1052-S HT(H)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2cf4638-7445-4d93-b91a-0f31be6555c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Pulse Electronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "750c3be5-487e-41ad-8d26-c014d9a07ad8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -9 -4.3)
+		(end 9 -4.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74eded97-43fe-47f7-9ccd-d630ed37ed6b")
+	)
+	(fp_line
+		(start -9 -3.8)
+		(end -9 -4.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74f4ffb8-66ea-466e-820e-095fddb1646b")
+	)
+	(fp_line
+		(start -9 4)
+		(end -9 4.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "112ad126-43f7-4456-9c35-327022a5db45")
+	)
+	(fp_line
+		(start -9 4.3)
+		(end 9 4.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ef5fa84-c27b-4b6f-a0d1-407c8d255430")
+	)
+	(fp_line
+		(start 9 -1.7)
+		(end 9 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cc08627-0039-4624-be7a-dd6df1998c3a")
+	)
+	(fp_circle
+		(center -9 0)
+		(end -8.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6388e43a-1091-4dd1-8271-80cb8fc797bc")
+	)
+	(fp_rect
+		(start -8.95 -4.25)
+		(end 8.95 4.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "bababdbb-9e87-4acc-837f-a13f149758b2")
+	)
+	(fp_rect
+		(start -9.9 -4.7)
+		(end 9.6 4.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a25d4041-ac21-4c5b-b5aa-641e5b1f8445")
+	)
+	(pad "1" smd roundrect
+		(at -10 2.5 180)
+		(size 3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.4)
+		(thermal_bridge_angle 45)
+		(uuid "97b8dc44-8cf8-4253-bbd8-701ed8115f46")
+	)
+	(pad "2" smd roundrect
+		(at -10 -2.5 180)
+		(size 3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.4)
+		(thermal_bridge_angle 45)
+		(uuid "3afb852d-c821-4e89-ae00-c0c6a5d4075b")
+	)
+	(pad "3" smd roundrect
+		(at 10 -3.05 180)
+		(size 3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.4)
+		(thermal_bridge_angle 45)
+		(uuid "5d2c8ac7-6768-484f-9106-2b3dbd06f8b4")
+	)
+	(pad "4" smd roundrect
+		(at 10 3.05 180)
+		(size 3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.4)
+		(thermal_bridge_angle 45)
+		(uuid "7276cd4c-fa22-44aa-b3d4-ef881226a572")
+	)
+	(embedded_fonts no)
+	(model "C:/Projects/PlasmaTransformer/Library/Library.pretty/ZS1052_S_HT.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

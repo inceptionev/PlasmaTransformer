@@ -184,4 +184,15 @@
 		(uuid "d019ff3f-7ba3-4546-bd32-5bebba701a21")
 	)
 	(embedded_fonts no)
+	(model "C:/Projects/PlasmaTransformer/Library/Library.pretty/E101J1AV2QE2.stp"
+		(offset
+			(xyz -16.78 0 9.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 -90)
+		)
+	)
 )
