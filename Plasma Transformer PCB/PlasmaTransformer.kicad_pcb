@@ -2520,7 +2520,7 @@
 			(net 16 "Net-(J12-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "8c438eb9-2bb8-460b-9bea-a92fcc793d9b")
+			(uuid "44d76f16-e574-4365-b28f-50f1f57da173")
 		)
 		(embedded_fonts no)
 		(model "C:/Projects/PlasmaTransformer/Library/Library.pretty/2604-3101.stp"
@@ -4676,7 +4676,7 @@
 			(net 1 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "3d7efaa1-f495-4420-98de-fd365ff52ce8")
+			(uuid "b2c67c3b-ba67-4ce1-a006-f79ce26a438e")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -2.54 90)
@@ -4687,7 +4687,7 @@
 			(net 1 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "3d7efaa1-f495-4420-98de-fd365ff52ce8")
+			(uuid "e32ab5bc-d38d-4285-b03a-5475a8cc794f")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 2.54 90)
@@ -4698,7 +4698,7 @@
 			(net 1 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "3d7efaa1-f495-4420-98de-fd365ff52ce8")
+			(uuid "db65e309-57bc-4d78-a7fa-a1e51ab403ec")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl"
@@ -11162,7 +11162,7 @@
 			(net 33 "/DRAIN")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "dfd51775-9666-41d1-819f-2f7e3f52354b")
+			(uuid "f7baeece-abaf-4ea0-965b-aa5c1b19acb4")
 		)
 		(embedded_fonts no)
 		(model "C:/Projects/PlasmaTransformer/Library/Library.pretty/2604-3101.stp"
@@ -18700,7 +18700,7 @@
 			(net 1 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "fb9b45d8-4c32-48c6-be6d-c65d0d2bef78")
+			(uuid "600fbf13-5299-4306-87c9-ddc08eb9acc1")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -2.54 90)
@@ -18711,7 +18711,7 @@
 			(net 1 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "fb9b45d8-4c32-48c6-be6d-c65d0d2bef78")
+			(uuid "b51559f4-56f6-454c-9b33-5c354adaa8a7")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 2.54 90)
@@ -18722,7 +18722,7 @@
 			(net 1 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "fb9b45d8-4c32-48c6-be6d-c65d0d2bef78")
+			(uuid "ed1d9277-5dcc-4b4b-96b0-9691c347f878")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl"
