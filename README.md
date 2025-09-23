@@ -66,6 +66,7 @@ If you just want to print the files, look here:
   - After the 3rd turn when you return to the notch, continue for another 14cm for the 20cm Globe, or for another 10cm for the 13cm Globe, then cut the wire.
   - Remove the coil from the form.
   - Add a 175cm (113.4cm if using the 13cm globe) length of bowden tube to insulate the three turns of coil minus a 9mm gap.
+    - 151.6cm if using the 13cm globe and 4 turns of coil.
   - Place the now insulated coil back onto the form.  Make sure the turns stack nicely without crossing over, except at the very end.
   - Use the notches in the coil form to wrap the coil with polyimide tape to keep the coil in shape.
   - Remove the coil from the form and wrap the coil again where the tail meets the coil
