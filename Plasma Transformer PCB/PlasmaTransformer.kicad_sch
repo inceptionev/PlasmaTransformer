@@ -5568,12 +5568,6 @@
 		(uuid "1c4b61bd-2b50-4ef6-8c23-a1e526e85449")
 	)
 	(junction
-		(at 251.46 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e9a51e7-fe16-4276-9ae4-9c4e46b42a8a")
-	)
-	(junction
 		(at 38.1 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5848,6 +5842,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c466dea7-eeb5-477d-bf14-70d438a0ba9b")
+	)
+	(junction
+		(at 252.73 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5ff80c9-06c2-4511-aa88-7c08c59c08a7")
 	)
 	(junction
 		(at 31.75 73.66)
@@ -6168,6 +6168,16 @@
 			(type default)
 		)
 		(uuid "1d8f72a2-ff01-45dc-a7b4-2248b6751c71")
+	)
+	(wire
+		(pts
+			(xy 252.73 63.5) (xy 269.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dad7737-afe0-407a-bcf5-9e6ce34243f4")
 	)
 	(wire
 		(pts
@@ -6511,16 +6521,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 38.1) (xy 251.46 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48323242-bb15-4c3e-8736-5ee283389deb")
-	)
-	(wire
-		(pts
 			(xy 146.05 60.96) (xy 146.05 62.23)
 		)
 		(stroke
@@ -6558,16 +6558,6 @@
 			(type default)
 		)
 		(uuid "4ed8d33a-5c57-49f5-ad49-f2b942ac6072")
-	)
-	(wire
-		(pts
-			(xy 269.24 38.1) (xy 269.24 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eef1914-1221-4c69-bf36-db4c896c375b")
 	)
 	(wire
 		(pts
@@ -7171,7 +7161,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 55.88) (xy 252.73 67.31)
+			(xy 252.73 55.88) (xy 252.73 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7218,6 +7208,16 @@
 			(type default)
 		)
 		(uuid "bc01016b-ce63-4a93-b0ef-7429dbc65eb1")
+	)
+	(wire
+		(pts
+			(xy 269.24 63.5) (xy 269.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc35fdab-bb86-473f-a26f-f52d49bd9c4c")
 	)
 	(wire
 		(pts
@@ -7541,6 +7541,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 63.5) (xy 252.73 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd628b20-efc6-41e6-8cee-4fbb6f1acd92")
+	)
+	(wire
+		(pts
 			(xy 233.68 74.93) (xy 237.49 74.93)
 		)
 		(stroke
@@ -7698,6 +7708,16 @@
 			(justify left bottom)
 		)
 		(uuid "0cc03d0b-6f56-4c4e-9716-cd70a95688c9")
+	)
+	(label "12VSW"
+		(at 67.31 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bb3e137-69d6-45fa-9891-747bfc670cee")
 	)
 	(label "DRAIN"
 		(at 179.07 38.1 0)
@@ -8076,7 +8096,7 @@
 				)
 			)
 		)
-		(property "Value" "56uH"
+		(property "Value" "22uH"
 			(at 75.184 73.406 90)
 			(effects
 				(font
@@ -8084,7 +8104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1210A"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_2222SQ-90N"
 			(at 74.93 71.12 0)
 			(effects
 				(font
@@ -8111,7 +8131,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SRR1210-560M"
+		(property "MPN" "ETQ-P3M220KVP"
 			(at 74.93 71.12 90)
 			(effects
 				(font
@@ -8120,7 +8140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "Panasonic"
 			(at 74.93 71.12 90)
 			(effects
 				(font
