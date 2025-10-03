@@ -1,0 +1,200 @@
+(footprint "2.35mm-SafetyJack-DC002E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2.35mm Shielded Safety Bipolar Jack")
+	(tags "2.35mm Shielded Safety Bipolar Jack")
+	(property "Reference" "REF**"
+		(at 2.4 0 270)
+		(layer "F.SilkS")
+		(uuid "781848da-4f39-44a3-95ea-4022721623d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2.35mm-SafetyJack-DC002E"
+		(at -5.3 1.7 0)
+		(layer "F.Fab")
+		(uuid "1b66ba4b-6422-4d6b-8abc-07145a74bac5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe53611f-e228-48f2-9305-37e3b33c4cc0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2.35mm Shielded Safety Bipolar Jack"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eba3cb4b-2d17-4fa0-9af7-de291262be3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -12.6 -2.8)
+		(end 0.2 2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "33f1c571-d207-442d-acab-797d4dd519a9")
+	)
+	(fp_rect
+		(start -12.7 -3.1)
+		(end 1.5 3.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4e13ec6a-10c5-40f4-b8c6-140c15bff755")
+	)
+	(fp_line
+		(start -12.5 -2.65)
+		(end -12.5 2.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c8b51c3b-aabf-47b3-b0fa-98c381ae6d0a")
+	)
+	(fp_line
+		(start -12.5 2.65)
+		(end 0 2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c8eb1e4-39ba-4be3-be9f-6ee91679d954")
+	)
+	(fp_line
+		(start -10.5 -2.65)
+		(end -10.5 2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f340b646-0595-46b2-a101-741e5bd15785")
+	)
+	(fp_line
+		(start -9.2 -2.65)
+		(end -9.2 2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6046680a-b780-4c50-99d1-907ec5792423")
+	)
+	(fp_line
+		(start 0 -2.65)
+		(end -12.5 -2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8fcd5c5a-0322-41b1-a74f-f5cffffa5a2c")
+	)
+	(fp_line
+		(start 0 2.65)
+		(end 0 -2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33566f23-6026-493d-ab37-bd5460b9f2cd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -6.2 0 180)
+		(layer "F.Fab")
+		(uuid "194330e5-5b71-45af-928d-52891a83d134")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -7 -1.65 180)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "be1f9920-7c0d-4127-b893-979ef2c9b9ee")
+	)
+	(pad "" np_thru_hole circle
+		(at -7 1.65 180)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "058b10b6-0ac3-4c97-9c97-de0154382ee5")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 180)
+		(size 2.8 2.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "08dd7bef-f8bf-4c7b-b975-dbeacc1db87c")
+	)
+	(pad "2" thru_hole circle
+		(at -3 -1.65 180)
+		(size 2.8 2.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6b85363-2871-4b5f-92e5-74af862ca286")
+	)
+	(pad "2" thru_hole circle
+		(at -3 1.65 180)
+		(size 2.8 2.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7b4f7318-be67-4d53-9496-ff91cda0d891")
+	)
+	(embedded_fonts no)
+	(model "C:/Projects/PlasmaTransformer/Library/Library.pretty/2.35mmSafetyJack.stp"
+		(offset
+			(xyz -9.05 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

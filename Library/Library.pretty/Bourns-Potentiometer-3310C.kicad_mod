@@ -1,0 +1,344 @@
+(footprint "Bourns-Potentiometer-3310C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, horizontal, Long Life, Alps RK09Y11 Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk09y11/rk09y11.pdf")
+	(tags "Potentiometer horizontal Alps RK09Y11 Single")
+	(property "Reference" "REF**"
+		(at 0 8.5 180)
+		(layer "F.SilkS")
+		(uuid "2b0155ae-78b2-4fb1-94a4-c3a4ab687e0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Bourns-Potentiometer-3310C"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "fee25a1e-e949-45e0-9b2c-b99035eef113")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52fa5939-6614-40fe-92f0-e82dd0f5ace6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60fb262d-73e0-45e0-81ec-381e5914e211")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -15.57 5.12)
+		(end -15.57 -0.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e4d1e05-42d9-4496-9add-74b17df834dc")
+	)
+	(fp_line
+		(start -8.57 -0.12)
+		(end -15.57 -0.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb884999-7de7-4dab-97b3-91f40053ac87")
+	)
+	(fp_line
+		(start -8.57 5.12)
+		(end -15.57 5.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea38fc67-8149-4c06-a410-379b48544836")
+	)
+	(fp_line
+		(start -8.57 6.12)
+		(end -8.57 -1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3bd0636d-0469-4668-aacc-0bde2a38be16")
+	)
+	(fp_line
+		(start -3.57 -1.12)
+		(end -8.57 -1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ad0119e-4faa-4d0b-996d-4b2577ff947a")
+	)
+	(fp_line
+		(start -3.57 6.12)
+		(end -8.57 6.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b76e8e64-f4d0-42c3-b1d2-d816432ddb9f")
+	)
+	(fp_line
+		(start -3.57 7.37)
+		(end -3.57 -2.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d33a3e5-01a0-4586-9dac-8c0b1d24cb0d")
+	)
+	(fp_line
+		(start 2.071 -2.37)
+		(end -3.57 -2.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3158a514-8777-49d7-9cf6-6c6098cdf336")
+	)
+	(fp_line
+		(start 2.071 7.37)
+		(end -3.57 7.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f0b899a-6a04-44a2-9d09-bb01a905cb09")
+	)
+	(fp_line
+		(start 2.071 7.37)
+		(end 2.071 -2.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2a3d047-bc8c-445d-9506-e2a8a39a4b09")
+	)
+	(fp_line
+		(start -15.7 -2.5)
+		(end -15.7 7.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df89d6b1-40ee-4cfc-a3e0-b8f65b1aa9e3")
+	)
+	(fp_line
+		(start -15.7 7.5)
+		(end 2.2 7.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "389bc1bc-eaca-4dc0-834c-41cc9f101788")
+	)
+	(fp_line
+		(start 2.2 -2.5)
+		(end -15.7 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5055669-a025-4de4-8dcf-da2d3edc64bf")
+	)
+	(fp_line
+		(start 2.2 7.5)
+		(end 2.2 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "abb56996-4b42-418c-bfff-a11eca652ce9")
+	)
+	(fp_line
+		(start -15.45 0)
+		(end -15.45 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f66dbb71-fdad-4ab8-90f4-33645d78b962")
+	)
+	(fp_line
+		(start -15.45 5)
+		(end -8.45 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee4b4bb7-7806-4675-bd74-c6c77f673f14")
+	)
+	(fp_line
+		(start -8.45 -1)
+		(end -8.45 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69f38ff3-54fd-4916-b606-699aee65ddb0")
+	)
+	(fp_line
+		(start -8.45 0)
+		(end -15.45 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b497db3-a7c5-4829-93ad-5a06b50861f7")
+	)
+	(fp_line
+		(start -8.45 6)
+		(end -3.45 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c991225a-51e0-4cf4-9457-4a33b006d7fe")
+	)
+	(fp_line
+		(start -3.45 -2.25)
+		(end -3.45 7.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63e7612c-1573-42c8-b15e-41e5104bce1f")
+	)
+	(fp_line
+		(start -3.45 -1)
+		(end -8.45 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac67a642-16e0-4b6a-8341-58f12a0a08d4")
+	)
+	(fp_line
+		(start -3.45 7.25)
+		(end 1.95 7.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d128c752-c2d5-4b66-85d5-42983d30ddac")
+	)
+	(fp_line
+		(start 1.95 -2.25)
+		(end -3.45 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4cadc63b-490e-43cd-b0c8-813451b39b8b")
+	)
+	(fp_line
+		(start 1.95 7.25)
+		(end 1.95 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6b23d84-af1e-49c6-9a06-522eb080da97")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.75 2.5 180)
+		(layer "F.Fab")
+		(uuid "d24b5a09-e86e-40ca-90b5-07a223f230f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 180)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6c39e97c-fe6a-4398-af1f-2d5d168265ff")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.5 180)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ba13208b-e9d8-41a4-b42e-8013c5651ba0")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5 180)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "52873ac2-3da3-43ec-8745-b6cc749579fd")
+	)
+	(embedded_fonts no)
+	(model "C:/Projects/PlasmaTransformer/Library/Library.pretty/3310c-001.stp"
+		(offset
+			(xyz 0.9 -2.5 4.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+)

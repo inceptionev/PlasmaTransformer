@@ -1,0 +1,402 @@
+(footprint "F-131P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "https://www.triadmagnetics.com/Asset/F-131P.pdf")
+	(tags "PWR XFMR LAMINATED 1.5VA TH")
+	(property "Reference" "TR1"
+		(at 0.6 21 180)
+		(layer "F.SilkS")
+		(uuid "747e6ef6-fe53-4082-9fdf-5dd310976da1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "F-131P"
+		(at 0.5 0.5 180)
+		(layer "F.Fab")
+		(uuid "1f13c090-e58f-44ad-8ad9-e6fb5b52e980")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.triadmagnetics.com/Asset/F-131P.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0a84932-80da-4008-994f-3dfd81cc253b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Transformer, 120VAC, 4V 8V output, 1.5VA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8073cc7-df72-4d0d-a842-11fba859c4a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Triad Magnetics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0de58157-bf05-45dc-a4d5-39bad4246dec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer PN" "F-131P"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bc2e1cf-ae03-43da-a9de-8695aec9dfc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -17.9 -5.9)
+		(end 17.9 5.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d918412f-19aa-4888-9916-90273c579f03")
+	)
+	(fp_rect
+		(start -12.9 -14.9)
+		(end 12.9 14.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ab8c677c-061a-48f2-9aee-aeefa4a64261")
+	)
+	(fp_line
+		(start -18 -6)
+		(end -18 6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "143d3d60-dc11-43c3-8eda-bea2528898a9")
+	)
+	(fp_line
+		(start -18 6)
+		(end -13 6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2aa6c043-cce9-4b96-bb9b-c0dc56010f0e")
+	)
+	(fp_line
+		(start -13 -15)
+		(end 13 -15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cbafad23-ff53-45c7-9381-0222e07e84ca")
+	)
+	(fp_line
+		(start -13 -6)
+		(end -18 -6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "35364931-c8b8-4264-99a5-a994c5215d13")
+	)
+	(fp_line
+		(start -13 -6)
+		(end -13 -15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5e3d6d40-2269-40ad-8ac4-1026ddbe0e67")
+	)
+	(fp_line
+		(start -13 6)
+		(end -13 15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "01bc983f-392a-4a48-a17c-c416f16b7da1")
+	)
+	(fp_line
+		(start -13 15)
+		(end 13 15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "74176bf5-174c-45f1-8174-fe18581f8a5e")
+	)
+	(fp_line
+		(start 13 -15)
+		(end 13 -6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b33a1f89-37fa-4bf3-8728-b73229714959")
+	)
+	(fp_line
+		(start 13 -6)
+		(end 18 -6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "02c1f098-7527-43bf-84e0-2f2cbc98201d")
+	)
+	(fp_line
+		(start 13 15)
+		(end 13 6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd7d712e-8c5b-4f0f-a52d-d5a45aa55863")
+	)
+	(fp_line
+		(start 18 -6)
+		(end 18 6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7414cb8-b884-4237-b82c-6b6a8cdb7142")
+	)
+	(fp_line
+		(start 18 6)
+		(end 13 6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7f0afaa-8b52-4046-bd10-684aa27ff000")
+	)
+	(fp_line
+		(start -13.5 -15.5)
+		(end -13.5 15.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b698cd13-5708-4dfa-889e-8617d52a7359")
+	)
+	(fp_line
+		(start -13.5 -15.5)
+		(end 13.5 -15.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "222cd1fe-5a91-431e-84dc-2b0362397c1e")
+	)
+	(fp_line
+		(start 13.5 -15.5)
+		(end 13.5 15.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "214c3285-2b6e-4f6d-b734-14fad88d7dca")
+	)
+	(fp_line
+		(start 13.5 15.5)
+		(end -13.5 15.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bef74904-459e-41f8-b9ed-f982f9a8fabd")
+	)
+	(fp_text user "1"
+		(at -8 16 180)
+		(layer "F.SilkS")
+		(uuid "380de275-77ad-4fd3-9192-411ec9110d99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "3"
+		(at 0 16 180)
+		(layer "F.SilkS")
+		(uuid "4b530c7c-5995-4e3b-aba7-53fdd4fd0898")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "5"
+		(at 0 -16 180)
+		(layer "F.SilkS")
+		(uuid "9ebe649a-1fb8-4672-9ef6-ee9b943431d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "2"
+		(at -8 -16 180)
+		(layer "F.SilkS")
+		(uuid "c27ceaf7-2338-41f5-9256-39a25a5ee075")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "6"
+		(at 8 -16 180)
+		(layer "F.SilkS")
+		(uuid "e2b843a4-740f-465d-bbf7-60f1f1139ed6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "4"
+		(at 8 16 180)
+		(layer "F.SilkS")
+		(uuid "ecdde771-07b9-4efb-9b81-92ae8878389a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 -1 180)
+		(layer "F.Fab")
+		(uuid "fc5cc42f-8667-4c3a-abda-ac8e3b7b8788")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -7.9248 12.7)
+		(size 2.7 2.7)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4be6cfb7-4a50-49c9-9456-204475743873")
+	)
+	(pad "2" thru_hole circle
+		(at -7.9248 -12.7)
+		(size 2.7 2.7)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "481dc4ce-b2e9-4f50-a5fc-4a70f87c1119")
+	)
+	(pad "3" thru_hole circle
+		(at 0 12.7)
+		(size 2.7 2.7)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "85914420-6570-4b24-8bb7-e81a91888815")
+	)
+	(pad "4" thru_hole circle
+		(at 7.9248 12.7)
+		(size 2.7 2.7)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be6efef8-3398-41e6-aea6-6b4df771c0a3")
+	)
+	(pad "5" thru_hole circle
+		(at 0 -12.7)
+		(size 2.7 2.7)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e60ec05-afd3-4073-99b5-23e7cf2fcdce")
+	)
+	(pad "6" thru_hole circle
+		(at 7.9248 -12.7)
+		(size 2.7 2.7)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "acdd5498-8a47-48c2-84e1-6ce66b637ed5")
+	)
+	(embedded_fonts no)
+	(model "C:/Projects/PlasmaTransformer/Library/Library.pretty/F-131P--3DModel-STEP-884787.STEP"
+		(offset
+			(xyz 0 0 18.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
