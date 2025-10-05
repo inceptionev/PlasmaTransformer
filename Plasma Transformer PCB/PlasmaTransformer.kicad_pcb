@@ -69,7 +69,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -99,7 +98,7 @@
 	(net 13 "unconnected-(SW1-C-Pad3)")
 	(net 14 "unconnected-(J8-PadR)")
 	(net 15 "Net-(SW1-A)")
-	(net 16 "Net-(J12-Pin_1)")
+	(net 16 "Net-(J10-Pin_1)")
 	(net 17 "Net-(C14-Pad2)")
 	(net 18 "Net-(D5-A)")
 	(net 19 "Net-(D3-A)")
@@ -130,7 +129,7 @@
 			(at 4.1 0.1 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "74075cde-4e2e-4fb3-82f4-2d2db6c12d1f")
+			(uuid "074ad64b-d42c-42dd-b616-b34db392ff16")
 			(effects
 				(font
 					(size 1 1)
@@ -141,7 +140,7 @@
 		(property "Value" "300V"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "fd506db5-dc0b-4534-82d3-eb09cf8369ef")
+			(uuid "85553c31-b1eb-4179-999e-a8460009f48a")
 			(effects
 				(font
 					(size 1 1)
@@ -149,12 +148,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7085bbb6-eaae-424e-9f9f-b2708d81e5df")
+			(uuid "7c989fbc-6887-4245-9b1f-ec288fe83dac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167,7 +166,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "412f342a-91f2-47fc-96f6-155dcdf24c80")
+			(uuid "41d9a796-b47c-4b27-8321-0692b03b4303")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -347,6 +346,118 @@
 			)
 		)
 	)
+	(footprint "ALibrary:H8501-05"
+		(layer "F.Cu")
+		(uuid "09c98450-fcd7-4105-af7d-44353fd29b8c")
+		(at 67 111.45)
+		(descr "Harwin Press Fit Single Socket, gold, 0.60-0.85mm pin size")
+		(property "Reference" "J21"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "90bf9a20-d8f5-4470-9054-f8896a002eba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c36f7660-3da3-4ac9-9ff5-6896a0167905")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a17bda2b-0d8f-4198-b9bd-6813007b3646")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb3b59e3-078d-4104-996e-59fe27151e66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09cfc557-2c0f-4418-98ee-408f0853540d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4227cc0b-bc03-4f69-aada-5aeee0f75fe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/35922852-a2a7-4a71-a195-6d19aa4e843c")
+		(sheetname "/")
+		(sheetfile "PlasmaTransformer.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bf0f9526-4302-4e5c-a988-5a724a7a6a00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.057)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 8 "Net-(D6-K)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "385b7dd3-e3bd-4d37-b849-40f3b5f403d4")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "LED_SMD:LED_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "0ace692e-a605-4488-a1bd-751e3f9a631d")
@@ -356,7 +467,7 @@
 		(property "Reference" "D3"
 			(at 0 -2.1 0)
 			(layer "F.SilkS")
-			(uuid "0034f350-3dd7-4de8-b285-e8a532f52dda")
+			(uuid "3adaa897-7c5d-478f-9065-432456c7bcbc")
 			(effects
 				(font
 					(size 1 1)
@@ -367,7 +478,7 @@
 		(property "Value" "AMBER"
 			(at 0 1.82 0)
 			(layer "F.Fab")
-			(uuid "7f2b2065-0f9c-49bd-9b96-ae4e94488c36")
+			(uuid "8b52c2cf-3bc3-4aae-a4fa-9355084aada3")
 			(effects
 				(font
 					(size 1 1)
@@ -375,12 +486,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a358e499-a4b5-45c9-803e-f666d4ec01e3")
+			(uuid "45582314-ffdb-493b-8d69-3302163a0368")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -393,7 +504,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7840e1a1-1877-4a7a-9122-6df0cbcd04d4")
+			(uuid "86a03cfe-1802-4543-8e84-f7d82a44bcee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -617,7 +728,7 @@
 			(at -2.7 3.6 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "5c11a511-27cc-4fe5-aaeb-152a84f6bc1a")
+			(uuid "cc551a9b-1a50-4e50-a7a9-362e642f5e77")
 			(effects
 				(font
 					(size 1 1)
@@ -628,7 +739,7 @@
 		(property "Value" "SW_SPDT"
 			(at 0 -3.4 270)
 			(layer "F.Fab")
-			(uuid "0b42cdbe-63a3-4543-93c0-0e1c817a8920")
+			(uuid "36ef7514-1313-41e1-9b3c-64c41fe1feea")
 			(effects
 				(font
 					(size 1 1)
@@ -636,11 +747,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67bb91b2-5d0e-4528-a18f-51110b6188e8")
+			(uuid "0fc48327-087e-4589-b117-e866aa2dc7a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -652,7 +763,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa2800d2-5083-48d8-bdcd-bdba3308ded2")
+			(uuid "27019e60-0f42-4f3c-84c6-e3ca39b83151")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,7 +966,7 @@
 			(at -2.9375 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "ab75fa27-e77c-4bc2-88ef-5f06dbf924bb")
+			(uuid "0ef7305b-ea8a-4d60-a072-2798d14da66e")
 			(effects
 				(font
 					(size 1 1)
@@ -866,7 +977,7 @@
 		(property "Value" "D"
 			(at 0.1 1.9 0)
 			(layer "F.Fab")
-			(uuid "1dcd3705-7e6e-4b1e-97e6-7a6fa241bd19")
+			(uuid "1e612a66-8f0b-4d85-bdb8-1ae598d7069b")
 			(effects
 				(font
 					(size 1 1)
@@ -874,12 +985,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "acc64c45-923a-4013-9815-7622dd7cdb3a")
+			(uuid "58ea0250-4c32-4b10-98bd-81e7380d9223")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,7 +1003,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2427cce-e5c6-49c0-92c5-3b3aa656782a")
+			(uuid "88dc43ac-ef76-40a8-a353-c84d786c9859")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1171,6 +1282,118 @@
 			)
 		)
 	)
+	(footprint "ALibrary:H8501-05"
+		(layer "F.Cu")
+		(uuid "115a2c78-aa73-400a-a3ff-37becd68d78b")
+		(at 78 111.45)
+		(descr "Harwin Press Fit Single Socket, gold, 0.60-0.85mm pin size")
+		(property "Reference" "J17"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "19b6d842-0e9b-433f-b5f0-6e02d4b726af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f7276fc7-d64f-48a7-82d3-9f2d509b2efb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09c63118-0f35-4e9f-8203-4af5df7286d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84a9c38e-8ce1-4477-9c79-fe192b69e74d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "711a0e3b-160e-4218-b3c0-d0e235c2f326")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e14c8b10-c75f-401d-a7fb-e665c1a056e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/ddcc4643-2ff6-4002-a41f-c76fcd261d32")
+		(sheetname "/")
+		(sheetfile "PlasmaTransformer.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7097813b-d3e9-465c-9e6b-c414baacf928")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.057)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 8 "Net-(D6-K)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "3d0bd132-75fd-4fae-af41-31d56c2106af")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_1812_4532Metric"
 		(layer "F.Cu")
 		(uuid "12611df0-9836-4b00-bc86-456ac32769a7")
@@ -1181,7 +1404,7 @@
 			(at 4 0.25 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "00649a0e-48d9-49d6-b270-fe3dfd77ff0f")
+			(uuid "b8f66d99-42be-4490-859c-80a3adbdd8d1")
 			(effects
 				(font
 					(size 1 1)
@@ -1192,7 +1415,7 @@
 		(property "Value" "220pF"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "4af73abc-276e-45c9-af29-b5b04d51122d")
+			(uuid "c2757314-8f99-4925-9f8c-6bd39645188a")
 			(effects
 				(font
 					(size 1 1)
@@ -1200,12 +1423,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e2e771c-8f9e-4d97-8efa-93fe9a473dfa")
+			(uuid "e08cf1b4-8bbf-4e70-af10-9a8445571497")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,7 +1441,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "169fc54d-927e-40d1-b1cf-02552d122242")
+			(uuid "b6a7933f-dd22-4212-bd3e-61c4227876ee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1632,7 @@
 			(at 3.225 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "5b11d284-e12e-4b0b-9f3c-e2211edfd8f6")
+			(uuid "f3a337ea-c94e-4683-b4e6-eefd6cb5a02b")
 			(effects
 				(font
 					(size 1 1)
@@ -1420,7 +1643,7 @@
 		(property "Value" "680"
 			(at 0 1.65 0)
 			(layer "F.Fab")
-			(uuid "3439eaee-00d6-4c53-b016-31b597acfc20")
+			(uuid "a229be3e-39d3-4474-82b3-376c91ee2b53")
 			(effects
 				(font
 					(size 1 1)
@@ -1428,12 +1651,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4c1ecc7-d5aa-4dd0-b6bf-736f237b04e1")
+			(uuid "933e7e84-8cac-453c-b00e-0bd90ab7e04f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,7 +1669,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4806c7f-3df2-464d-b9c1-a550c53dc787")
+			(uuid "7d151e15-7274-46d5-bf68-325f6ae903d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1860,7 @@
 			(at 0 -2.65 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "22f14b68-06d4-41a0-9d4e-f29952d8fefa")
+			(uuid "06fd3bd3-e2e3-4128-a6da-2889e1a3c8ec")
 			(effects
 				(font
 					(size 1 1)
@@ -1648,7 +1871,7 @@
 		(property "Value" "1.8nF"
 			(at 0 2.65 90)
 			(layer "F.Fab")
-			(uuid "cd65d64b-e044-490a-88cc-423848ee4c23")
+			(uuid "35e7e211-5ab4-4387-8be4-0e3ec45e0287")
 			(effects
 				(font
 					(size 1 1)
@@ -1656,12 +1879,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b1f26d76-aa32-4c56-83c9-10925b6cd9a3")
+			(uuid "ae12648e-71f2-44f1-bee2-26a15c7e55fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +1897,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3222d94f-cb34-4f9e-832d-e89453dce973")
+			(uuid "0cf42891-6143-4ecf-9a80-c573277b0d3b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +2088,7 @@
 			(at -4.9 0.1 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "ea4bb63b-c192-47c8-bf7f-689155fa24a2")
+			(uuid "b3e8369a-6069-4775-a5ae-6171bb557624")
 			(effects
 				(font
 					(size 1 1)
@@ -1876,7 +2099,7 @@
 		(property "Value" "D"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "8a258432-ba77-430e-9f76-9da3d4ed056a")
+			(uuid "8dfcbf7d-a6aa-4126-8478-b96ff55d7f3b")
 			(effects
 				(font
 					(size 1 1)
@@ -1884,12 +2107,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "111b4d58-ec61-468f-b251-dbf94b45c953")
+			(uuid "e3905623-c333-4a59-be04-0a3dfec3d491")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1902,7 +2125,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b683611a-e190-4419-9596-5e8b046340c3")
+			(uuid "a992b43a-5749-4b69-8443-0b46ba3a141a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2413,7 @@
 			(at 0.1 13.15 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "4ea232c6-2c9f-4db5-a7c3-dfe88f93b07d")
+			(uuid "c13ad38f-f72a-4b38-a934-73b0dc341f6a")
 			(effects
 				(font
 					(size 1 1)
@@ -2202,7 +2425,7 @@
 			(at 0.55 4.099999 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6737695f-c0cf-4b2e-89b7-3b7d834e842a")
+			(uuid "0e3ae781-4db8-4809-a1a1-161b2386ecec")
 			(effects
 				(font
 					(size 1 1)
@@ -2210,11 +2433,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10c27d90-59af-470d-ba8c-279aaa6cf00d")
+			(uuid "1cc3d465-4ffb-4b0e-b343-3f99bda2b6b2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2449,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c9bba59-43f3-4a18-8c5d-f409d8398c70")
+			(uuid "b6f92d71-da9b-4f6a-bb2b-38315461a007")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,7 +2729,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "Net-(J12-Pin_1)")
+			(net 16 "Net-(J10-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "8c438eb9-2bb8-460b-9bea-a92fcc793d9b")
@@ -2517,7 +2740,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "Net-(J12-Pin_1)")
+			(net 16 "Net-(J10-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "44d76f16-e574-4365-b28f-50f1f57da173")
@@ -2544,7 +2767,7 @@
 			(at -11 3.9 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "28de0381-a35e-4044-bd9c-8421ea320fa4")
+			(uuid "5a3fa76f-29c4-4b0a-9f1f-6407b87c92af")
 			(effects
 				(font
 					(size 1 1)
@@ -2556,7 +2779,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "8a726058-ffc4-4dbd-9e92-9dc3be6b7633")
+			(uuid "6f898fbd-fb23-4817-9db5-e3b66b058ecd")
 			(effects
 				(font
 					(size 1 1)
@@ -2564,11 +2787,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "283e2a24-3747-4fad-a718-b14ff0bade2e")
+			(uuid "115dee00-b10b-4b8d-9416-0dc3063146e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2803,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "650eb65a-5613-4788-b483-eeed5a82cbe2")
+			(uuid "519afd84-edc2-4e06-8ce3-46a7aa231985")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,6 +3194,118 @@
 			)
 		)
 	)
+	(footprint "ALibrary:H8501-05"
+		(layer "F.Cu")
+		(uuid "24774fb4-7f76-4ad3-b2a4-95b718654699")
+		(at 72.5 111.45)
+		(descr "Harwin Press Fit Single Socket, gold, 0.60-0.85mm pin size")
+		(property "Reference" "J19"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7f6dc159-2f1d-4e4c-8322-970bf58c1f49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6fbc6a12-6961-4d55-9ae7-26c2cf00107d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39ad0492-e3d9-4a2a-9ca8-3487617a9a6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81810375-d5d4-4b10-8a5a-793dd748fcd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d9a11e8-f390-4d52-893a-ac12aa51e5f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17e48144-07e3-4213-bad8-837475d5defe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/9d896c3b-36ad-4fd5-8d4a-ee45eeea6c75")
+		(sheetname "/")
+		(sheetfile "PlasmaTransformer.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bfd8e7cf-9a55-4063-9203-573d8c9f2b7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.057)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 8 "Net-(D6-K)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "6038233d-b891-457d-b23f-e06870d5fe41")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
 		(layer "F.Cu")
 		(uuid "2bea9495-3153-42a2-82f8-9f25968bc643")
@@ -2981,7 +3316,7 @@
 			(at -3.6 0.9 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "294dc93e-3df3-437f-84ca-49eed337e9c0")
+			(uuid "aa537cfa-be39-422a-a06f-60a41f25101a")
 			(effects
 				(font
 					(size 1 1)
@@ -2992,7 +3327,7 @@
 		(property "Value" "Ignition Wire"
 			(at 0 2.47 0)
 			(layer "F.Fab")
-			(uuid "d37e6f5c-791e-4dfa-8d58-71c73bc5a97a")
+			(uuid "9b47b80b-1a5b-4ef6-8c7b-3b173e892764")
 			(effects
 				(font
 					(size 1 1)
@@ -3000,12 +3335,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "553f701d-4911-4f60-b728-892d640205a5")
+			(uuid "f56e2557-ecd5-4e51-bb9c-5ca5cd2a1cb5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,7 +3353,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4fff844c-011f-4bf6-99e7-eab9525adfd3")
+			(uuid "3609171c-4a6d-446a-866a-f133376dbdbf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,6 +3453,118 @@
 			)
 		)
 	)
+	(footprint "ALibrary:H8501-05"
+		(layer "F.Cu")
+		(uuid "2f92468c-6401-4a23-87b8-0c0a1793bb21")
+		(at 83.5 111.45)
+		(descr "Harwin Press Fit Single Socket, gold, 0.60-0.85mm pin size")
+		(property "Reference" "J15"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3c00af97-b5e2-41bb-81a4-6d311e24f144")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c5e795fb-049b-4b68-be76-2a8490e894f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3079b818-ed9c-4ded-b5ff-d09f88f72f90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f97e8d0-bf11-441a-998b-69815fbdafa5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe0ada28-6d1c-418a-98c6-f558a5ac6d24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abb36058-e9d1-4150-b045-0603e5c98135")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/9ca4dce9-5883-44d6-a5d7-6ef56e5969f7")
+		(sheetname "/")
+		(sheetfile "PlasmaTransformer.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "226dc5c4-da67-40b1-97d4-2e8bca6c333b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.057)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 8 "Net-(D6-K)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "68422f36-798b-4641-929c-c357af821e95")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Diode_SMD:D_SMB"
 		(layer "F.Cu")
 		(uuid "33ba3ab7-5fa3-4fe2-8889-880b467c1e97")
@@ -3128,7 +3575,7 @@
 			(at 4.8 -0.05 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "9aa56b07-17aa-4db6-8112-e4f1f25e6854")
+			(uuid "ea31d8a9-96b2-461e-b0ac-52ba1358a1ad")
 			(effects
 				(font
 					(size 1 1)
@@ -3139,7 +3586,7 @@
 		(property "Value" "D"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "84107483-aac7-4f4c-8a85-0679332765ed")
+			(uuid "64f89a84-a0f5-4f15-a71d-fb1085f131c8")
 			(effects
 				(font
 					(size 1 1)
@@ -3147,12 +3594,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "111bf804-b6e6-4bcd-a8f4-a080a18cbb6d")
+			(uuid "b478ded1-3428-46bc-9cea-3e66e77f0795")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +3612,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "385d8243-89d7-460c-ac90-efb3300308e9")
+			(uuid "de0b1294-6948-42f2-8b40-48efe5268993")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,7 +4201,7 @@
 			(at 0.1 -9.5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b60cd017-91d3-4061-b709-129cfc1c23f3")
+			(uuid "aa48b440-3a85-4926-962d-7ea8f32d1e3d")
 			(effects
 				(font
 					(size 1 1)
@@ -3765,7 +4212,7 @@
 		(property "Value" "MountingHole"
 			(at 0 9.4 0)
 			(layer "F.Fab")
-			(uuid "fcb9d4eb-8982-4fce-9df3-188829e71a26")
+			(uuid "ad0a3eba-b2bd-4e03-b793-eef9a68e7935")
 			(effects
 				(font
 					(size 1 1)
@@ -3773,12 +4220,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0a4543e-13a3-420d-a4fc-150d03e803e5")
+			(uuid "afd3111a-1b2c-4fe6-ba40-f612ed67095e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,7 +4238,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5edfaa9a-636d-4f14-9f9c-38304e7a60b7")
+			(uuid "ed0eeb19-a484-4de2-b7e9-66e837088d00")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +4303,7 @@
 			(at 2.3 -2.5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "d57e655a-b31f-4b11-a5d9-6e800d286426")
+			(uuid "17d829b8-b6a4-4903-8a30-42956425b5be")
 			(effects
 				(font
 					(size 1 1)
@@ -3867,7 +4314,7 @@
 		(property "Value" "Barrel_Jack_MountingPin"
 			(at -0.25 11 0)
 			(layer "F.Fab")
-			(uuid "dc60c121-5b8e-4455-86a6-2e051cb0019d")
+			(uuid "5bf89961-60d8-4681-9645-b31af79af7b8")
 			(effects
 				(font
 					(size 1 1)
@@ -3875,12 +4322,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9244f295-0766-402c-b5a6-dd1fb9fb138d")
+			(uuid "6f6baec2-0b42-43ef-bf63-f76510c7cd9b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +4340,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "301bb78a-b51d-4e41-92aa-6af2437ef572")
+			(uuid "ef60ec9b-4437-4f98-8c8e-e7e8e60c8135")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +4646,7 @@
 			(at 0 -2.7 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "41b076d6-6d15-4ea5-80c8-e15c6f79ffea")
+			(uuid "aa198fc8-1dbe-476d-9079-2e280f600a94")
 			(effects
 				(font
 					(size 1 1)
@@ -4210,7 +4657,7 @@
 		(property "Value" "0"
 			(at 0 2.65 270)
 			(layer "F.Fab")
-			(uuid "220fa40e-cfa0-4657-b394-28d4642a55c0")
+			(uuid "5ee8933f-dd52-4c07-8c20-43a13adab02b")
 			(effects
 				(font
 					(size 1 1)
@@ -4218,12 +4665,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9785eee-e6fc-4e9f-b8a6-7800f2f58645")
+			(uuid "a6264373-6ea1-40c5-a852-7aa7ff3a492a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4683,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25b1fab0-dbab-443a-9ba2-5ab0540146d4")
+			(uuid "38c065d9-0adb-4d81-afe5-4f69704dfd45")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +4874,7 @@
 			(at -4.9 0.1 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "65e14aa2-d6b1-4222-a207-3ca8ad41a5fa")
+			(uuid "4529a1be-428c-4552-b886-56b8eeda2f8e")
 			(effects
 				(font
 					(size 1 1)
@@ -4438,7 +4885,7 @@
 		(property "Value" "Conn_Coaxial"
 			(at 0 5 90)
 			(layer "F.Fab")
-			(uuid "7f52dc83-c097-43db-9059-6e78bca3ae3b")
+			(uuid "61c78900-e2dd-4f40-ab04-e724923d188f")
 			(effects
 				(font
 					(size 1 1)
@@ -4446,12 +4893,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a795540-ed4f-4fc5-bb8c-307f7dde8652")
+			(uuid "cece56ac-4748-4f43-9699-2c23ecf8d3f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +4911,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51ff2ed7-2855-49f8-849c-9c60e9efc410")
+			(uuid "0a8b7f9f-d233-455d-b62b-f548e5b09c9a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +5181,7 @@
 			(at 4 0.25 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "dd25e3b8-d31b-49c6-b193-b3c5d1ea7e8d")
+			(uuid "6320b25a-7627-4c20-90af-e30df74a73df")
 			(effects
 				(font
 					(size 1 1)
@@ -4745,7 +5192,7 @@
 		(property "Value" "220pF"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "36a33ddf-dc98-4af4-8f67-f3fbeae52269")
+			(uuid "ac443ec6-9177-4dbc-9f70-310207643a8e")
 			(effects
 				(font
 					(size 1 1)
@@ -4753,12 +5200,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4007c4a4-d5aa-46e2-a8fa-a23b9f1e8adc")
+			(uuid "244862d4-f1ba-4dd3-a587-b839c6d7aff6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +5218,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47de4d50-f86e-4ae4-bcdc-a6631290d40a")
+			(uuid "f8f52579-61b7-4e50-8b6c-3e761d228f71")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,7 +5408,7 @@
 		(property "Reference" "J6"
 			(at 1.27 -2.33 90)
 			(layer "F.SilkS")
-			(uuid "1f758d8f-0d0d-4609-96cd-e9a1dc813ab3")
+			(uuid "5ea06820-3469-4829-b9ab-c4694a087f3e")
 			(effects
 				(font
 					(size 1 1)
@@ -4972,7 +5419,7 @@
 		(property "Value" "Conn_02x04_Odd_Even"
 			(at 1.27 9.95 90)
 			(layer "F.Fab")
-			(uuid "605d5fac-9698-44cf-bb15-99e93cd31ea3")
+			(uuid "9ce4e0fc-11b7-4e0d-8b5a-d9c542c4cafd")
 			(effects
 				(font
 					(size 1 1)
@@ -4980,12 +5427,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91e72407-98f8-4617-a260-475da9d70e8e")
+			(uuid "58af6db1-389f-4e0e-8610-3cae252a8c1d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,7 +5445,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aa2f67e4-fe25-404b-9758-aeb820c69445")
+			(uuid "072f68e4-d4c2-4219-a7b3-5a30c691250b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5776,7 @@
 			(at 0 1.75 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "adb6167c-966a-450c-9cd5-d147470ba506")
+			(uuid "765626fb-f311-4386-bcbd-c1a16a8edde2")
 			(effects
 				(font
 					(size 1 1)
@@ -5340,7 +5787,7 @@
 		(property "Value" "1k"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "48919af5-4396-44ed-bbff-a4dcfe1ed07d")
+			(uuid "2433a50c-6aa5-4481-b04d-56c3088e0b45")
 			(effects
 				(font
 					(size 1 1)
@@ -5348,12 +5795,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6071c1b-333b-4482-bdfc-6e5de45c1437")
+			(uuid "5656b977-2b6a-4b31-820f-ff374d2e5430")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5366,7 +5813,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa77d53d-e6d5-434a-8819-1d865b4af7d3")
+			(uuid "5aa1a554-6354-4f8f-b211-0fe923f0e6a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,6 +5994,118 @@
 			)
 		)
 	)
+	(footprint "ALibrary:H8501-05"
+		(layer "F.Cu")
+		(uuid "4c8e95d7-c53d-49dc-b726-fd18c3b24e37")
+		(at 89 111.45)
+		(descr "Harwin Press Fit Single Socket, gold, 0.60-0.85mm pin size")
+		(property "Reference" "J13"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "feaa0c26-67fa-4c07-91de-50a3950d31b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6c2f3fd2-5a18-45bc-a9b7-b31dac89fc60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22e05a36-1b2d-4f1d-93d8-090d1dde8e49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fe7028f-0190-4114-b0e2-10cd1bb6ffee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46a8101e-f78a-4ef2-a62e-6fb6d7e7cb20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e18dd6f4-3405-4290-a579-291d3e55395a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/112ef04d-d390-4fe8-a88f-9c4ff4a2361d")
+		(sheetname "/")
+		(sheetfile "PlasmaTransformer.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e777bdaa-8584-476f-8c2c-f323c4904872")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.057)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 8 "Net-(D6-K)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "e6ec9b40-1af7-4897-a59e-f2ac60e1ce3e")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4d9423bf-a06b-42eb-ab36-540044a3883c")
@@ -5556,7 +6115,7 @@
 		(property "Reference" "J4"
 			(at 1.27 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "277a14a1-1bb5-444d-8db8-66dfdf0fdfdd")
+			(uuid "2efd7a90-0763-49f0-8a95-56ec98b91e15")
 			(effects
 				(font
 					(size 1 1)
@@ -5567,7 +6126,7 @@
 		(property "Value" "Conn_02x04_Odd_Even"
 			(at 1.27 9.95 0)
 			(layer "F.Fab")
-			(uuid "e07f6473-fd35-4e8a-9ffd-7154097ecc57")
+			(uuid "4b135868-2181-4275-a086-f7c6bbdb2fad")
 			(effects
 				(font
 					(size 1 1)
@@ -5575,12 +6134,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b4903e5d-fe05-4a8a-aa72-aa599db61c42")
+			(uuid "00520b52-61e4-4737-b895-c711a8079fcc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +6152,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d174176-3ee6-4b6b-a0da-bb5509d4a61c")
+			(uuid "ba23f532-8afe-43a7-b926-db20d48ce064")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5924,7 +6483,7 @@
 		(property "Reference" "M1"
 			(at 39.6 -27.2 180)
 			(layer "F.SilkS")
-			(uuid "daa86b9a-6d13-451f-90d9-962ad34b0ab2")
+			(uuid "04f3acca-9e73-4c95-a037-cf10e82984f9")
 			(effects
 				(font
 					(size 1 1)
@@ -5935,7 +6494,7 @@
 		(property "Value" "Fan"
 			(at 0 42.25 0)
 			(layer "F.Fab")
-			(uuid "c97b2219-65d6-4a0c-bf4f-c955cfc4c350")
+			(uuid "2f1870c9-bf9a-4d21-ac94-46c343585fe8")
 			(effects
 				(font
 					(size 1 1)
@@ -5943,12 +6502,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64573f9b-a7a3-4acd-a11c-a2a1d84801d1")
+			(uuid "9e9d5a08-8268-4b1a-ab6d-e977422636d2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +6520,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b9a071c-c3cf-4d05-b929-0313b84e106a")
+			(uuid "44b52502-8266-48be-bb30-db6e30fd035e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6307,7 +6866,7 @@
 			(at 0.05 2.9 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "fa86ddc6-3c40-4de7-a1f5-ae1cce39fa3b")
+			(uuid "4ad3fa3c-0edc-4245-8cbd-02790713dfb0")
 			(effects
 				(font
 					(size 1 1)
@@ -6318,7 +6877,7 @@
 		(property "Value" "1nF"
 			(at 0 0.75 90)
 			(layer "F.Fab")
-			(uuid "401c8214-b4b1-4edd-b9fc-088db1a9a9ca")
+			(uuid "fb1014e3-8cf0-426b-8f4d-3b5ee146c480")
 			(effects
 				(font
 					(size 1 1)
@@ -6326,12 +6885,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19fbe7f1-52a1-4bc4-a168-9156cab62114")
+			(uuid "e79d7ba9-5639-4f35-8111-92a1c91e3d38")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6903,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9913250-3601-48bf-a03f-380f69af0372")
+			(uuid "2cc271ee-2715-41b3-9579-676ba33dd956")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,6 +7084,118 @@
 			)
 		)
 	)
+	(footprint "ALibrary:H8501-05"
+		(layer "F.Cu")
+		(uuid "56740bc6-7b17-4228-b6fa-60d12b8809a8")
+		(at 94.5 121.45)
+		(descr "Harwin Press Fit Single Socket, gold, 0.60-0.85mm pin size")
+		(property "Reference" "J7"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "271c7df3-5c3a-4073-ad62-1b0553460622")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2f4aa1e0-5f27-42fa-a858-bd19ed836511")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5dbc8e8-4967-43f3-8e70-b5347e4a034d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82682e50-d596-458a-9b97-52fe983da041")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7b7ee80-3891-4b16-845e-9c1955487dd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83a03e35-df9d-4501-82fb-b35e65bf4cc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/89b77700-cd03-46aa-b2c6-ed7cdbcea50c")
+		(sheetname "/")
+		(sheetfile "PlasmaTransformer.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "35ba3ad3-17f3-42cd-b0a5-7c2ff8766e77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.057)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 16 "Net-(J10-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "1ee10e50-cdc0-4635-b479-5be6ed26febc")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "56a11d80-af1f-48fb-a184-2dd3d8f9697a")
@@ -6535,7 +7206,7 @@
 			(at 0 2.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "e4f84c81-ac2d-4135-8ba1-18c689fbbdf2")
+			(uuid "97b73f4e-b164-4509-87fe-c53603fdac96")
 			(effects
 				(font
 					(size 1 1)
@@ -6546,7 +7217,7 @@
 		(property "Value" "1pF"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "36a348a5-f988-4e1f-9ede-8180da668c5d")
+			(uuid "16a59e3d-f64c-4a26-8edc-724845e98a97")
 			(effects
 				(font
 					(size 1 1)
@@ -6554,12 +7225,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a34c17be-5ae0-418c-b23c-6d51ef02faaf")
+			(uuid "35c22290-2203-4ff5-bc6f-5ed088760e5c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6572,7 +7243,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0288d7b2-5b6f-4aaa-8672-6ddeb553d72b")
+			(uuid "488e2a14-ee5a-4c3f-b758-3d72dd80efc0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6727,7 +7398,7 @@
 			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
-			(net 16 "Net-(J12-Pin_1)")
+			(net 16 "Net-(J10-Pin_1)")
 			(pintype "passive")
 			(uuid "33aaf5ff-5379-4d2e-b019-6ed033ebd7ed")
 		)
@@ -6753,7 +7424,120 @@
 			)
 		)
 	)
+	(footprint "ALibrary:H8501-05"
+		(layer "F.Cu")
+		(uuid "5999c3b3-f1fd-4b47-ab82-7f256b5e18b6")
+		(at 72.5 121.45)
+		(descr "Harwin Press Fit Single Socket, gold, 0.60-0.85mm pin size")
+		(property "Reference" "J18"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4fe1fdb5-9dcf-4ca5-a13b-769c93878df6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6c074a8f-bca2-4fe0-97b0-9095cb193bd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "291c99b3-f463-4f8b-9d95-e6e6d20eeaea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac4cf583-ffca-4b7b-b7bb-e48909e95275")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3587650-3587-4a54-90b1-51496f4f3f5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc28692c-93bb-416b-9eff-3946aabc53f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/25092be6-5860-4995-8ef6-23916acdc1ff")
+		(sheetname "/")
+		(sheetfile "PlasmaTransformer.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fd4d5e49-bbed-4053-9329-daf5178c1527")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.057)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 16 "Net-(J10-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "97a94146-77f5-4277-adad-55e4520893ad")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P10.00mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "5a4123c7-af23-4ce1-a33a-aed3496cbc3b")
 		(at 78 121.45 90)
@@ -6782,7 +7566,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6838,7 +7622,7 @@
 		(path "/62662ec2-f971-4694-a929-f81a75fa1daa")
 		(sheetname "/")
 		(sheetfile "PlasmaTransformer.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 10.62 -2.62)
 			(end 10.62 -1.101)
@@ -6996,7 +7780,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "Net-(J12-Pin_1)")
+			(net 16 "Net-(J10-Pin_1)")
 			(pintype "passive")
 			(uuid "818f3bba-781c-48c6-a708-42344cd6637b")
 		)
@@ -7033,7 +7817,7 @@
 			(at -3.8 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "0b3b7970-95d9-457a-93d2-91d1da274f29")
+			(uuid "946dc212-09c7-4703-bd97-1c39a355e151")
 			(effects
 				(font
 					(size 1 1)
@@ -7044,7 +7828,7 @@
 		(property "Value" "Choke"
 			(at 0 2.58 0)
 			(layer "F.Fab")
-			(uuid "0813fde7-f4dc-4357-8dda-4266aed1e819")
+			(uuid "2a230cb7-0d16-48c3-abe8-bb56b9beec35")
 			(effects
 				(font
 					(size 1 1)
@@ -7052,12 +7836,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6bec5ea2-ad16-46c0-bec6-a1d1dd83488d")
+			(uuid "58c01e72-fd34-4a8b-9901-c8330d0053d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +7854,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8452bcc-032e-49d4-934f-72158c263a2d")
+			(uuid "d2716781-bcb3-4345-aae7-fba902b5e19b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,7 +7964,7 @@
 			(at 0 -2.7 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "85cac4f5-080e-44eb-80d1-d265f384347d")
+			(uuid "bcad3f34-8cfe-479f-b9f9-667645ce5e48")
 			(effects
 				(font
 					(size 1 1)
@@ -7191,7 +7975,7 @@
 		(property "Value" "2.7nF"
 			(at 0 2.65 90)
 			(layer "F.Fab")
-			(uuid "15aba244-eafc-4058-92ff-d5c34e3f8382")
+			(uuid "4c34f3fe-83ea-41c0-9397-4e42e79dc45d")
 			(effects
 				(font
 					(size 1 1)
@@ -7199,12 +7983,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e426012-6e81-4b13-b937-1ee8c80bca36")
+			(uuid "44bb81cd-6f7b-4f12-bbe5-c02698c1eb48")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +8001,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "55e531e3-08a8-4aa4-bc8d-9151f894930f")
+			(uuid "9bd2c4c4-3e9d-47aa-90ba-1f4eee29a3a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7408,7 +8192,7 @@
 			(at -4.032323 0.6 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b9fd7282-853e-4c8d-85e9-e8d07f689f9a")
+			(uuid "a236748d-5c46-4bb3-a5a0-11cb93e5abf2")
 			(effects
 				(font
 					(size 1 1)
@@ -7419,7 +8203,7 @@
 		(property "Value" "330uF"
 			(at 2.5 6.25 0)
 			(layer "F.Fab")
-			(uuid "a42ddf9b-fbc9-4865-a08b-cc5345a611be")
+			(uuid "78918591-2a76-498a-afef-58588d84aaaf")
 			(effects
 				(font
 					(size 1 1)
@@ -7427,12 +8211,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e362520f-6f5a-448d-8217-1cbb3133ad60")
+			(uuid "2d76d660-a0c9-4802-bc69-f58f64cdacf3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7445,7 +8229,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0c605874-f2cd-4d59-ab1c-41a6b6eccdb6")
+			(uuid "17a9911f-cfd9-4176-a0b7-a17a91c75190")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9511,7 +10295,7 @@
 			(at -0.227064 1.9 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "651f2eb1-5780-4087-a73a-3d90d8278839")
+			(uuid "3a8699be-fba0-4e25-bd22-12ba5001beae")
 			(effects
 				(font
 					(size 1 1)
@@ -9522,7 +10306,7 @@
 		(property "Value" "1k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "31b8587e-9609-4cb9-b3ec-f030759004a3")
+			(uuid "f5f4e6a0-244a-42ea-8672-594233291b90")
 			(effects
 				(font
 					(size 1 1)
@@ -9530,12 +10314,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb576582-1a3a-43f0-8286-230866060ac2")
+			(uuid "3e5a447d-86af-4bcf-ac02-5dd16fc975b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9548,7 +10332,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "293cef12-562c-4cb3-90df-bfbd6260e770")
+			(uuid "d4268c91-8936-4229-ba49-7bbefc062e50")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9739,7 +10523,7 @@
 			(at -0.05 -2.7 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "91fe0780-7778-4a46-bd56-3e210a58337c")
+			(uuid "78714b6d-e425-4c67-85d6-47c77e4638bd")
 			(effects
 				(font
 					(size 1 1)
@@ -9750,7 +10534,7 @@
 		(property "Value" "1nF"
 			(at 0.15 -0.1 0)
 			(layer "F.Fab")
-			(uuid "19311241-2cf6-41b4-a96d-14966475b27c")
+			(uuid "b6b11818-4913-4dd1-99a6-34edc5d5f2bd")
 			(effects
 				(font
 					(size 1 1)
@@ -9758,12 +10542,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f0c5147a-3c1e-4d59-92ac-d86bf3a0faaf")
+			(uuid "3a91fefc-e720-418b-b7f9-500f540f7309")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9776,7 +10560,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "18fb0569-f955-4640-ae20-6abb8a82c7c6")
+			(uuid "daad7eb0-a8ff-4bfe-89be-57f70b3aeae4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9958,6 +10742,7 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P10.00mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "63189858-47ce-4580-8359-b1bdf23ddadf")
 		(at 89 121.45 90)
@@ -9986,7 +10771,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10042,7 +10827,7 @@
 		(path "/a7f2e5f1-4ad3-4ec0-ae3c-1d31681bddb3")
 		(sheetname "/")
 		(sheetfile "PlasmaTransformer.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 10.62 -2.62)
 			(end 10.62 -1.101)
@@ -10200,7 +10985,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "Net-(J12-Pin_1)")
+			(net 16 "Net-(J10-Pin_1)")
 			(pintype "passive")
 			(uuid "9c278e64-392e-464d-ba4b-36de9fd87c9d")
 		)
@@ -10228,6 +11013,7 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P10.00mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "631f919d-2769-434d-980d-a6342f01736f")
 		(at 94.5 121.45 90)
@@ -10256,7 +11042,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10312,7 +11098,7 @@
 		(path "/5aac18cb-6044-46e4-90cb-4e30e2bcf681")
 		(sheetname "/")
 		(sheetfile "PlasmaTransformer.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 10.62 -2.62)
 			(end 10.62 -1.101)
@@ -10470,7 +11256,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "Net-(J12-Pin_1)")
+			(net 16 "Net-(J10-Pin_1)")
 			(pintype "passive")
 			(uuid "2fc95a75-d93e-4440-a6a7-bb4e79a9fff3")
 		)
@@ -10507,7 +11293,7 @@
 			(at 0 -2.95 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "37b9119f-c75f-46c2-af3f-4c0a09704c9a")
+			(uuid "f8658c29-671f-47dd-9182-31f01355231a")
 			(effects
 				(font
 					(size 1 1)
@@ -10518,7 +11304,7 @@
 		(property "Value" "D"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "03342bd8-91a6-4168-b4ce-aa1033a72fc3")
+			(uuid "f21759f5-0d90-4153-913b-c3e7004c798e")
 			(effects
 				(font
 					(size 1 1)
@@ -10526,12 +11312,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b74d1117-e944-4bcf-b252-bf15f2a643df")
+			(uuid "751bf339-85ed-49cc-8a85-bd07ce70de49")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10544,7 +11330,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4074e3d1-e80b-4da0-b9d5-fed60a62be01")
+			(uuid "bbce7022-159a-45ee-aa1e-c4e9472330fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10832,7 +11618,7 @@
 			(at 0.1 12.95 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "9b88b6c1-2c8e-47ec-8aa5-c8adb203a6c6")
+			(uuid "ded81988-b295-48cb-b0d2-2e17de7e9c9d")
 			(effects
 				(font
 					(size 1 1)
@@ -10844,7 +11630,7 @@
 			(at 0.55 4.099999 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "acfced48-4c15-4e6c-8cc3-9f63733da3f6")
+			(uuid "45239344-05e0-43ba-bc7b-ae6a67f7d966")
 			(effects
 				(font
 					(size 1 1)
@@ -10852,11 +11638,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d273c041-790b-4e50-a126-1cebc0933bd3")
+			(uuid "6885d028-6c90-46ed-9a21-5f28984bdd3e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,7 +11654,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4fa68dac-b0ba-41fa-be7a-8956ecda49a3")
+			(uuid "4cc9bc39-42b1-4483-b0b0-9fb6772f42a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11178,6 +11964,7 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P10.00mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "689869ca-2831-42ec-9c5c-df7fa540fe66")
 		(at 83.5 121.45 90)
@@ -11206,7 +11993,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11262,7 +12049,7 @@
 		(path "/d1fc290b-126c-44ce-8e05-b2ed4ad03e28")
 		(sheetname "/")
 		(sheetfile "PlasmaTransformer.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 10.62 -2.62)
 			(end 10.62 -1.101)
@@ -11420,7 +12207,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "Net-(J12-Pin_1)")
+			(net 16 "Net-(J10-Pin_1)")
 			(pintype "passive")
 			(uuid "e2bf469b-57b7-42cc-b3ef-adae821cbbd5")
 		)
@@ -11457,7 +12244,7 @@
 			(at -3.85 -0.075 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "e60cdf6f-65d0-41ad-9468-da7a4d8993e4")
+			(uuid "49b4df51-19ee-4d95-b833-e4605eba15e5")
 			(effects
 				(font
 					(size 1 1)
@@ -11468,7 +12255,7 @@
 		(property "Value" "Conn_01x02_Pin"
 			(at 1.25 4.6 90)
 			(layer "F.Fab")
-			(uuid "89b757f0-dacb-42c1-8425-00ab205afd19")
+			(uuid "674bdbd3-0466-4531-b417-615eb5a5c439")
 			(effects
 				(font
 					(size 1 1)
@@ -11476,12 +12263,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c83f2d23-8e3d-4ce9-b229-27e80e163b0d")
+			(uuid "f532b5e7-f255-4e9f-a8c6-4fac80ada4de")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11494,7 +12281,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "311f7c4d-0faf-47e9-a6af-fb8299d625ca")
+			(uuid "411199c4-43ce-4245-a9f6-31316bde2c24")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11941,7 +12728,7 @@
 			(at 0.225 -2.7 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "a5d8588c-7290-4a1c-9476-e327c44a7790")
+			(uuid "41ebfc31-7eb8-4f4a-bc3f-6f3d618740e1")
 			(effects
 				(font
 					(size 1 1)
@@ -11952,7 +12739,7 @@
 		(property "Value" "1.8nF"
 			(at 0 2.65 90)
 			(layer "F.Fab")
-			(uuid "4900c622-76c3-44b2-bace-a65d4b1f4647")
+			(uuid "5d2e6bb0-db3c-4f28-863d-eeb1f0c11ec0")
 			(effects
 				(font
 					(size 1 1)
@@ -11960,12 +12747,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2341cdb3-5c60-4f7a-bfbf-cf9d7c8e0384")
+			(uuid "c55dd020-47d8-4bdc-b349-0c4e6cb025f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11978,7 +12765,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cfe67d94-6407-45a1-b333-922cd2f2f281")
+			(uuid "5800c0f2-f34a-467f-a7f4-c9aaaf591fdb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12169,7 +12956,7 @@
 			(at -0.2 -1.9 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "5c354d2c-4675-48e3-afb1-e208eaf96009")
+			(uuid "be2175ae-c300-4c9c-9d58-3c9ebfbee6c4")
 			(effects
 				(font
 					(size 1 1)
@@ -12180,7 +12967,7 @@
 		(property "Value" "47nF"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "2743e9fd-c1bc-4b5d-b643-ca60dafe8331")
+			(uuid "dc97800a-821b-447b-b891-07c3b907d072")
 			(effects
 				(font
 					(size 1 1)
@@ -12188,12 +12975,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1329c8e0-104b-4df6-a29a-9028987e1762")
+			(uuid "cdefbe12-701a-467a-9f14-5bd694306171")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12206,7 +12993,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8551cc0-7b19-4731-bb3e-6b32f3867fc9")
+			(uuid "0d619924-a989-401b-a8c1-a628a4251fa5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12397,7 +13184,7 @@
 			(at -6.7 -6.7 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "c16d3d2c-0c3c-4c4a-aa51-1572d2c450cb")
+			(uuid "b8896355-5c22-448e-a655-1922ec905904")
 			(effects
 				(font
 					(size 1 1)
@@ -12408,7 +13195,7 @@
 		(property "Value" "AudioJack3"
 			(at 0 10.35 0)
 			(layer "F.Fab")
-			(uuid "0270cc18-8c93-4916-baee-a12b0b45b3ab")
+			(uuid "d3b563e0-c336-49e5-93bf-0c4f4d3722f4")
 			(effects
 				(font
 					(size 1 1)
@@ -12416,12 +13203,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "26b15707-cd6d-440f-ab7b-280f7bd29ea5")
+			(uuid "d56c8a57-0fd4-4995-962e-8e8adaa1ad8e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12434,7 +13221,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b41cc902-823d-4396-a67c-f1cd36a712cc")
+			(uuid "f5a65197-cd8c-40fe-8cf5-9e693daba90b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12806,7 +13593,7 @@
 			(at -0.2 1.75 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "8c6870fc-159a-4187-999a-8e69fcde0d3c")
+			(uuid "c2a05a0a-00b9-4b40-b6d0-6041af9143aa")
 			(effects
 				(font
 					(size 1 1)
@@ -12817,7 +13604,7 @@
 		(property "Value" "10V"
 			(at 0.1 1.9 0)
 			(layer "F.Fab")
-			(uuid "4ab38c04-c9ae-4323-896f-3503f2a201d9")
+			(uuid "a84f29c6-73d8-4d98-b4e2-be6faaa02888")
 			(effects
 				(font
 					(size 1 1)
@@ -12825,12 +13612,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "182bbcfd-eee5-4935-a885-67c05086f0ff")
+			(uuid "bab73f10-d98e-4770-8de4-cdbc3a940ed9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12843,7 +13630,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e00c1a0-283a-4101-a944-7937603e269a")
+			(uuid "c7686d09-77c9-48b6-9e65-e21e78217b1c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13106,7 +13893,7 @@
 			(at 0.1 -1.75 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "6cc17612-8614-4358-8140-c5add1537995")
+			(uuid "767bb251-a724-48ed-b911-b106c8d14c89")
 			(effects
 				(font
 					(size 1 1)
@@ -13117,7 +13904,7 @@
 		(property "Value" "3k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "1c9561f7-06b9-4b82-a7c5-0f23dfb435f3")
+			(uuid "a2d7bf55-7d48-4caf-8dec-ace899bee573")
 			(effects
 				(font
 					(size 1 1)
@@ -13125,12 +13912,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ebb8fb9-593d-4f62-81b0-ae3db347b262")
+			(uuid "f0f249da-2a07-420a-9e58-98849c6a70e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13143,7 +13930,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7bcbc882-62dc-43f5-9cf0-9d6c1e8bb275")
+			(uuid "70a20fdf-101f-4a61-ba01-72e5449d194f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13332,7 +14119,7 @@
 			(at -3.3 1.9 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b52dbf1b-46ec-460e-b3a2-c388bdffc735")
+			(uuid "76a2ec04-443a-42fb-bd24-e26b0cabe3c8")
 			(effects
 				(font
 					(size 1 1)
@@ -13344,7 +14131,7 @@
 			(at 0 1.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "80ae46cd-f73b-4355-a9da-bdd8ae30f04e")
+			(uuid "6e299539-fe25-4ffc-afa1-81274a905236")
 			(effects
 				(font
 					(size 1 1)
@@ -13352,11 +14139,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99f55d27-9285-4098-a6ef-e0b994e45eba")
+			(uuid "6d195392-1e2d-46cd-a5e7-a51cba843cd1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13368,7 +14155,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ccb87338-f2d2-431a-a3ad-f6c2570e9635")
+			(uuid "8c9b8625-5208-4091-b742-37ce3dc16eba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13578,7 +14365,7 @@
 			(at 0 2.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "d8f4fd9f-5b2f-489f-8230-d3b0c8e8138b")
+			(uuid "580507d7-e462-43f4-9db6-b421deea2dcc")
 			(effects
 				(font
 					(size 1 1)
@@ -13589,7 +14376,7 @@
 		(property "Value" "1pF"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "241b57b3-185e-4497-9671-d9ea44de4132")
+			(uuid "54520d84-796a-45e6-99e9-0ad1ef9e8505")
 			(effects
 				(font
 					(size 1 1)
@@ -13597,12 +14384,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "78bc7e5f-900b-4718-b265-84a82aafcb2e")
+			(uuid "3928a750-6ae6-48f7-a53f-cc055fb10602")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13615,7 +14402,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "27810b26-5834-43f1-8d83-e81562760778")
+			(uuid "535e3810-8ab0-4bc8-9299-6a8aa7ec585e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13806,7 +14593,7 @@
 			(at 4 -0.25 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "bb8bb212-a356-4874-909a-e59b09e5fc0f")
+			(uuid "ae62e66c-d70c-4696-832d-e8b7608cac13")
 			(effects
 				(font
 					(size 1 1)
@@ -13817,7 +14604,7 @@
 		(property "Value" "220pF"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "4f8f2afe-7691-4144-ba95-94506e09bdf2")
+			(uuid "513957bb-ab79-4af6-ade6-b5a3c95a4e26")
 			(effects
 				(font
 					(size 1 1)
@@ -13825,12 +14612,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31a731c8-2194-4897-94b4-47d190d7e918")
+			(uuid "18fb74a9-3ae2-4f72-a6de-d111f711ee7b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13843,7 +14630,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0dddba5f-8e7b-4f0f-82f4-ddbf3a9dd9ec")
+			(uuid "d5982912-80a5-4320-a51e-8aabac4107e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14025,6 +14812,7 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P10.00mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9c1ae37b-fe9b-40e7-a572-ed81ba71868e")
 		(at 72.5 121.45 90)
@@ -14053,7 +14841,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14109,7 +14897,7 @@
 		(path "/8574a855-407f-4a7f-9d7b-a664aa2194f1")
 		(sheetname "/")
 		(sheetfile "PlasmaTransformer.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 10.62 -2.62)
 			(end 10.62 -1.101)
@@ -14267,7 +15055,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "Net-(J12-Pin_1)")
+			(net 16 "Net-(J10-Pin_1)")
 			(pintype "passive")
 			(uuid "d8f7a1cb-3557-4aac-8041-e8cbe1826e1a")
 		)
@@ -14294,6 +15082,118 @@
 			)
 		)
 	)
+	(footprint "ALibrary:H8501-05"
+		(layer "F.Cu")
+		(uuid "9de6334d-ebb8-4ce6-9148-3ee96a1edd0b")
+		(at 78 121.45)
+		(descr "Harwin Press Fit Single Socket, gold, 0.60-0.85mm pin size")
+		(property "Reference" "J16"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d018b7e1-f2d0-461e-b28d-892f068617ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fd6502f8-87ca-4b2a-9a42-ea62306f676c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4de9426f-7fd8-44be-9f43-fb0aebfec0de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "634b08a1-dac4-4431-8885-20c3093adca0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "203bb916-4faf-486a-857c-695143aa9cd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35ebc35e-61bc-4b69-995d-8dd2859c66a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/06968760-65e6-4cc9-9f00-ea09dd9797d4")
+		(sheetname "/")
+		(sheetfile "PlasmaTransformer.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5e73473c-e7ad-40fd-853c-f6c20883d24b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.057)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 16 "Net-(J10-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "832f2309-10d7-4a07-8f87-4f40d17ca448")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MountingHole:MountingHole_5.3mm_M5_Pad"
 		(layer "F.Cu")
 		(uuid "9ffba5c7-2851-43f5-b11d-896c21be29d1")
@@ -14303,7 +15203,7 @@
 		(property "Reference" "H1"
 			(at 0 -6.3 0)
 			(layer "F.SilkS")
-			(uuid "21c62ff4-e9a4-4d93-9a5f-955c1bd30702")
+			(uuid "ada957c6-96db-4523-959d-42bd04d242aa")
 			(effects
 				(font
 					(size 1 1)
@@ -14314,7 +15214,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 6.3 0)
 			(layer "F.Fab")
-			(uuid "e95d971f-c9d8-4844-aa79-fa512db6f989")
+			(uuid "527b3eb5-ab38-4501-872c-591b1fbd6dbd")
 			(effects
 				(font
 					(size 1 1)
@@ -14322,12 +15222,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bed8c9b2-bcd9-4663-83ed-d822f5153847")
+			(uuid "e17d34f8-e2fc-4abb-9c92-e5ac8bdb60d2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14340,7 +15240,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "583ecf03-4973-4059-bb09-b485d59f241c")
+			(uuid "4a04c1a8-98e5-4194-b960-b35fe200983c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14409,7 +15309,7 @@
 			(at -4 0 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "ef97e53e-5f1c-457b-9c07-c8223930095a")
+			(uuid "d1dbc465-a62b-49db-a1b0-5f7a79baa06c")
 			(effects
 				(font
 					(size 1 1)
@@ -14420,7 +15320,7 @@
 		(property "Value" "100nF"
 			(at 0 2.65 0)
 			(layer "F.Fab")
-			(uuid "cc6c7c4a-5cb1-4bef-9488-c0b3b1f35583")
+			(uuid "82459845-428e-447b-990d-0739807f5822")
 			(effects
 				(font
 					(size 1 1)
@@ -14428,12 +15328,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "830767e7-bdac-4519-a8e4-8d005acdb824")
+			(uuid "62fe1de5-0698-49cb-b989-6cb5d3b1ab34")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14446,7 +15346,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5b51a26c-7d99-499a-aed0-785b1d962cec")
+			(uuid "3d38995e-f40a-4415-896c-924db8038f32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14627,7 +15527,120 @@
 			)
 		)
 	)
+	(footprint "ALibrary:H8501-05"
+		(layer "F.Cu")
+		(uuid "adc15e42-20d2-4bcb-b7af-4cd4d46afbb4")
+		(at 67 121.45)
+		(descr "Harwin Press Fit Single Socket, gold, 0.60-0.85mm pin size")
+		(property "Reference" "J20"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6f8f3e5a-87b8-4630-9111-d2cd32e597fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1562c989-7d25-4328-bd56-f3823e22f48b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1f59185-5c6c-44ac-a4dc-5cef69ee81cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7276d99-f466-4f3e-b406-b6455ecfb161")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0808810c-bc92-44c1-8993-562bfe901fd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fdbe34c-189c-42bb-909b-76fdd184e180")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/02a7b958-2c25-426b-9fa5-b127d8efc290")
+		(sheetname "/")
+		(sheetfile "PlasmaTransformer.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "35c58d3b-9456-4e7c-8f55-031103fe4c0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.057)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 16 "Net-(J10-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "7d3e59a5-2a9b-44b9-ad35-5d897e4d038f")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P10.00mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b1632f05-4b9f-476b-840b-33320432ba96")
 		(at 67 121.45 90)
@@ -14656,7 +15669,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14712,7 +15725,7 @@
 		(path "/83a4ab46-e0b6-45f9-876f-98e3f603323a")
 		(sheetname "/")
 		(sheetfile "PlasmaTransformer.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 10.62 -2.62)
 			(end 10.62 -1.101)
@@ -14870,7 +15883,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "Net-(J12-Pin_1)")
+			(net 16 "Net-(J10-Pin_1)")
 			(pintype "passive")
 			(uuid "fdafa6be-3c41-47b7-8fa8-f042079441b3")
 		)
@@ -14907,7 +15920,7 @@
 			(at 0 -2.28 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "0a512d1b-f4d4-4b64-bd24-9f84ad8f58fb")
+			(uuid "97737cf4-5da4-4fd7-9382-796529401b36")
 			(effects
 				(font
 					(size 1 1)
@@ -14918,7 +15931,7 @@
 		(property "Value" "49.9"
 			(at 0 2.28 270)
 			(layer "F.Fab")
-			(uuid "08c16550-5faf-4f2c-bdd5-160351a33125")
+			(uuid "5ae217d3-fca4-44af-b817-d2ac12b05cc1")
 			(effects
 				(font
 					(size 1 1)
@@ -14926,12 +15939,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "252633cd-deae-4819-b07c-b4baf9efcbd0")
+			(uuid "c8f466e1-e5de-4d26-8ede-2a98a2c189c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14944,7 +15957,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3bd4e0cd-4934-4dcb-8c0a-20b748453b23")
+			(uuid "7d83dcd7-b742-4702-994b-a1f6f70c9ea8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15125,6 +16138,118 @@
 			)
 		)
 	)
+	(footprint "ALibrary:H8501-05"
+		(layer "F.Cu")
+		(uuid "b3644518-c4d9-4c3e-a2d5-27e410cbb8f2")
+		(at 83.5 121.45)
+		(descr "Harwin Press Fit Single Socket, gold, 0.60-0.85mm pin size")
+		(property "Reference" "J14"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "73066202-8877-4c92-8b4b-49fb3d34ebc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e0f231e7-3c99-4158-8fd1-0811324e3c44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc643420-b37a-47bc-91da-11482fdb68ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e753aead-c046-4d69-96c0-886171766d02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a47e52f0-898d-4377-a59c-37542db791e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d22573e-993a-4887-9523-39a0db813068")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/00ac2af2-3f32-4bbe-bd93-104ef91df779")
+		(sheetname "/")
+		(sheetfile "PlasmaTransformer.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b7b8d1a6-5f72-43b3-abb7-6db607713e3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.057)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 16 "Net-(J10-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "a70daee0-5049-4fdc-82af-01b0a1c592c4")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "ALibrary:SMC10H04-102A2020MTA"
 		(layer "F.Cu")
 		(uuid "bcc433e3-079e-4624-811e-985b41422181")
@@ -15134,7 +16259,7 @@
 			(at -0.15 4.7 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "242cc582-07fe-4735-b823-93b5cf2aa8f6")
+			(uuid "7af8d220-f03e-4594-9925-bc18292146ff")
 			(effects
 				(font
 					(size 1 1)
@@ -15146,7 +16271,7 @@
 			(at 0.5 6.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "2bca5628-b422-440c-b699-ec01286de2f5")
+			(uuid "4dd53265-9abc-4b7c-814b-984db0e1ce9e")
 			(effects
 				(font
 					(size 1 1)
@@ -15154,12 +16279,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0.5 5.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7c91ee4-4253-492a-bae5-516963360475")
+			(uuid "0672574c-6c48-404e-96dd-98ea04414ab6")
 			(effects
 				(font
 					(size 1 1)
@@ -15167,12 +16292,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer with a mounting pin"
 			(at 0.5 5.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f97ef252-5315-4285-b6d3-fad0f3e17e51")
+			(uuid "5ed42b35-8385-4fab-9888-0a7f0eb892ea")
 			(effects
 				(font
 					(size 1 1)
@@ -15439,7 +16564,7 @@
 		(property "Reference" "HS1"
 			(at -36.5 20 0)
 			(layer "F.SilkS")
-			(uuid "7a5c9184-4d90-492d-8941-4c0c67a13b1e")
+			(uuid "3797165b-e62a-4a78-be78-9910b676c33d")
 			(effects
 				(font
 					(size 1 1)
@@ -15450,7 +16575,7 @@
 		(property "Value" "Heatsink"
 			(at -8.8 15.3 0)
 			(layer "F.Fab")
-			(uuid "2526ef40-ba5e-4a6b-84af-ba7630a1c169")
+			(uuid "8b345a91-af9d-4273-830f-8562b8a929d8")
 			(effects
 				(font
 					(size 1 1)
@@ -15458,12 +16583,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ee1f427-d739-41ab-8986-a819cd7f3774")
+			(uuid "173bf2d6-d248-422b-94f3-09524a80b1db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15476,7 +16601,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "81e09336-c27f-4993-a324-4eb76ac6eaa0")
+			(uuid "8d6e8aeb-0d83-4e0a-884a-74cdde812669")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15649,7 +16774,7 @@
 			(at 4 0 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "45bd200c-ccf3-449b-a2ce-7d587e018490")
+			(uuid "b0576b44-43ff-486e-80e6-6724830d8d04")
 			(effects
 				(font
 					(size 1 1)
@@ -15660,7 +16785,7 @@
 		(property "Value" "220pF"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "ec4cf929-8a18-4c7e-86fe-211b53a3596a")
+			(uuid "29f6c81f-add2-4c6e-810c-d3bcae3e82af")
 			(effects
 				(font
 					(size 1 1)
@@ -15668,12 +16793,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d7675de8-f277-49b6-9315-2d883eb166a7")
+			(uuid "d7f457dd-3f0c-45db-a181-ade8ae897fd4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15686,7 +16811,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4687a1c9-bd4d-4cb8-bea7-1e6bb209d1f5")
+			(uuid "7229924a-01cd-4316-9802-baf859f1a208")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15867,6 +16992,118 @@
 			)
 		)
 	)
+	(footprint "ALibrary:H8501-05"
+		(layer "F.Cu")
+		(uuid "c5730e81-74b6-4446-adb6-b7814faa9554")
+		(at 89 121.45)
+		(descr "Harwin Press Fit Single Socket, gold, 0.60-0.85mm pin size")
+		(property "Reference" "J10"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ef1e90fe-acfe-4fe5-8274-1e56c6c3b1c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "205b796a-4282-4a72-aab9-c7017a55d018")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d742947-0854-454b-8d19-a29e461866b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e5bf5db-e807-47ee-bea7-2c785576688e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b166900-19b0-463d-8540-db633f6f2ccc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db7224e3-8585-4b33-87c3-0e2e5f54ad73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/b22ef146-673c-4754-a031-ba2ae1606325")
+		(sheetname "/")
+		(sheetfile "PlasmaTransformer.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "641fb3aa-b64b-4d6a-9ab5-92593b7b6b06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.057)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 16 "Net-(J10-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "fc8e26b8-a4df-4095-a51b-2ff4679af574")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 		(layer "F.Cu")
 		(uuid "c75b336e-0224-4a3c-ac72-f9733a08091c")
@@ -15877,7 +17114,7 @@
 			(at -4.1 0.5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "20e29668-054d-4ed2-9449-86780b495199")
+			(uuid "e4ba4dd3-2982-4a4f-b0fd-dab2ab3e0d36")
 			(effects
 				(font
 					(size 1 1)
@@ -15888,7 +17125,7 @@
 		(property "Value" "Choke"
 			(at 0 2.58 0)
 			(layer "F.Fab")
-			(uuid "d70d39d3-24aa-4073-b19f-d885041dea2c")
+			(uuid "b8d91c28-e807-475f-8515-2cc0ca5efc0f")
 			(effects
 				(font
 					(size 1 1)
@@ -15896,12 +17133,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b1636db-4a68-490d-bc25-2ebf24ad1cd7")
+			(uuid "e71eb8ce-9606-4fe1-979d-94d8b51b5052")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15914,7 +17151,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed0eee59-0b13-41a2-b257-e796fa65eebb")
+			(uuid "012aae1e-d876-4ea7-9cc2-ae1a40ee93a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16024,7 +17261,7 @@
 			(at 0 1.9 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "07bead8d-7df7-4cc5-a19b-95b87afbae13")
+			(uuid "b1e76784-0f54-4a8c-8aee-9ae6efaca987")
 			(effects
 				(font
 					(size 1 1)
@@ -16035,7 +17272,7 @@
 		(property "Value" "1k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "45300c2a-3993-430f-81fe-ef0cd177b0c6")
+			(uuid "d49a0dfb-4de2-4908-884b-ac87ad1a39da")
 			(effects
 				(font
 					(size 1 1)
@@ -16043,12 +17280,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da0b8b7f-18f1-460a-a1b0-33cda3235286")
+			(uuid "401964bf-951b-4832-9cd5-98004f336bef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16061,7 +17298,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9976cd0-efeb-4b95-898e-3063287cd966")
+			(uuid "0b690a8a-c188-4fb4-8354-e0051816fb4a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16252,7 +17489,7 @@
 			(at 0.125 -2.7 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "50d7160e-5431-49a7-b9a4-1cea5af2ce42")
+			(uuid "574e507c-f828-4f21-9667-666f8c3ba9d8")
 			(effects
 				(font
 					(size 1 1)
@@ -16263,7 +17500,7 @@
 		(property "Value" "1.8nF"
 			(at 0 2.65 90)
 			(layer "F.Fab")
-			(uuid "736cfb3b-dd4b-44cd-aecb-0c486dee313d")
+			(uuid "8df94674-a744-4c44-a4d1-144a4e57ecf2")
 			(effects
 				(font
 					(size 1 1)
@@ -16271,12 +17508,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "efc78aa3-4c7b-4c5c-a447-cfeec41496aa")
+			(uuid "308078c8-7938-4022-8835-5460331d7bf4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16289,7 +17526,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "97ed82d3-95ea-4a38-b687-1e3c772788cf")
+			(uuid "dbb36103-fdeb-4e95-a526-a48b27d37664")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16470,6 +17707,118 @@
 			)
 		)
 	)
+	(footprint "ALibrary:H8501-05"
+		(layer "F.Cu")
+		(uuid "d3b0cdd1-3508-4b85-a9e3-c2d1952700cc")
+		(at 94.5 111.45)
+		(descr "Harwin Press Fit Single Socket, gold, 0.60-0.85mm pin size")
+		(property "Reference" "J9"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a5b03b14-7928-4b02-b252-d31b3d491867")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1988b3a3-a557-49c0-a46f-b828e43cf339")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b79f521-a10a-4dfd-8631-47372a7e7889")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ced25ef-b007-4a02-a88a-8d319d2cc613")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48b3ccb9-f719-44c9-96b0-56b54877f136")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee28f19f-3161-4cef-9472-e32d9a8527b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/346ea35c-dafc-4929-89cc-bcda3f0e4811")
+		(sheetname "/")
+		(sheetfile "PlasmaTransformer.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1446a1f4-4d29-40d3-88e1-7aad0fbdc1a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.057)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 8 "Net-(D6-K)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "e9819452-8507-4c5d-8171-8733c1b0a570")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Resistor_SMD:R_2010_5025Metric"
 		(layer "F.Cu")
 		(uuid "d665276a-2053-426b-8958-570464cd12e2")
@@ -16480,7 +17829,7 @@
 			(at 0 -2.42 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "2661cfc9-a060-4bb6-877e-e8a42f908d6b")
+			(uuid "c37494b7-922a-4fde-b604-442e4b9ded1f")
 			(effects
 				(font
 					(size 1 1)
@@ -16491,7 +17840,7 @@
 		(property "Value" "499"
 			(at 0 2.28 180)
 			(layer "F.Fab")
-			(uuid "6f61d55c-6d6f-43f0-ac07-a079d1722c5e")
+			(uuid "dd161728-b48e-4d6c-8cb5-e7b61f5dcad6")
 			(effects
 				(font
 					(size 1 1)
@@ -16499,12 +17848,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d6801a17-bc0b-45d8-a502-207dc618c28a")
+			(uuid "32546255-1dd3-46a7-9ec1-c4d3f60b76fe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16517,7 +17866,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec9ca5f9-1086-4b4d-b749-927a63c0006d")
+			(uuid "d8cd22af-3d54-43b4-bbd8-401be3a4b7bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16708,7 +18057,7 @@
 			(at -0.35 2.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "d32dd0bc-f6c3-4149-989a-8885e4dbc7ac")
+			(uuid "b98c7d1f-2ab0-466b-852b-b8cbe20160c4")
 			(effects
 				(font
 					(size 1 1)
@@ -16719,7 +18068,7 @@
 		(property "Value" "2.7pF"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "d2930585-0978-4a4a-9c96-c34bbfeda65b")
+			(uuid "03b176d4-8d49-4aeb-ba4e-c3742800217f")
 			(effects
 				(font
 					(size 1 1)
@@ -16727,12 +18076,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "794f977b-de13-40fa-9d24-fbbe6e9ff892")
+			(uuid "a78837ce-d12d-4ff0-95c2-7ef0aebec9b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16745,7 +18094,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2486ee0c-7c23-4112-9052-c6794df232b2")
+			(uuid "4f6b9527-a442-4c2e-b8a2-634d9843bc84")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17091,7 +18440,7 @@
 			(at 5.45 -27.19 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "33e292a9-0ad8-4dd2-a7f6-4cf992e0684b")
+			(uuid "249052b6-1920-4b65-97cb-39c935f0dbed")
 			(effects
 				(font
 					(size 1 1)
@@ -17102,7 +18451,7 @@
 		(property "Value" "Q_NMOS_Depletion_GDS"
 			(at 5.45 3.25 0)
 			(layer "F.Fab")
-			(uuid "0bf2802b-07af-49e4-8358-8038273e522e")
+			(uuid "221f9337-08e0-4fe8-9fd9-ba4e4250c705")
 			(effects
 				(font
 					(size 1 1)
@@ -17110,11 +18459,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "009c28c6-3b3a-45e3-9366-2173cb431bcd")
+			(uuid "f52027c3-f264-4ae6-a6f4-cc8076476f57")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17126,7 +18475,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d385d83c-6cb5-40c5-adef-68a33c2ca31c")
+			(uuid "202b9a84-c26e-443a-93c1-7f03c912e00c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17441,7 +18790,7 @@
 			(at 0 -2.28 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "0c91c844-8425-4244-8eae-1de207ef180c")
+			(uuid "dabb0d72-cd50-46c8-8aea-79cf4e5f973c")
 			(effects
 				(font
 					(size 1 1)
@@ -17452,7 +18801,7 @@
 		(property "Value" "499"
 			(at 0 2.28 180)
 			(layer "F.Fab")
-			(uuid "73127614-c1b2-4faa-87b6-496d8b41a3e5")
+			(uuid "5794c226-98db-4361-8605-b71a937242c1")
 			(effects
 				(font
 					(size 1 1)
@@ -17460,12 +18809,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4302b36f-3b48-4a07-a53f-0c46130d27d0")
+			(uuid "a6fccee8-b270-4918-97f9-0ced7aad9051")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17478,7 +18827,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14219ec0-5147-4187-8434-ece8adb93af4")
+			(uuid "d72f15b4-7302-4a19-a01b-003250f60cc2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17669,7 +19018,7 @@
 			(at 0 -3.25 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "9147b51b-6916-450c-a58d-4283a446c7a6")
+			(uuid "cfe620cf-ec37-4ce2-8696-1f5c341138e4")
 			(effects
 				(font
 					(size 1 1)
@@ -17680,7 +19029,7 @@
 		(property "Value" "D"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "08e3d716-efbe-433e-8eff-3098cc7221e0")
+			(uuid "3b18e368-5ddc-47e0-ac4d-59dae9d75c4e")
 			(effects
 				(font
 					(size 1 1)
@@ -17688,12 +19037,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00484d9d-abfa-499f-b025-61bbde212b96")
+			(uuid "59e6c524-4eda-4c96-abbb-0701959d6d19")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17706,7 +19055,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99bf875b-ac31-4a55-ab4e-9b2da9a95acd")
+			(uuid "3c1fa7c8-6ca6-4f39-804c-aca76603536c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17995,7 +19344,7 @@
 			(at 1.05 2.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "6a3f320b-76f5-4613-9b24-5cfb674e7e0e")
+			(uuid "dbf03273-6fe4-4ae8-be85-e686c008e9e1")
 			(effects
 				(font
 					(size 1 1)
@@ -18006,7 +19355,7 @@
 		(property "Value" "1pF"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "67b760ec-e747-417e-9ed8-f16b8db73de9")
+			(uuid "f04f167b-3b65-49fb-aaa8-2506b47d90e6")
 			(effects
 				(font
 					(size 1 1)
@@ -18014,12 +19363,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "838900d3-b2dd-47e4-83e4-11bb9d8ab3ef")
+			(uuid "145795dc-3580-49da-b41a-56d5eb7cf068")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18032,7 +19381,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2a915516-d0f7-4a7d-8a00-0aeb74e74aef")
+			(uuid "711db9b6-2e82-4019-b12b-6f9c65b25eeb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18223,7 +19572,7 @@
 			(at -4 0 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "f50008d2-137b-4590-86af-ee5d2ee421ea")
+			(uuid "7271aaec-418a-46b3-90bb-c83ae5b31d3f")
 			(effects
 				(font
 					(size 1 1)
@@ -18234,7 +19583,7 @@
 		(property "Value" "1nF"
 			(at 0 2.65 0)
 			(layer "F.Fab")
-			(uuid "e00cf59c-955a-47b1-b8c6-747aac7c72cc")
+			(uuid "643b32b9-1021-42b3-8f42-d110b8cae1cb")
 			(effects
 				(font
 					(size 1 1)
@@ -18242,12 +19591,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ff96368-0268-461b-8cd0-147745cdb28b")
+			(uuid "1e825f81-fcb5-4f67-ac18-86cff6448014")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18260,7 +19609,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c1465b91-0163-479d-aa18-e30f49a75600")
+			(uuid "276e05e2-c618-44c8-baca-6fc91f066485")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18451,7 +19800,7 @@
 			(at -4.9 0.1 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "5694327c-505d-43dc-8aaf-a0031f52d777")
+			(uuid "29525734-5714-4299-b45f-31922d21273b")
 			(effects
 				(font
 					(size 1 1)
@@ -18462,7 +19811,7 @@
 		(property "Value" "Conn_Coaxial"
 			(at 0 5 90)
 			(layer "F.Fab")
-			(uuid "b8062d33-e1cf-48bf-8436-1681088f6871")
+			(uuid "73027cd6-b601-4558-a604-906d118bcf7a")
 			(effects
 				(font
 					(size 1 1)
@@ -18470,12 +19819,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5768b96a-9357-4c2f-a1d8-651a6c0d8779")
+			(uuid "a90195da-f6ed-4f57-ab05-6977b2567be5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18488,7 +19837,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5f71658-7412-4217-a53f-abdc226a4b6c")
+			(uuid "4276a5c9-d50e-45a6-a94a-dd5302749a2e")
 			(effects
 				(font
 					(size 1.27 1.27)

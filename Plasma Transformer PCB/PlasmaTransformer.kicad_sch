@@ -582,6 +582,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x01_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Socket"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -4770,9 +4893,9 @@
 		)
 		(uuid "32f4bac5-e14b-4faf-9dab-84ddb5de6ace")
 	)
-	(text "Recommended Resonant Cap:\n20cm Globe: 3x 24pF 564RC0GAJ602EJ240J\n13cm Globe: 5x 12pF CGP1C120KNSDAAWL25"
+	(text "Recommended Resonant Cap:\n20cm Globe: 3x 24pF 564RC0GAJ602EJ240J\n13cm Globe: 3x 12pF CGP1C120KNSDAAWL25"
 		(exclude_from_sim no)
-		(at 225.806 95.25 0)
+		(at 230.632 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4812,6 +4935,17 @@
 		)
 		(uuid "7c49f85a-c533-47e6-94b7-d54793a47645")
 	)
+	(text "Note for press-fit connectors: \nPlating thickness for class 2 PCB is 0.02mm\n(dia 0.04mm smaller than drill)\nH8501-05 recommended finished hole size is 1.92-2.05mm"
+		(exclude_from_sim no)
+		(at 223.012 97.028 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aab75c7b-5d41-48bb-984a-08101c3c5dc2")
+	)
 	(text "GATE"
 		(exclude_from_sim no)
 		(at 179.07 102.616 0)
@@ -4832,6 +4966,17 @@
 			(justify left)
 		)
 		(uuid "b13abc72-a862-4298-8774-303b956a2cb1")
+	)
+	(text "Recommended Coil:\nwire 12AWG, insulation 2.5mm ID 4mm OD PTFE\n20cm Globe: 3x turns 187mm inner diameter\n13cm Globe: 3x turns 122mm inner diameter"
+		(exclude_from_sim no)
+		(at 230.886 105.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6f3d187-c5f3-46eb-81d8-aed00ff8013c")
 	)
 	(text "DRAIN"
 		(exclude_from_sim no)
@@ -4901,6 +5046,12 @@
 		(uuid "0893e4ce-c83a-45b6-832f-ca54c0a12c60")
 	)
 	(junction
+		(at 226.06 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a92d294-0294-4068-ac50-f387274d838b")
+	)
+	(junction
 		(at 223.52 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4943,16 +5094,22 @@
 		(uuid "27a92552-afd6-4fc2-95b8-231227c99bda")
 	)
 	(junction
+		(at 245.11 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a6b28fc-b471-4e47-b0b5-9e92cd32d27c")
+	)
+	(junction
+		(at 238.76 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b45d8f2-a2ca-4ff7-ae25-e19e8fec868d")
+	)
+	(junction
 		(at 166.37 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bb16c8b-0bce-4ab7-877c-d272222ce1a2")
-	)
-	(junction
-		(at 232.41 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c04bbd1-1cfa-4d00-88f7-53a77464f930")
 	)
 	(junction
 		(at 248.92 40.64)
@@ -4967,16 +5124,16 @@
 		(uuid "35f09c75-9c69-4da3-9f46-eda37ed1068a")
 	)
 	(junction
-		(at 232.41 91.44)
+		(at 232.41 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3aa02cd5-116c-4614-a65c-3925c522f025")
+		(uuid "38b18956-f7a4-4308-a9e8-3d3ab8936a37")
 	)
 	(junction
-		(at 238.76 83.82)
+		(at 238.76 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "44e390be-005e-49c0-a1aa-eaa5bb36cd8b")
+		(uuid "40dd9f3c-b639-4c58-8e51-9e03455cfa04")
 	)
 	(junction
 		(at 203.2 91.44)
@@ -4985,10 +5142,10 @@
 		(uuid "4621a6ff-8fa2-4907-9f8c-f8f46649268b")
 	)
 	(junction
-		(at 245.11 83.82)
+		(at 226.06 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "534f9dcd-b9c4-435d-ae95-88640b0af3b8")
+		(uuid "545e8606-e3dd-40a0-a799-9fbe3a6f102d")
 	)
 	(junction
 		(at 153.67 83.82)
@@ -5003,6 +5160,12 @@
 		(uuid "55d412fa-a6f9-451e-8522-2048b3fb1870")
 	)
 	(junction
+		(at 257.81 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58f75049-33f5-4897-ac95-75155f20e604")
+	)
+	(junction
 		(at 50.8 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5015,16 +5178,34 @@
 		(uuid "64a72073-95d0-4b18-a1b0-4fbbc8ec4afc")
 	)
 	(junction
+		(at 245.11 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fd5a250-f5bf-47f4-af21-7e4d5a2c0ae7")
+	)
+	(junction
 		(at 156.21 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6feef074-64c5-4f3c-9be7-5f39096ac8f6")
 	)
 	(junction
+		(at 251.46 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7071e945-913b-4f3e-8f61-fa0f35864101")
+	)
+	(junction
 		(at 172.72 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73022528-587b-4b12-98c1-aa24d9d29bef")
+	)
+	(junction
+		(at 251.46 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "737f9966-8aa7-4d41-80a8-9c6a66c08115")
 	)
 	(junction
 		(at 185.42 83.82)
@@ -5051,22 +5232,10 @@
 		(uuid "814179da-b830-433d-88dd-4fa86820a78c")
 	)
 	(junction
-		(at 226.06 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "845be5d0-730e-4e6b-aea5-a6bd236ef995")
-	)
-	(junction
 		(at 185.42 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84f37eed-22c0-499d-823a-6d4392c7d0b9")
-	)
-	(junction
-		(at 245.11 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "943bde7c-84c7-4b76-b593-7682c1d45ac9")
 	)
 	(junction
 		(at 205.74 34.29)
@@ -5085,6 +5254,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1f3bc7f-b315-4c95-9322-91915fbe34fd")
+	)
+	(junction
+		(at 257.81 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a41c6771-75e4-45c1-8cab-1c6e70095ea8")
+	)
+	(junction
+		(at 232.41 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4e5b01c-e3b1-471f-a463-d5c27c8dbdf8")
 	)
 	(junction
 		(at 157.48 91.44)
@@ -5123,12 +5304,6 @@
 		(uuid "b9bf7ea0-ead8-4a8b-bcef-757324ccc9c7")
 	)
 	(junction
-		(at 257.81 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb0c98f6-3c9a-4079-9e6f-fe75c0d42a64")
-	)
-	(junction
 		(at 213.36 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5145,18 +5320,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c168e65b-23e0-47fe-a6c6-c4f0b14246ea")
-	)
-	(junction
-		(at 238.76 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c466dea7-eeb5-477d-bf14-70d438a0ba9b")
-	)
-	(junction
-		(at 251.46 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c809421b-d73f-471d-8198-e9e5d6c76675")
 	)
 	(junction
 		(at 133.35 91.44)
@@ -5177,6 +5340,12 @@
 		(uuid "ca995f0d-3026-4eaa-86c9-61a78760deec")
 	)
 	(junction
+		(at 257.81 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cce64f68-402d-4020-a476-684260bddf11")
+	)
+	(junction
 		(at 171.45 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5187,12 +5356,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d25a6e17-8af6-475e-b0c6-54119f2cd828")
-	)
-	(junction
-		(at 257.81 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4d10502-23e9-49ca-b0c7-2f07849b352c")
 	)
 	(junction
 		(at 232.41 48.26)
@@ -5218,18 +5381,6 @@
 		(color 0 0 0 0)
 		(uuid "ee66c0c5-2c37-41e2-83a5-eb1e2f45d559")
 	)
-	(junction
-		(at 257.81 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f59aab42-e6b7-491b-923e-0ce46b95a194")
-	)
-	(junction
-		(at 251.46 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7c6d156-d36b-468c-8c46-c3c095e49faf")
-	)
 	(no_connect
 		(at 22.86 104.14)
 		(uuid "1beca9ce-f564-4c84-9ae1-3d050f4c4c16")
@@ -5253,6 +5404,16 @@
 	(no_connect
 		(at 63.5 148.59)
 		(uuid "5e016a07-eefc-4687-bcf8-fee2dec982d9")
+	)
+	(wire
+		(pts
+			(xy 238.76 91.44) (xy 245.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01bc37aa-243f-4c7d-8bb9-6a4d9395ff7c")
 	)
 	(wire
 		(pts
@@ -5286,7 +5447,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 91.44) (xy 238.76 91.44)
+			(xy 222.25 91.44) (xy 226.06 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5426,16 +5587,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 83.82) (xy 251.46 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d8f72a2-ff01-45dc-a7b4-2248b6751c71")
-	)
-	(wire
-		(pts
 			(xy 158.75 83.82) (xy 185.42 83.82)
 		)
 		(stroke
@@ -5453,16 +5604,6 @@
 			(type default)
 		)
 		(uuid "1db6e349-c4b5-4688-b365-ced37b4cc081")
-	)
-	(wire
-		(pts
-			(xy 226.06 91.44) (xy 222.25 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ea23e5c-fe61-4601-9cb3-e55526214ef3")
 	)
 	(wire
 		(pts
@@ -5516,16 +5657,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 83.82) (xy 232.41 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24436106-ce76-4ef6-8f80-386674342e07")
-	)
-	(wire
-		(pts
 			(xy 223.52 34.29) (xy 223.52 40.64)
 		)
 		(stroke
@@ -5566,6 +5697,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 85.09) (xy 232.41 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2768fab0-d2cd-4872-a709-66087bb09bdc")
+	)
+	(wire
+		(pts
 			(xy 243.84 134.62) (xy 243.84 128.27)
 		)
 		(stroke
@@ -5593,6 +5734,16 @@
 			(type default)
 		)
 		(uuid "3533ad5d-7de3-4adc-b623-84a203407d1d")
+	)
+	(wire
+		(pts
+			(xy 245.11 91.44) (xy 251.46 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bf44c6-1e10-4697-a34c-7f1cf7a3b76f")
 	)
 	(wire
 		(pts
@@ -5626,13 +5777,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 91.44) (xy 251.46 91.44)
+			(xy 251.46 91.44) (xy 257.81 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c4c6e6f-98aa-4682-bd54-92e36f950bc1")
+		(uuid "37252d36-6341-48da-8ca6-48bb73d8116f")
 	)
 	(wire
 		(pts
@@ -5706,27 +5857,17 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 91.44) (xy 257.81 91.44)
+			(xy 245.11 85.09) (xy 245.11 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "456a0c1e-113d-404e-ad64-6d552af4105c")
+		(uuid "4810876f-d8f8-46a6-994f-e846566f8151")
 	)
 	(wire
 		(pts
-			(xy 251.46 83.82) (xy 257.81 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "463b3584-ac52-4cd6-9e5e-fc0e9318c47e")
-	)
-	(wire
-		(pts
-			(xy 275.59 77.47) (xy 275.59 15.24)
+			(xy 275.59 68.58) (xy 275.59 15.24)
 		)
 		(stroke
 			(width 0)
@@ -5776,6 +5917,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 71.12) (xy 238.76 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f291bda-85eb-4f26-9124-97cf1c5961dc")
+	)
+	(wire
+		(pts
 			(xy 135.89 135.89) (xy 138.43 135.89)
 		)
 		(stroke
@@ -5783,6 +5934,16 @@
 			(type default)
 		)
 		(uuid "51fe19c2-fb1c-4478-b2f1-1f98df72ce17")
+	)
+	(wire
+		(pts
+			(xy 238.76 85.09) (xy 238.76 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5224a5e8-0b27-4b95-8584-5b241c19e209")
 	)
 	(wire
 		(pts
@@ -5856,7 +6017,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 77.47) (xy 275.59 77.47)
+			(xy 257.81 68.58) (xy 275.59 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5883,6 +6044,26 @@
 			(type default)
 		)
 		(uuid "5cfed189-999f-472c-8c2c-83952e1b5586")
+	)
+	(wire
+		(pts
+			(xy 245.11 71.12) (xy 245.11 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1d37b1-a393-4a31-933b-9afefbf9e7b8")
+	)
+	(wire
+		(pts
+			(xy 232.41 91.44) (xy 238.76 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a0033c-655d-4e35-89e3-c2ef7cde1158")
 	)
 	(wire
 		(pts
@@ -5916,6 +6097,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 71.12) (xy 232.41 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68370e6d-4d6c-4017-ab34-be1ad6c0a413")
+	)
+	(wire
+		(pts
 			(xy 220.98 118.11) (xy 220.98 120.65)
 		)
 		(stroke
@@ -5923,16 +6114,6 @@
 			(type default)
 		)
 		(uuid "6b3e9916-6de9-4e96-acdb-c39767b53d53")
-	)
-	(wire
-		(pts
-			(xy 273.05 91.44) (xy 257.81 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d39a0e1-47da-4995-9678-565c064b1d2a")
 	)
 	(wire
 		(pts
@@ -5953,6 +6134,16 @@
 			(type default)
 		)
 		(uuid "7015697f-829c-4740-83c9-099708a674d2")
+	)
+	(wire
+		(pts
+			(xy 232.41 71.12) (xy 238.76 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "713dac11-10fe-4c2b-9836-8ae7b645d499")
 	)
 	(wire
 		(pts
@@ -5986,6 +6177,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 71.12) (xy 226.06 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789fcd4b-f799-4f25-a769-d7a3291817aa")
+	)
+	(wire
+		(pts
 			(xy 151.13 83.82) (xy 153.67 83.82)
 		)
 		(stroke
@@ -6013,6 +6214,16 @@
 			(type default)
 		)
 		(uuid "79eb7ac4-8757-4814-b6e5-b861b298114b")
+	)
+	(wire
+		(pts
+			(xy 226.06 85.09) (xy 226.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d99ad67-dc0e-4603-b194-b6cd73cb4b44")
 	)
 	(wire
 		(pts
@@ -6066,6 +6277,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 68.58) (xy 257.81 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ff2382-92b8-4638-893b-1e3f89d09e1a")
+	)
+	(wire
+		(pts
 			(xy 105.41 77.47) (xy 124.46 77.47)
 		)
 		(stroke
@@ -6083,6 +6304,16 @@
 			(type default)
 		)
 		(uuid "8739c16c-cef3-45b3-afd8-51a544300a87")
+	)
+	(wire
+		(pts
+			(xy 226.06 91.44) (xy 232.41 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89803e6a-c844-43de-a516-bcd2d05d8888")
 	)
 	(wire
 		(pts
@@ -6116,6 +6347,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 71.12) (xy 245.11 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd46467-e2b6-46f1-9095-b88dd153809c")
+	)
+	(wire
+		(pts
 			(xy 222.25 91.44) (xy 222.25 105.41)
 		)
 		(stroke
@@ -6146,16 +6387,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 91.44) (xy 232.41 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9344f895-de5c-44ed-a091-605cb459a1ab")
-	)
-	(wire
-		(pts
 			(xy 152.4 30.48) (xy 152.4 41.91)
 		)
 		(stroke
@@ -6173,6 +6404,16 @@
 			(type default)
 		)
 		(uuid "99206728-69af-4374-ac02-5a2a640df6ae")
+	)
+	(wire
+		(pts
+			(xy 257.81 62.23) (xy 257.81 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b943b5-767c-46d0-9325-b8757967af1d")
 	)
 	(wire
 		(pts
@@ -6243,16 +6484,6 @@
 			(type default)
 		)
 		(uuid "a42e3ee9-6fcd-4b96-8249-40de4b83e53f")
-	)
-	(wire
-		(pts
-			(xy 238.76 83.82) (xy 245.11 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5533c54-862b-4eef-beaf-4e88a1032575")
 	)
 	(wire
 		(pts
@@ -6396,16 +6627,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 83.82) (xy 257.81 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b48bb55e-fbef-4648-acdc-535e4b4c52ff")
-	)
-	(wire
-		(pts
 			(xy 53.34 62.23) (xy 55.88 62.23)
 		)
 		(stroke
@@ -6456,6 +6677,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 71.12) (xy 251.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf774ea0-eaf1-49ef-bcf6-66fc6bcb6c86")
+	)
+	(wire
+		(pts
 			(xy 223.52 134.62) (xy 231.14 134.62)
 		)
 		(stroke
@@ -6466,7 +6697,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 83.82) (xy 238.76 83.82)
+			(xy 226.06 71.12) (xy 232.41 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6483,6 +6714,16 @@
 			(type default)
 		)
 		(uuid "c358da62-b98c-42c3-a562-9706e3157d3c")
+	)
+	(wire
+		(pts
+			(xy 257.81 91.44) (xy 273.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71209c5-f073-402c-8c67-c32fbab27d48")
 	)
 	(wire
 		(pts
@@ -6626,6 +6867,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 71.12) (xy 251.46 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8bc954d-af5e-41f0-826e-9e059950d968")
+	)
+	(wire
+		(pts
 			(xy 223.52 48.26) (xy 223.52 45.72)
 		)
 		(stroke
@@ -6666,16 +6917,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 91.44) (xy 245.11 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1325324-5140-4f12-9140-8421ebdb8a3c")
-	)
-	(wire
-		(pts
 			(xy 105.41 59.69) (xy 105.41 62.23)
 		)
 		(stroke
@@ -6703,6 +6944,26 @@
 			(type default)
 		)
 		(uuid "e88ad3f9-a3b7-4b94-9301-a867325e7659")
+	)
+	(wire
+		(pts
+			(xy 257.81 85.09) (xy 257.81 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef618062-5907-4cb7-bdc5-a5f30d13c490")
+	)
+	(wire
+		(pts
+			(xy 257.81 71.12) (xy 257.81 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1012ee6-b7df-4b85-8bc2-f878a4218f40")
 	)
 	(wire
 		(pts
@@ -6736,16 +6997,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 77.47) (xy 257.81 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7d16de1-dabd-44fb-bf1d-0543a95001e3")
-	)
-	(wire
-		(pts
 			(xy 194.31 55.88) (xy 194.31 48.26)
 		)
 		(stroke
@@ -6753,6 +7004,16 @@
 			(type default)
 		)
 		(uuid "f8b943b2-fe84-40e1-81a8-1867d17c80d0")
+	)
+	(wire
+		(pts
+			(xy 251.46 71.12) (xy 257.81 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f95b00b0-1a71-41a7-8d86-05c8892c0372")
 	)
 	(wire
 		(pts
@@ -6773,6 +7034,16 @@
 			(type default)
 		)
 		(uuid "fb9fe83b-bb73-4cf4-a8a7-69fd38f7e4ab")
+	)
+	(wire
+		(pts
+			(xy 251.46 85.09) (xy 251.46 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd9cb48-81bf-49fb-95ea-ef7a0ad23508")
 	)
 	(wire
 		(pts
@@ -6823,6 +7094,91 @@
 			(justify left bottom)
 		)
 		(uuid "962aeaa6-6b39-4984-97a5-2edfeb837bef")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 238.76 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00ac2af2-3f32-4bbe-bd93-104ef91df779")
+		(property "Reference" "J14"
+			(at 239.014 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 240.03 76.8349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ALibrary:H8501-05"
+			(at 238.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 238.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 238.76 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 238.76 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20fccc5a-fcf5-4d78-82c3-8d11a608cf9b")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Diode:SMAJ15CA")
@@ -6912,6 +7268,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 257.81 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02a7b958-2c25-426b-9fa5-b127d8efc290")
+		(property "Reference" "J20"
+			(at 258.064 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 259.08 76.8349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ALibrary:H8501-05"
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 257.81 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 257.81 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6899e3b7-ffc4-4af6-a8ae-770fcc985281")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 107.95 0)
 		(unit 1)
@@ -6972,6 +7413,91 @@
 			(project "PlasmaInductor-Top"
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 245.11 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06968760-65e6-4cc9-9f00-ea09dd9797d4")
+		(property "Reference" "J16"
+			(at 245.364 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 246.38 76.8349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ALibrary:H8501-05"
+			(at 245.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 245.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 245.11 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 245.11 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "164f4f6d-c032-418c-be11-19ecc0c6314f")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -7066,6 +7592,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 232.41 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "112ef04d-d390-4fe8-a88f-9c4ff4a2361d")
+		(property "Reference" "J13"
+			(at 232.664 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 233.68 85.7251 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ALibrary:H8501-05"
+			(at 232.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 232.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 232.41 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 232.41 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6b46a9c-ebe3-4f42-84be-290f2274ac87")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_MountingPin")
 		(at 124.46 91.44 0)
 		(unit 1)
@@ -7150,6 +7762,91 @@
 			(project ""
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 251.46 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25092be6-5860-4995-8ef6-23916acdc1ff")
+		(property "Reference" "J18"
+			(at 251.714 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 252.73 76.8349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ALibrary:H8501-05"
+			(at 251.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 251.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 251.46 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 251.46 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e95e95dd-4baa-43af-8edf-66954b99efb8")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -7716,6 +8413,178 @@
 			(project "PlasmaTransformer"
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 226.06 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "346ea35c-dafc-4929-89cc-bcda3f0e4811")
+		(property "Reference" "J9"
+			(at 226.314 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 227.33 85.7251 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ALibrary:H8501-05"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 226.06 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 226.06 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5955d3c3-3f4c-423d-bf01-69ef02317f85")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 257.81 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35922852-a2a7-4a71-a195-6d19aa4e843c")
+		(property "Reference" "J21"
+			(at 258.064 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 259.08 85.7251 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ALibrary:H8501-05"
+			(at 257.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 257.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 257.81 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 257.81 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31e72605-62bc-49b2-a1f2-e81d536f3845")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -8693,15 +9562,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 226.06 87.63 0)
+		(at 226.06 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5aac18cb-6044-46e4-90cb-4e30e2bcf681")
 		(property "Reference" "C1"
-			(at 226.568 85.344 0)
+			(at 226.568 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8710,7 +9579,7 @@
 			)
 		)
 		(property "Value" "24pF"
-			(at 226.568 89.916 0)
+			(at 226.568 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,7 +9588,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P10.00mm"
-			(at 227.0252 91.44 0)
+			(at 227.0252 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8728,7 +9597,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 87.63 0)
+			(at 226.06 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8737,7 +9606,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 226.06 87.63 0)
+			(at 226.06 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8746,7 +9615,7 @@
 			)
 		)
 		(property "MPN" "564RC0GAJ602EJ240J"
-			(at 226.06 87.63 0)
+			(at 226.06 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8755,7 +9624,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 226.06 87.63 0)
+			(at 226.06 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8770,7 +9639,7 @@
 			(uuid "ad34fa4d-5d0a-4349-b202-64667b11fd12")
 		)
 		(instances
-			(project ""
+			(project "PlasmaTransformer"
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "C1")
 					(unit 1)
@@ -8780,15 +9649,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 245.11 87.63 0)
+		(at 245.11 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "62662ec2-f971-4694-a929-f81a75fa1daa")
 		(property "Reference" "C18"
-			(at 245.618 85.344 0)
+			(at 245.618 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8797,7 +9666,7 @@
 			)
 		)
 		(property "Value" "24pF"
-			(at 245.618 89.916 0)
+			(at 245.618 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8806,7 +9675,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P10.00mm"
-			(at 246.0752 91.44 0)
+			(at 246.0752 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8815,7 +9684,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 87.63 0)
+			(at 245.11 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8824,7 +9693,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 245.11 87.63 0)
+			(at 245.11 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8833,7 +9702,7 @@
 			)
 		)
 		(property "MPN" "564RC0GAJ602EJ240J"
-			(at 245.11 87.63 0)
+			(at 245.11 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8842,7 +9711,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 245.11 87.63 0)
+			(at 245.11 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10331,15 +11200,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 257.81 87.63 0)
+		(at 257.81 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "83a4ab46-e0b6-45f9-876f-98e3f603323a")
 		(property "Reference" "C20"
-			(at 258.318 85.344 0)
+			(at 258.318 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10348,7 +11217,7 @@
 			)
 		)
 		(property "Value" "24pF"
-			(at 258.318 89.916 0)
+			(at 258.318 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10357,7 +11226,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P10.00mm"
-			(at 258.7752 91.44 0)
+			(at 258.7752 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10366,7 +11235,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 87.63 0)
+			(at 257.81 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10375,7 +11244,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 257.81 87.63 0)
+			(at 257.81 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10384,7 +11253,7 @@
 			)
 		)
 		(property "MPN" "564RC0GAJ602EJ240J"
-			(at 257.81 87.63 0)
+			(at 257.81 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10393,7 +11262,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 257.81 87.63 0)
+			(at 257.81 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10418,15 +11287,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 251.46 87.63 0)
+		(at 251.46 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8574a855-407f-4a7f-9d7b-a664aa2194f1")
 		(property "Reference" "C19"
-			(at 251.968 85.344 0)
+			(at 251.968 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10435,7 +11304,7 @@
 			)
 		)
 		(property "Value" "24pF"
-			(at 251.968 89.916 0)
+			(at 251.968 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10444,7 +11313,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P10.00mm"
-			(at 252.4252 91.44 0)
+			(at 252.4252 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10453,7 +11322,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 87.63 0)
+			(at 251.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10462,7 +11331,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 251.46 87.63 0)
+			(at 251.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10471,7 +11340,7 @@
 			)
 		)
 		(property "MPN" "564RC0GAJ602EJ240J"
-			(at 251.46 87.63 0)
+			(at 251.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10480,7 +11349,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 251.46 87.63 0)
+			(at 251.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10498,6 +11367,91 @@
 			(project "PlasmaTransformer"
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 226.06 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89b77700-cd03-46aa-b2c6-ed7cdbcea50c")
+		(property "Reference" "J7"
+			(at 226.314 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 227.33 76.8349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ALibrary:H8501-05"
+			(at 226.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 226.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 226.06 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 226.06 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8bed10f-0f68-438d-9cef-eb74ac318888")
+		)
+		(instances
+			(project ""
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -11094,6 +12048,178 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 238.76 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ca4dce9-5883-44d6-a5d7-6ef56e5969f7")
+		(property "Reference" "J15"
+			(at 239.014 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 240.03 85.7251 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ALibrary:H8501-05"
+			(at 238.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 238.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 238.76 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 238.76 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37100d6a-3f36-4915-bf17-b648d183dc08")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 251.46 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d896c3b-36ad-4fd5-8d4a-ee45eeea6c75")
+		(property "Reference" "J19"
+			(at 251.714 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 252.73 85.7251 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ALibrary:H8501-05"
+			(at 251.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 251.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 251.46 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 251.46 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f117462a-6f84-4d63-a534-50e00b52d286")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
 		(at 220.98 110.49 90)
 		(mirror x)
@@ -11600,15 +12726,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 232.41 87.63 0)
+		(at 232.41 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a7f2e5f1-4ad3-4ec0-ae3c-1d31681bddb3")
 		(property "Reference" "C16"
-			(at 232.918 85.344 0)
+			(at 232.918 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11617,7 +12743,7 @@
 			)
 		)
 		(property "Value" "24pF"
-			(at 232.918 89.916 0)
+			(at 232.918 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11626,7 +12752,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P10.00mm"
-			(at 233.3752 91.44 0)
+			(at 233.3752 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11635,7 +12761,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 87.63 0)
+			(at 232.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11644,7 +12770,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 232.41 87.63 0)
+			(at 232.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11653,7 +12779,7 @@
 			)
 		)
 		(property "MPN" "564RC0GAJ602EJ240J"
-			(at 232.41 87.63 0)
+			(at 232.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11662,7 +12788,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 232.41 87.63 0)
+			(at 232.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11746,6 +12872,91 @@
 			(project ""
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 232.41 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b22ef146-673c-4754-a031-ba2ae1606325")
+		(property "Reference" "J10"
+			(at 232.664 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 233.68 76.8349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ALibrary:H8501-05"
+			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 232.41 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 232.41 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0891fe7-6a23-4243-8dd8-90efe7130b4f")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -12248,15 +13459,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 238.76 87.63 0)
+		(at 238.76 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d1fc290b-126c-44ce-8e05-b2ed4ad03e28")
 		(property "Reference" "C17"
-			(at 239.268 85.344 0)
+			(at 239.268 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12265,7 +13476,7 @@
 			)
 		)
 		(property "Value" "24pF"
-			(at 239.268 89.916 0)
+			(at 239.268 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12274,7 +13485,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P10.00mm"
-			(at 239.7252 91.44 0)
+			(at 239.7252 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12283,7 +13494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 87.63 0)
+			(at 238.76 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12292,7 +13503,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 238.76 87.63 0)
+			(at 238.76 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12301,7 +13512,7 @@
 			)
 		)
 		(property "MPN" "564RC0GAJ602EJ240J"
-			(at 238.76 87.63 0)
+			(at 238.76 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12310,7 +13521,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 238.76 87.63 0)
+			(at 238.76 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12678,6 +13889,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 245.11 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddcc4643-2ff6-4002-a41f-c76fcd261d32")
+		(property "Reference" "J17"
+			(at 245.364 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 246.38 85.7251 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ALibrary:H8501-05"
+			(at 245.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 245.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 245.11 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 245.11 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84eecfec-69fa-4ef3-aeb7-8a6e5b1db7a1")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 256.54 54.61 90)
 		(unit 1)
@@ -12850,7 +14147,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 257.81 67.31 90)
+		(at 257.81 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12858,7 +14155,7 @@
 		(dnp no)
 		(uuid "e8a70893-8922-45c1-af14-17d48ca2009e")
 		(property "Reference" "J12"
-			(at 260.35 66.0399 90)
+			(at 260.35 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12867,7 +14164,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 260.35 68.5799 90)
+			(at 260.35 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12877,7 +14174,7 @@
 			)
 		)
 		(property "Footprint" "ALibrary:CONN_2604-3101_WAG"
-			(at 257.81 67.31 0)
+			(at 257.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12886,7 +14183,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 67.31 0)
+			(at 257.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12895,7 +14192,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 257.81 67.31 0)
+			(at 257.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12904,7 +14201,7 @@
 			)
 		)
 		(property "MPN" "2604-3101"
-			(at 266.192 68.326 90)
+			(at 266.192 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12912,7 +14209,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 257.81 67.31 0)
+			(at 257.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
