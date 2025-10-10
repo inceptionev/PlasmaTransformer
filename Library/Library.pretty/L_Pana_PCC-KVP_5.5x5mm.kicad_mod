@@ -1,0 +1,134 @@
+(footprint "L_Pana_PCC-KVP_5.5x5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Panasonic 5x5.5mm PCC series size KVP")
+	(tags "PCC KVP")
+	(property "Reference" "REF**"
+		(at 0.5 -3.75 0)
+		(layer "F.SilkS")
+		(uuid "c461a398-c001-41a3-bf61-13d41c393028")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Pana_PCC-KVP_5.5x5mm"
+		(at 0 3.68 0)
+		(layer "F.Fab")
+		(uuid "9a5d6dd8-de4d-464c-88cf-03487dc803fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00a3e787-afeb-4dfb-ae68-5f1f3ea1c5c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42d4f929-6de1-47cc-b0bb-0aebfedf5717")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.715 -2.75)
+		(end 2.715 -2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2cf40d76-5e96-4951-9606-d5244cd45811")
+	)
+	(fp_line
+		(start 2.715 2.75)
+		(end -2.715 2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7f33f6a-10d6-4928-a153-0e12d1ff6e8d")
+	)
+	(fp_rect
+		(start -3.5 -2.75)
+		(end 3.5 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ee98274f-e75e-4390-9f35-30acd1490c34")
+	)
+	(fp_rect
+		(start -2.75 -2.5)
+		(end 2.75 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fd2f0a0d-ccbe-471f-a622-be492e880405")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d322ec3f-dcc2-4461-973b-6a4bab7c7032")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.426 0)
+		(size 1.905 2.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.115741)
+		(uuid "887b23f6-49c0-4d2e-af97-89c944a50211")
+	)
+	(pad "2" smd roundrect
+		(at 2.426 0)
+		(size 1.905 2.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.115741)
+		(uuid "3f9af8e0-f532-48ff-a366-3ffabb08f898")
+	)
+	(embedded_fonts no)
+	(model "C:/Projects/PlasmaTransformer/Library/Library.pretty/ETQ-P3M220KVP.STEP"
+		(offset
+			(xyz 0 0 2.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
