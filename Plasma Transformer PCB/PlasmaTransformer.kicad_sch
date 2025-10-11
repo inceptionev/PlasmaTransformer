@@ -5721,16 +5721,16 @@
 		(uuid "2bb16c8b-0bce-4ab7-877c-d272222ce1a2")
 	)
 	(junction
+		(at 85.09 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2be30370-2717-494d-8c2d-3e02fa1cb4ef")
+	)
+	(junction
 		(at 227.33 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c04bbd1-1cfa-4d00-88f7-53a77464f930")
-	)
-	(junction
-		(at 91.44 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "309b242e-18b7-4f15-9fed-a6ff540ecbbc")
 	)
 	(junction
 		(at 269.24 142.24)
@@ -5895,6 +5895,12 @@
 		(uuid "9c50d8b8-442a-44be-bb7b-adefc12a5349")
 	)
 	(junction
+		(at 91.44 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a031a094-cdf6-4315-8d31-225a46ef12da")
+	)
+	(junction
 		(at 31.75 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5931,7 +5937,7 @@
 		(uuid "b442cd44-2da5-4e82-9656-7d339137dc44")
 	)
 	(junction
-		(at 77.47 78.74)
+		(at 74.93 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b706961e-9642-459e-b657-9f5382c1e7b9")
@@ -6015,7 +6021,7 @@
 		(uuid "d25a6e17-8af6-475e-b0c6-54119f2cd828")
 	)
 	(junction
-		(at 77.47 71.12)
+		(at 74.93 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d439c20f-be28-4a1a-a249-df59b007ff45")
@@ -6278,16 +6284,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 91.44 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c9e47af-e198-43c7-af6c-11636b04645a")
-	)
-	(wire
-		(pts
 			(xy 146.05 48.26) (xy 138.43 48.26)
 		)
 		(stroke
@@ -6538,6 +6534,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 83.82) (xy 91.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34cf5860-9a04-4df7-8a03-d68d64e410ab")
+	)
+	(wire
+		(pts
 			(xy 228.6 101.6) (xy 228.6 105.41)
 		)
 		(stroke
@@ -6718,16 +6724,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 71.12) (xy 68.58 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cf89162-89e7-4dae-aecb-a8fa11ef5a76")
-	)
-	(wire
-		(pts
 			(xy 233.68 78.74) (xy 236.22 78.74)
 		)
 		(stroke
@@ -6888,6 +6884,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 83.82) (xy 85.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ad01fd-8ffd-4500-a239-bc8958eeee2f")
+	)
+	(wire
+		(pts
 			(xy 190.5 74.93) (xy 213.36 74.93)
 		)
 		(stroke
@@ -6925,6 +6931,16 @@
 			(type default)
 		)
 		(uuid "6b3e9916-6de9-4e96-acdb-c39767b53d53")
+	)
+	(wire
+		(pts
+			(xy 91.44 71.12) (xy 91.44 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1558e8-0e0b-4722-b6d8-8aa5870e6aa2")
 	)
 	(wire
 		(pts
@@ -6975,6 +6991,16 @@
 			(type default)
 		)
 		(uuid "7015697f-829c-4740-83c9-099708a674d2")
+	)
+	(wire
+		(pts
+			(xy 85.09 71.12) (xy 91.44 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a2c97f-83f8-45ba-a1fd-96c6c4c76c68")
 	)
 	(wire
 		(pts
@@ -7178,7 +7204,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 71.12) (xy 91.44 76.2)
+			(xy 85.09 71.12) (xy 85.09 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7508,7 +7534,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 86.36) (xy 77.47 91.44)
+			(xy 74.93 86.36) (xy 74.93 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7588,7 +7614,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 78.74) (xy 77.47 78.74)
+			(xy 59.69 78.74) (xy 74.93 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7608,7 +7634,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 71.12) (xy 91.44 71.12)
+			(xy 74.93 71.12) (xy 85.09 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7825,16 +7851,6 @@
 			(type default)
 		)
 		(uuid "f44fd4bc-1a11-4d57-805a-01b33af6861d")
-	)
-	(wire
-		(pts
-			(xy 76.2 71.12) (xy 77.47 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f57369f6-d83e-4f43-97d4-92b744454642")
 	)
 	(wire
 		(pts
@@ -8130,6 +8146,111 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 91.44 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ed45111-aaff-47e4-8353-4a966a7393b7")
+		(property "Reference" "C30"
+			(at 95.504 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 97.028 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 90.4748 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 91.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 91.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 90.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 91.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 91.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1303a7d-561b-4200-9d32-20eefc4c1ce1")
+		)
+		(pin "2"
+			(uuid "4a14440d-36c1-41df-9c77-deba0339e59f")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 269.24 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8309,7 +8430,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 72.39 71.12 90)
+		(at 71.12 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8317,7 +8438,7 @@
 		(dnp no)
 		(uuid "1f1fcecb-a025-407e-b79d-d8a036946949")
 		(property "Reference" "L3"
-			(at 72.39 68.834 90)
+			(at 71.12 68.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +8446,7 @@
 			)
 		)
 		(property "Value" "22uH"
-			(at 72.644 73.406 90)
+			(at 71.12 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,7 +8454,7 @@
 			)
 		)
 		(property "Footprint" "ALibrary:L_Pana_PCC-KVP_5.5x5mm"
-			(at 72.39 71.12 0)
+			(at 71.12 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,7 +8463,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 71.12 0)
+			(at 71.12 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,7 +8472,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 72.39 71.12 0)
+			(at 71.12 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8360,7 +8481,7 @@
 			)
 		)
 		(property "MPN" "ETQ-P3M220KVP"
-			(at 72.39 71.12 90)
+			(at 71.12 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +8490,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 72.39 71.12 90)
+			(at 71.12 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8927,6 +9048,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "H8501-05"
+			(at 240.03 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 240.03 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e24807c-e075-4bad-9f12-7a8f93d8fcd7")
 		)
@@ -9139,6 +9278,24 @@
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 233.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 233.68 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 233.68 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11404,6 +11561,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "H8501-05"
+			(at 220.98 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 220.98 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59dc4e18-5d8c-419c-a5d7-87dc91bab432")
 		)
@@ -11464,6 +11639,24 @@
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 233.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 233.68 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 233.68 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12258,6 +12451,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "H8501-05"
+			(at 220.98 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 220.98 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80e829db-c2b7-4a82-a0a6-36497b24ed28")
 		)
@@ -12406,6 +12617,24 @@
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 252.73 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 252.73 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 252.73 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13047,7 +13276,7 @@
 			)
 		)
 		(property "MPN" "TSM-104-01-L-DV-P-TR"
-			(at 222.504 86.614 90)
+			(at 254.762 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13409,7 +13638,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 91.44 80.01 180)
+		(at 85.09 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13417,7 +13646,7 @@
 		(dnp no)
 		(uuid "a69d3683-bc3d-48a7-8569-0ea92e65f6ce")
 		(property "Reference" "C29"
-			(at 95.504 77.724 0)
+			(at 89.154 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13426,7 +13655,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 97.028 82.804 0)
+			(at 90.678 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13435,7 +13664,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 90.4748 76.2 0)
+			(at 84.1248 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13444,7 +13673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 80.01 0)
+			(at 85.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13453,7 +13682,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 91.44 80.01 0)
+			(at 85.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13462,7 +13691,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 91.44 80.01 0)
+			(at 85.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13471,7 +13700,7 @@
 			)
 		)
 		(property "MPN" "CL21A226MAYNNNE"
-			(at 90.17 71.12 0)
+			(at 83.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13480,7 +13709,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 91.44 80.01 0)
+			(at 85.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13489,7 +13718,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 91.44 80.01 0)
+			(at 85.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13755,7 +13984,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 74.93 0)
+		(at 74.93 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13764,7 +13993,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad5e2b6f-66d8-4c35-a7e2-1c5dc229d950")
 		(property "Reference" "R1"
-			(at 80.01 73.6599 0)
+			(at 77.47 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13773,7 +14002,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 80.01 76.1999 0)
+			(at 77.47 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13782,7 +14011,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 75.692 74.93 90)
+			(at 73.152 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13791,7 +14020,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 74.93 0)
+			(at 74.93 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13800,7 +14029,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 74.93 0)
+			(at 74.93 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13809,7 +14038,25 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 77.47 74.93 0)
+			(at 74.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-07100KL"
+			(at 74.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 74.93 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13880,6 +14127,24 @@
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 240.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 240.03 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 240.03 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14056,7 +14321,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 91.44 0)
+		(at 85.09 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14064,7 +14329,7 @@
 		(dnp no)
 		(uuid "b9095fce-496d-4cc4-b97e-058aa6705406")
 		(property "Reference" "#PWR021"
-			(at 91.44 97.79 0)
+			(at 85.09 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14073,7 +14338,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 96.52 0)
+			(at 85.09 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14081,7 +14346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 91.44 0)
+			(at 85.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14090,7 +14355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 91.44 0)
+			(at 85.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14099,7 +14364,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 91.44 0)
+			(at 85.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14401,7 +14666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 20.32 134.62 0)
 			(effects
 				(font
@@ -14508,6 +14773,24 @@
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 227.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 227.33 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 227.33 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14958,6 +15241,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "H8501-05"
+			(at 246.38 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 246.38 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45afb66d-68de-4615-a6c0-1ecaa97dceab")
 		)
@@ -15357,6 +15658,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "H8501-05"
+			(at 246.38 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 246.38 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95b88c5d-a58b-4b69-9e49-58ff43c8250d")
 		)
@@ -15499,7 +15818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 241.3 144.78 0)
 			(effects
 				(font
@@ -15595,6 +15914,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "H8501-05"
+			(at 252.73 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 252.73 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c448237-55a8-469a-9d41-c85c08e70ad8")
 		)
@@ -15609,7 +15946,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 82.55 0)
+		(at 74.93 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15618,7 +15955,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7476117-3a4e-4178-96f6-8986dc6bc8e4")
 		(property "Reference" "R10"
-			(at 80.01 81.2799 0)
+			(at 77.47 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15627,7 +15964,7 @@
 			)
 		)
 		(property "Value" "7.15k"
-			(at 80.01 83.8199 0)
+			(at 77.47 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15636,7 +15973,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 75.692 82.55 90)
+			(at 73.152 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15645,7 +15982,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 82.55 0)
+			(at 74.93 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15654,7 +15991,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 82.55 0)
+			(at 74.93 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15663,7 +16000,25 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 77.47 82.55 0)
+			(at 74.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-077K15L"
+			(at 74.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 74.93 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15842,6 +16197,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL32B475KCVZW6E"
+			(at 16.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 16.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c551a80-5d50-4f91-a40b-6c7864e6c50b")
 		)
@@ -15852,6 +16225,71 @@
 			(project ""
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9a8568c-6841-4b22-90c3-feb0fc73dbd4")
+		(property "Reference" "#PWR022"
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00515497-f769-424f-b0ec-36c3dc59b7cd")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -16016,6 +16454,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL32B475KCVZW6E"
+			(at 24.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 24.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4af41bb9-b5fb-4117-a5ba-eec9fdc2d260")
 		)
@@ -16079,6 +16535,24 @@
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 227.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H8501-05"
+			(at 227.33 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 227.33 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16166,7 +16640,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 91.44 0)
+		(at 74.93 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16174,7 +16648,7 @@
 		(dnp no)
 		(uuid "f3c20523-4d64-46ed-b3e6-ff4ddb3eed1b")
 		(property "Reference" "#PWR017"
-			(at 77.47 97.79 0)
+			(at 74.93 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16183,7 +16657,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 96.52 0)
+			(at 74.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16191,7 +16665,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 91.44 0)
+			(at 74.93 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16200,7 +16674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 91.44 0)
+			(at 74.93 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16209,7 +16683,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 91.44 0)
+			(at 74.93 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
