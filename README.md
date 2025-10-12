@@ -8,6 +8,23 @@
 
 This project mainly focuses on creating a driver and 3D-printed support structure that allows for safe continuous operation of a plasma toroid.  The objectives are stable operation of a levitating halo of plasma at maximum height above the coil and protection against touching energized components, while providing airflow to keep both the electronics and the globe cool.  The globes are filled with a low-pressure of xenon gas.
 
+### Key Features of this project:
+- Plasma Driver PCB with experimentation-friendly features:
+  - Wide input power range from 12-60V for easy power control.  Onboard 12V supply for stable fan and gate drive.
+  - High-voltage auto-igniter strikes the plasma whenever plasma is not present, but also does not load the driver when plasma is live.  This helps prevent damage from runaway unloaded oscillation.  Designed in collaboration with @ltwin0.
+  - Oscillation detector illuminates to show when the driver is in oscillation, whether or not plasma is present.  Based on a design from Sky-guided.
+  - Socketed coil and tank capacitor connectors for easy tuning.
+  - Dedicated on-board oscilloscope probes on the MOSFET gate and drain nets for Class-E tuning.  Connect an SMA cable directly from the board to a terminator and the oscilloscope.
+  - Selectable Gate-Source cap via jumper headers to tune AC gate drive strenth.
+  - Separate power switch and DC Gate Bias control.  Turn it off and on without changing the DC gate bias level.
+- 3D printed cooling shroud:
+  - Provides directed airflow for cooling both the electronics and the globe for continuous use.
+  - Supports the fan, board, coil, and globe with ideal spacing for achieving a levitating plasma halo.
+  - Provides attachments for rubber bands to hold the globe in place for environments where the device may be in motion, or to attach a shade to make the plasma more visible in outdoor installations.
+  - Includes a cover and coil ring that prevents curious fingers away from the hazardous high-voltage parts. (But always practice caution aroung high voltage and RF)
+- 3D-printed assembly aids:
+  - Coil forms for ease of making the plasma coil.
+
 Special thanks to:  
 Sky-guided, whose inductive oscillation indicator design is used in this project.  
 @ltwin8, whose RF node parasitic auto-igniter design is used in this project and was detailed in https://github.com/inceptionev/PlasmaTransformer/issues/1  
@@ -24,8 +41,10 @@ KiCAD PCB files are found in the /Plasma Transformer PCB folder.  If you want to
 
 3d print design files and a dxf for the heatsink hole pattern are found in the 3D Print and CNC folder.  The heatsink holes are all M3 drill/tap.
 
+If you are doing turnkey PCBA assembly, you probably want to DNP the fan, heatsink, and MOSFET from the BOM, as you will assemble these later.
+
 <p align="center">
-  <img src="https://github.com/inceptionev/PlasmaTransformer/blob/master/images/pcbRev5.jpg" width="400">
+  <img src="https://github.com/inceptionev/PlasmaTransformer/blob/master/images/pcbRev5.png" width="400">
 </p>
 
 If you just want to print the files, look here:
@@ -92,3 +111,10 @@ Resonant Cap:
 Gate-Source Cap:
 - 20cm Globe: 2.7nF + 3.6nF + 1.8nF + 1.8nF
 - 13cm Globe: 2.7nF
+
+## Tips and Tricks for Experimenting with Plasma Toroids:
+- The goal of feedback tuning is to minimize the source-drain voltage across the MOSFET during the points of switching, otherwise it will get hot quickly.
+- Also be mindful of the voltage rating on the cap between the plasma globe coil and the gate.  This cap will see 1000V+ when the coil is unloaded (when there is no plasma).
+- Also be careful of anything in that node.  That means anything between the gate-coil capacitor and the coil, including the bottom turns of the coil.  This is the HF node, aka RF node, where the highest amplitude of voltage oscillation is seen.  It will burn you if you touch it, sometimes even touching insulated portions.  The burn is nearly painless at first, and then painful later.
+- The MOSFET and the coil-gate cap are the two most common components to break in this circuit.
+- Haloplasma is a good source for the xenon-filled plasma globes.
