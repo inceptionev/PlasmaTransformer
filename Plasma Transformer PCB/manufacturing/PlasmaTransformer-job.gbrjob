@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.0"
+      "Version": "9.0.4"
     },
-    "CreationDate": "2025-07-31T17:57:17-04:00"
+    "CreationDate": "2025-10-12T04:30:53-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "PlasmaTransformer",
       "GUID": "506c6173-6d61-4547-9261-6e73666f726d",
-      "Revision": "4"
+      "Revision": "5"
     },
     "Size": {
       "X": 90.05,
@@ -54,6 +54,11 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "PlasmaTransformer-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "PlasmaTransformer-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
@@ -64,8 +69,23 @@
       "FilePolarity": "Negative"
     },
     {
+      "Path": "PlasmaTransformer-User_Drawings.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "PlasmaTransformer-Edge_Cuts.gm1",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PlasmaTransformer-F_CCmask.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PlasmaTransformer-B_CCmask.gbr",
+      "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     }
   ],

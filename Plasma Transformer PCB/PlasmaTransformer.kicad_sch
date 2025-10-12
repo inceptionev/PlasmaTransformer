@@ -8075,7 +8075,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.0SMDJ15CA"
+		(property "Value" "15V TVS"
 			(at 181.356 62.484 0)
 			(effects
 				(font
@@ -8102,7 +8102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "400W bidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)"
+		(property "Description" "400W bidirectional TVS Diode, 15.0Vr, SMA(DO-214AC)"
 			(at 186.69 57.15 0)
 			(effects
 				(font
@@ -8189,7 +8189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 0805"
 			(at 91.44 80.01 0)
 			(effects
 				(font
@@ -8295,7 +8295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1111 (1210 footprint compatible)"
 			(at 269.24 138.43 0)
 			(effects
 				(font
@@ -8314,6 +8314,24 @@
 			)
 		)
 		(property "MPN" "111122K01P00BQTAF9LM"
+			(at 269.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 269.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "2000V"
 			(at 269.24 138.43 0)
 			(effects
 				(font
@@ -8381,7 +8399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer with a mounting pin"
+		(property "Description" "POT 1K OHM 1/20W CARBON LINEAR, NO SWITCH, DUAL GANG"
 			(at 127 74.93 0)
 			(effects
 				(font
@@ -8471,7 +8489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "FIXED IND 22UH 2.2A 181.5 MOHM"
 			(at 71.12 71.12 0)
 			(effects
 				(font
@@ -8620,7 +8638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "300V"
+		(property "Value" "300V GDT"
 			(at 231.394 140.462 90)
 			(effects
 				(font
@@ -8647,7 +8665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GDT 300V 2KA 2 POLE SMD"
 			(at 233.68 135.89 0)
 			(effects
 				(font
@@ -8733,7 +8751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 0805"
 			(at 109.22 68.58 0)
 			(effects
 				(font
@@ -8752,6 +8770,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 109.22 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
 			(at 109.22 68.58 90)
 			(effects
 				(font
@@ -8782,7 +8809,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28bbe416-852a-4c72-8ad9-b0d31dc08649")
 		(property "Reference" "HS1"
@@ -8821,7 +8848,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Heatsink"
+		(property "Description" "Heatsink, dxf in repo for drill and tap layout"
+			(at 20.32 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK 594 37,5 AL"
+			(at 20.32 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fischer"
 			(at 20.32 172.72 0)
 			(effects
 				(font
@@ -8885,7 +8930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 158.75 96.52 0)
 			(effects
 				(font
@@ -8905,6 +8950,24 @@
 		)
 		(property "MPN" "VJ1812A102JXFTW1HV"
 			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "2000V"
+			(at 158.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9039,7 +9102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 240.03 69.85 0)
 			(effects
 				(font
@@ -9123,7 +9186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 161.29 41.91 0)
 			(effects
 				(font
@@ -9143,6 +9206,24 @@
 		)
 		(property "MPN" "CC1812JKNPOCBN221"
 			(at 160.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1000V"
+			(at 161.29 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9276,7 +9357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 233.68 69.85 0)
 			(effects
 				(font
@@ -9360,7 +9441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 0805"
 			(at 31.75 85.09 0)
 			(effects
 				(font
@@ -9466,7 +9547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 246.38 97.79 0)
 			(effects
 				(font
@@ -9485,6 +9566,24 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "500V"
 			(at 246.38 97.79 0)
 			(effects
 				(font
@@ -9551,7 +9650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 0805"
 			(at 143.51 74.93 0)
 			(effects
 				(font
@@ -9570,6 +9669,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 143.51 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
 			(at 143.51 74.93 90)
 			(effects
 				(font
@@ -9636,7 +9744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1812"
 			(at 186.69 74.93 0)
 			(effects
 				(font
@@ -9655,6 +9763,15 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
+			(at 186.69 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
 			(at 186.69 74.93 90)
 			(effects
 				(font
@@ -9724,7 +9841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "2x04 SMD Pin Header, 2.54mm pitch"
 			(at 151.13 53.34 0)
 			(effects
 				(font
@@ -9918,7 +10035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Diode, SMF, Fast Recovery, 1200Vrmax"
 			(at 259.08 153.67 0)
 			(effects
 				(font
@@ -9962,6 +10079,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage" "1200V"
+			(at 259.08 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63164451-9147-4d5d-bcde-40e00c212741")
 		)
@@ -9995,7 +10121,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10V"
+		(property "Value" "10V Zener"
 			(at 103.886 84.074 90)
 			(effects
 				(font
@@ -10022,7 +10148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "Zener diode SMA, 10V"
 			(at 109.22 82.55 0)
 			(effects
 				(font
@@ -10240,7 +10366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "Coaxial Connector SMA, Vertical"
 			(at 179.07 81.28 0)
 			(effects
 				(font
@@ -10328,7 +10454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "Coaxial Connector SMA, Vertical"
 			(at 210.82 43.18 0)
 			(effects
 				(font
@@ -10413,7 +10539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 2010"
 			(at 154.94 81.28 0)
 			(effects
 				(font
@@ -10432,6 +10558,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 154.94 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
 			(at 154.94 81.28 90)
 			(effects
 				(font
@@ -10500,7 +10635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 24PF 6KV NP0 RADIAL DISC"
 			(at 220.98 67.31 0)
 			(effects
 				(font
@@ -10519,6 +10654,24 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
+			(at 220.98 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 220.98 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "6000V"
 			(at 220.98 67.31 0)
 			(effects
 				(font
@@ -10587,7 +10740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 24PF 6KV NP0 RADIAL DISC"
 			(at 240.03 67.31 0)
 			(effects
 				(font
@@ -10606,6 +10759,24 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
+			(at 240.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 240.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "6000V"
 			(at 240.03 67.31 0)
 			(effects
 				(font
@@ -10674,7 +10845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 135.89 85.09 0)
 			(effects
 				(font
@@ -10694,6 +10865,24 @@
 		)
 		(property "MPN" "VJ1812A102JXFTW1HV"
 			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 135.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "2000V"
+			(at 135.89 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10760,7 +10949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Diode, SMF, Fast Recovery, 1200Vrmax"
 			(at 259.08 149.86 0)
 			(effects
 				(font
@@ -10797,6 +10986,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 259.08 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1200V"
 			(at 259.08 149.86 0)
 			(effects
 				(font
@@ -10952,7 +11150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Depletion-mode N-channel MOSFET gate/drain/source"
+		(property "Description" "MOSFET N-CH 200V 50A TO247AC"
 			(at 180.34 52.07 0)
 			(effects
 				(font
@@ -11014,7 +11212,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "Pad_Doorknob_Cap"
 			(at 193.04 71.882 0)
 			(effects
 				(font
@@ -11108,7 +11306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 228.6 97.79 0)
 			(effects
 				(font
@@ -11127,6 +11325,24 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
+			(at 228.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 228.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "500V"
 			(at 228.6 97.79 0)
 			(effects
 				(font
@@ -11193,7 +11409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 2010"
 			(at 170.18 81.28 0)
 			(effects
 				(font
@@ -11212,6 +11428,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 170.18 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
 			(at 170.18 81.28 90)
 			(effects
 				(font
@@ -11281,7 +11506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 259.08 97.79 0)
 			(effects
 				(font
@@ -11300,6 +11525,24 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
+			(at 259.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 259.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "500V"
 			(at 259.08 97.79 0)
 			(effects
 				(font
@@ -11368,7 +11611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 138.43 41.91 0)
 			(effects
 				(font
@@ -11388,6 +11631,24 @@
 		)
 		(property "MPN" "CC1812JKNPOCBN221"
 			(at 137.16 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 138.43 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1000V"
+			(at 138.43 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11455,7 +11716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED 1206, AMBER"
 			(at 151.13 146.05 0)
 			(effects
 				(font
@@ -11552,7 +11813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 220.98 69.85 0)
 			(effects
 				(font
@@ -11637,7 +11898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 233.68 64.77 0)
 			(effects
 				(font
@@ -11722,7 +11983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1111 (1210 footprint compatible)"
 			(at 269.24 123.19 0)
 			(effects
 				(font
@@ -11741,6 +12002,24 @@
 			)
 		)
 		(property "MPN" "111122K01P00BQTAF9LM"
+			(at 269.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 269.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "2000V"
 			(at 269.24 123.19 0)
 			(effects
 				(font
@@ -11873,7 +12152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 2010"
 			(at 201.93 43.18 0)
 			(effects
 				(font
@@ -11892,6 +12171,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 201.93 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
 			(at 201.93 43.18 90)
 			(effects
 				(font
@@ -12026,7 +12314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1111 (1210 footprint compatible)"
 			(at 269.24 130.81 0)
 			(effects
 				(font
@@ -12045,6 +12333,24 @@
 			)
 		)
 		(property "MPN" "111122K01P00BQTAF9LM"
+			(at 269.24 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 269.24 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "2000V"
 			(at 269.24 130.81 0)
 			(effects
 				(font
@@ -12113,7 +12419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -12132,6 +12438,24 @@
 			)
 		)
 		(property "Manufacturer" "Kyocera"
+			(at 215.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 215.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "2000V"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -12163,7 +12487,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "831c9d29-6747-488a-9de1-774b42777389")
 		(property "Reference" "TP3"
 			(at 131.826 33.782 0)
@@ -12201,7 +12525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Wire Connection, Thru-Hole, 1.4mm"
 			(at 125.73 38.1 0)
 			(effects
 				(font
@@ -12267,7 +12591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 24PF 6KV NP0 RADIAL DISC"
 			(at 252.73 67.31 0)
 			(effects
 				(font
@@ -12286,6 +12610,24 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
+			(at 252.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 252.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "6000V"
 			(at 252.73 67.31 0)
 			(effects
 				(font
@@ -12354,7 +12696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 24PF 6KV NP0 RADIAL DISC"
 			(at 246.38 67.31 0)
 			(effects
 				(font
@@ -12373,6 +12715,24 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
+			(at 246.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 246.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "6000V"
 			(at 246.38 67.31 0)
 			(effects
 				(font
@@ -12442,7 +12802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 220.98 64.77 0)
 			(effects
 				(font
@@ -12527,7 +12887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FAN AXIAL 92X25.4MM 24VDC WIRE"
+		(property "Description" "FAN AXIAL 92X20MM 12VDC WIRE"
 			(at 20.32 186.69 0)
 			(effects
 				(font
@@ -12536,7 +12896,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AFB0924VH-R00"
+		(property "MPN" "AFB0912VHD-F00"
 			(at 20.32 186.69 0)
 			(effects
 				(font
@@ -12615,7 +12975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 252.73 64.77 0)
 			(effects
 				(font
@@ -12764,7 +13124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 74.93 41.91 0)
 			(effects
 				(font
@@ -12784,6 +13144,24 @@
 		)
 		(property "MPN" "VJ1812A102JXFTW1HV"
 			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "2000V"
+			(at 74.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12982,7 +13360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 82.55 41.91 0)
 			(effects
 				(font
@@ -13002,6 +13380,24 @@
 		)
 		(property "MPN" "GRM43DR7LW104KW01K"
 			(at 81.28 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 82.55 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1000V"
+			(at 82.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13042,7 +13438,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "Hole_Heatsink_Screw"
 			(at 22.86 162.5599 0)
 			(effects
 				(font
@@ -13266,7 +13662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "2x04 SMD Pin Header, 2.54mm pitch"
 			(at 236.22 83.82 0)
 			(effects
 				(font
@@ -13332,7 +13728,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a14743a5-ba10-4aaf-81ee-0e50c66c2c43")
 		(property "Reference" "TP2"
 			(at 98.044 33.782 0)
@@ -13370,7 +13766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Wire Connection, Thru-Hole, 1.4mm"
 			(at 104.14 38.1 0)
 			(effects
 				(font
@@ -13436,7 +13832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 0805"
 			(at 127 82.55 0)
 			(effects
 				(font
@@ -13455,6 +13851,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 127 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
 			(at 127 82.55 90)
 			(effects
 				(font
@@ -13524,7 +13929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "PCB Inductor"
 			(at 161.29 146.05 0)
 			(effects
 				(font
@@ -13594,7 +13999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1111 (1210 footprint compatible)"
 			(at 269.24 146.05 0)
 			(effects
 				(font
@@ -13613,6 +14018,24 @@
 			)
 		)
 		(property "MPN" "111122K02P70HQTAF9LM"
+			(at 269.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 269.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "2000V"
 			(at 269.24 146.05 0)
 			(effects
 				(font
@@ -13681,7 +14104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 0805"
 			(at 85.09 80.01 0)
 			(effects
 				(font
@@ -13874,7 +14297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 24PF 6KV NP0 RADIAL DISC"
 			(at 227.33 67.31 0)
 			(effects
 				(font
@@ -13893,6 +14316,24 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "6000V"
 			(at 227.33 67.31 0)
 			(effects
 				(font
@@ -13923,7 +14364,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ab59efa8-ce94-47a8-ab0b-39e49fc399f5")
 		(property "Reference" "TP1"
 			(at 168.402 132.588 0)
@@ -13961,7 +14402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Wire Connection, Thru-Hole, 1.25mm"
 			(at 172.72 135.89 0)
 			(effects
 				(font
@@ -14028,7 +14469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 0805"
 			(at 74.93 74.93 0)
 			(effects
 				(font
@@ -14125,7 +14566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 240.03 64.77 0)
 			(effects
 				(font
@@ -14209,7 +14650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Description" "Rocker Switch, SPDT, 7.5A, 125V"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -14429,7 +14870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 0805"
 			(at 63.5 63.5 0)
 			(effects
 				(font
@@ -14598,7 +15039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 0805"
 			(at 154.94 152.4 0)
 			(effects
 				(font
@@ -14617,6 +15058,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 154.94 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
 			(at 154.94 152.4 90)
 			(effects
 				(font
@@ -14684,7 +15134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST XH Pin Header 01x02, 2.5mm pitch"
 			(at 20.32 134.62 0)
 			(effects
 				(font
@@ -14771,7 +15221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 227.33 69.85 0)
 			(effects
 				(font
@@ -14854,7 +15304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC REG BUCK ADJ 1A SOT23-6"
+		(property "Description" "IC REG BUCK ADJ 1A 1.1MHz SOT23-6"
 			(at 46.99 71.12 0)
 			(effects
 				(font
@@ -14952,7 +15402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Diode, SMF, Fast Recovery, 1200Vrmax"
 			(at 259.08 146.05 0)
 			(effects
 				(font
@@ -14989,6 +15439,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 259.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1200V"
 			(at 259.08 146.05 0)
 			(effects
 				(font
@@ -15057,7 +15516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 24PF 6KV NP0 RADIAL DISC"
 			(at 233.68 67.31 0)
 			(effects
 				(font
@@ -15076,6 +15535,24 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
+			(at 233.68 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 233.68 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "6000V"
 			(at 233.68 67.31 0)
 			(effects
 				(font
@@ -15144,7 +15621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 153.67 41.91 0)
 			(effects
 				(font
@@ -15164,6 +15641,24 @@
 		)
 		(property "MPN" "CC1812JKNPOCBN221"
 			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 153.67 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1000V"
+			(at 153.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15232,7 +15727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 246.38 69.85 0)
 			(effects
 				(font
@@ -15381,7 +15876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 146.05 41.91 0)
 			(effects
 				(font
@@ -15401,6 +15896,24 @@
 		)
 		(property "MPN" "CC1812JKNPOCBN221"
 			(at 144.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 146.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1000V"
+			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15588,6 +16101,15 @@
 				(hide yes)
 			)
 		)
+		(property "Dielectric" "Al Elec"
+			(at 66.04 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "584d0555-d71e-480b-82f8-11e56b960a79")
 		)
@@ -15649,7 +16171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 246.38 64.77 0)
 			(effects
 				(font
@@ -15734,7 +16256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "PCB TERMINAL BLOCK, SINGLE, LEVER, 4 MM"
 			(at 269.24 33.02 0)
 			(effects
 				(font
@@ -15818,7 +16340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1206"
 			(at 241.3 144.78 0)
 			(effects
 				(font
@@ -15837,6 +16359,24 @@
 		)
 		(property "Manufacturer" "Kemet"
 			(at 241.3 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 241.3 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "500V"
+			(at 241.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15905,7 +16445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 252.73 69.85 0)
 			(effects
 				(font
@@ -15990,7 +16530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 0805"
 			(at 74.93 82.55 0)
 			(effects
 				(font
@@ -16087,7 +16627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "PCB TERMINAL BLOCK, SINGLE, LEVER, 4 MM"
 			(at 269.24 48.26 0)
 			(effects
 				(font
@@ -16170,7 +16710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1210"
 			(at 16.51 85.09 0)
 			(effects
 				(font
@@ -16340,7 +16880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 0805"
 			(at 127 67.31 0)
 			(effects
 				(font
@@ -16359,6 +16899,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 127 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
 			(at 127 67.31 90)
 			(effects
 				(font
@@ -16427,7 +16976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1210"
 			(at 24.13 85.09 0)
 			(effects
 				(font
@@ -16533,7 +17082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 227.33 64.77 0)
 			(effects
 				(font
@@ -16879,7 +17428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Diode, SMF, Fast Recovery, 1200Vrmax"
 			(at 259.08 142.24 0)
 			(effects
 				(font
@@ -16916,6 +17465,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 259.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1200V"
 			(at 259.08 142.24 0)
 			(effects
 				(font

@@ -25,7 +25,7 @@ KiCAD PCB files are found in the /Plasma Transformer PCB folder.  If you want to
 3d print design files and a dxf for the heatsink hole pattern are found in the 3D Print and CNC folder.  The heatsink holes are all M3 drill/tap.
 
 <p align="center">
-  <img src="https://github.com/inceptionev/PlasmaTransformer/blob/master/images/pcbRev4.jpg" width="400">
+  <img src="https://github.com/inceptionev/PlasmaTransformer/blob/master/images/pcbRev5.jpg" width="400">
 </p>
 
 If you just want to print the files, look here:
@@ -60,15 +60,15 @@ If you just want to print the files, look here:
 - Connect the fan to the PCB
 - Mount the PCB to the cooling shroud with the M4*12mm screws
 - Make the coil
-  - Print out the coil form in the folder for the globe size you are using
-  - Push approximately 14cm of 12AWG wire (10cm if using the 13cm globe) through the hole in the coil form, then bend it 90 degrees to follow the coil form AWAY from the notch
-  - Wrap 3 turns around the coil form working from the bottom up (this ensures that the higher-voltage RF node is on the bottom of the coil, away from the globe - this helps with levitation)
-  - After the 3rd turn when you return to the notch, continue for another 14cm for the 20cm Globe, or for another 10cm for the 13cm Globe, then cut the wire.
-  - Remove the coil from the form.
-  - Add a 175cm (113.4cm if using the 13cm globe) length of bowden tube to insulate the three turns of coil minus a 9mm gap.
-    - 151.6cm if using the 13cm globe and 4 turns of coil.
-  - Place the now insulated coil back onto the form.  Make sure the turns stack nicely without crossing over, except at the very end.
-  - Use the notches in the coil form to wrap the coil with polyimide tape to keep the coil in shape.
+  - Print out the coil form in the folder for the globe size you are using.
+  - Push a length of 12AWG magnet wire in a length of insulating PTFE tube.  It helps if the tube and the wire are both straight.  Taping them to the edge of a table will accomplish this.
+    - For the 13cm globe, push 171.6cm of wire into 151.6cm of PTFE tube.  Leave 10cm of wire sticking out at both ends.
+	- For the 20cm globe, push 203cm of wire into 175cm of of PTFE tube.  Leave 14cm of wire sticking out at both ends.
+  - First wrap the wire and insulator around an object slightly smaller than the coil form.  This will make wrapping on the coil form easier.
+  - Wrap the slightly-smaller coil of wire and insulator onto the coil form.  Start at the lip, and work up from there in a clockwise direction with the lip facing away from you.  This ensures that the bottom coil connects to the RF Node (the right block on the PCB).  This is the higher voltage terminal, and having it on the bottom coil helps with levitation of the plasma.
+    - 13cm Globe: you should get 4 coils, minus the 9mm gap where the ends meet.
+	- 20cm Globe: you should get 3 coils, minus the 9mm gap where the ends meet.
+  - Use the slots in the coil form to tape up the coil so it holds its shape.  Polyimide (Kapton) tape is recommended.
   - Remove the coil from the form and wrap the coil again where the tail meets the coil
   - Open the coil terminal latches and fit the coil into the assembly with the PCB, making bends to allow for the envelope of the globe.
   - Trim the coil tails if necessary.
@@ -83,11 +83,11 @@ Supply Voltage:
 
 Gate-Drain Cap:
 - 20cm Globe: none
-- 13cm Globe: 220nF + 220nF
+- 13cm Globe: none
 
 Resonant Cap:
 - 20cm Globe: 3x 24pF 564RC0GAJ602EJ240J
-- 13cm Globe: 5x 12pF CGP1C120KNSDAAWL25
+- 13cm Globe: 3x 12pF CGP1C120KNSDAAWL25
 
 Gate-Source Cap:
 - 20cm Globe: 2.7nF + 3.6nF + 1.8nF + 1.8nF

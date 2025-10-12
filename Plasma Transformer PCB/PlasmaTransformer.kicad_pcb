@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Plasma Transformer")
-		(rev "4")
+		(rev "5")
 		(company "E. CHIU | Circuits Performers LLC")
 	)
 	(layers
@@ -34,8 +34,8 @@
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
 		(39 "User.1" user)
-		(41 "User.2" user)
-		(43 "User.3" user)
+		(41 "User.2" user "F.CCmask")
+		(43 "User.3" user "B.CCmask")
 		(45 "User.4" user)
 	)
 	(setup
@@ -43,7 +43,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755757f)
+			(layerselection 0x00000000_00000000_55555f55_575775ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
@@ -141,7 +141,7 @@
 				)
 			)
 		)
-		(property "Value" "300V"
+		(property "Value" "300V GDT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d4c7c8ca-b1a2-4961-b02c-9afb3abbd739")
@@ -165,7 +165,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GDT 300V 2KA 2 POLE SMD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -392,7 +392,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED 1206, AMBER"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -656,7 +656,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -775,7 +775,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Description" "Rocker Switch, SPDT, 7.5A, 125V"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1014,7 +1014,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1046,6 +1046,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "05915771-3b15-4270-8bac-c3b1fab8aea7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d65bed10-6281-420c-88e7-766eea34df79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "1000V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62568123-179f-4c92-b718-855cd220732c")
 			(effects
 				(font
 					(size 1 1)
@@ -1243,7 +1269,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1365,7 +1391,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1594,7 +1620,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1716,7 +1742,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1748,6 +1774,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a8147c6c-ecc2-4e89-9d6f-28374f2f7131")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72e33aa7-1780-44c7-86a8-57377d0afab5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "500V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d1c05c7-c214-403b-b713-ad08e7eb79cb")
 			(effects
 				(font
 					(size 1 1)
@@ -1944,7 +1996,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Diode, SMF, Fast Recovery, 1200Vrmax"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2002,6 +2054,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c081c955-bd8e-4631-9663-198fba476360")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "1200V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39d26576-b9ce-44f7-80e4-3d720a3529da")
 			(effects
 				(font
 					(size 1 1)
@@ -2269,7 +2334,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "PCB TERMINAL BLOCK, SINGLE, LEVER, 4 MM"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3061,7 +3126,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3182,7 +3247,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1210"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3435,7 +3500,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Wire Connection, Thru-Hole, 1.25mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3452,7 +3517,7 @@
 		(path "/ab59efa8-ce94-47a8-ab0b-39e49fc399f5")
 		(sheetname "/")
 		(sheetfile "PlasmaTransformer.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files dnp)
 		(fp_line
 			(start -1.9 -1.78)
 			(end -1.9 1.78)
@@ -3581,7 +3646,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1210"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3834,7 +3899,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Diode, SMF, Fast Recovery, 1200Vrmax"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3892,6 +3957,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c161bec-d5f4-4ab4-bb27-9e8f2a358d88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "1200V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f879ccb7-12c4-48d6-bbf1-e5de779a9185")
 			(effects
 				(font
 					(size 1 1)
@@ -4136,7 +4214,7 @@
 				)
 			)
 		)
-		(property "Value" "5.0SMDJ15CA"
+		(property "Value" "15V TVS"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "e76292c7-7157-4682-92f4-aed8d3851a2c")
@@ -4160,7 +4238,7 @@
 				)
 			)
 		)
-		(property "Description" "400W bidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)"
+		(property "Description" "400W bidirectional TVS Diode, 15.0Vr, SMA(DO-214AC)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4905,7 +4983,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1812"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5132,7 +5210,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 0805"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5385,7 +5463,7 @@
 				)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "Coaxial Connector SMA, Vertical"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5692,7 +5770,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5724,6 +5802,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "380dd321-88a9-4022-806d-9286c30812b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e8b44f0-6c79-48d4-939b-a1cef9784608")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "1000V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c431b3a-9d77-4605-b764-a5032da041e0")
 			(effects
 				(font
 					(size 1 1)
@@ -5918,7 +6022,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "2x04 SMD Pin Header, 2.54mm pitch"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6559,7 +6663,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 0805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6788,7 +6892,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6911,7 +7015,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7032,7 +7136,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "2x04 SMD Pin Header, 2.54mm pitch"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7663,7 +7767,7 @@
 				)
 			)
 		)
-		(property "Description" "FAN AXIAL 92X25.4MM 24VDC WIRE"
+		(property "Description" "FAN AXIAL 92X20MM 12VDC WIRE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7676,7 +7780,7 @@
 				)
 			)
 		)
-		(property "MPN" "AFB0924VH-R00"
+		(property "MPN" "AFB0912VHD-F00"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8046,7 +8150,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8078,6 +8182,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "99a4befd-4805-4b19-b823-53ceb9078bab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59fdb8cd-11e4-43c3-bafb-f6b2377a2b4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "2000V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c79c4759-912c-48d4-9d1d-a351143be96e")
 			(effects
 				(font
 					(size 1 1)
@@ -8274,7 +8404,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1111"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8306,6 +8436,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "55f8e6ea-9fdf-4d35-99aa-f48a40eb1cd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "312ba16a-8de6-4a13-a4f4-fc29db2f6555")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "2000V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a17094e7-aaaf-49d8-b899-a7f9f3c899a5")
 			(effects
 				(font
 					(size 1 1)
@@ -8503,7 +8659,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8625,7 +8781,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 24PF 6KV NP0 RADIAL DISC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8657,6 +8813,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2b31ef89-8eba-48f0-951a-3fbfcc40e9c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f936426-f734-4e2d-91b6-6605b6dfb50b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "6000V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42152008-8784-4b9b-808b-ad98f482dee8")
 			(effects
 				(font
 					(size 1 1)
@@ -8895,7 +9077,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Wire Connection, Thru-Hole, 1.4mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8912,7 +9094,7 @@
 		(path "/a14743a5-ba10-4aaf-81ee-0e50c66c2c43")
 		(sheetname "/")
 		(sheetfile "PlasmaTransformer.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files dnp)
 		(fp_line
 			(start -2.1 -1.88)
 			(end -2.1 1.88)
@@ -9042,7 +9224,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9074,6 +9256,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a02c6418-655d-4f9c-be9c-f9c9cce60ea2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "034086a2-8a93-43ec-b658-56eed467967e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "2000V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67992389-7938-42b2-89ed-4880a8587975")
 			(effects
 				(font
 					(size 1 1)
@@ -9313,6 +9521,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ce9255ae-165a-4c35-bab9-267c9e4ae38b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "Al Elec"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c16c251-df4d-48cf-9fa6-568dec69aed1")
 			(effects
 				(font
 					(size 1 1)
@@ -9740,7 +9961,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 0805"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9967,7 +10188,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 0805"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10207,7 +10428,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10239,6 +10460,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "928d6c91-6097-4913-89a8-0399564b2b7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27471963-1924-4499-b857-b6fd3eab8c31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "2000V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ef2c382-e084-44ff-8f80-f7b2d7c02855")
 			(effects
 				(font
 					(size 1 1)
@@ -10435,7 +10682,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 24PF 6KV NP0 RADIAL DISC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10467,6 +10714,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "97565ea9-6321-47a5-9d45-9f9b5ac3c671")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b29a93d5-31cb-42a3-9e98-d25e739d32b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "6000V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9923277-7993-46c0-8f84-3aabdebe77ad")
 			(effects
 				(font
 					(size 1 1)
@@ -10705,7 +10978,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 24PF 6KV NP0 RADIAL DISC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10737,6 +11010,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "85685d2e-cb23-40be-81ca-8b09945251c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4eb193cf-3184-46ec-8725-cb31a4129448")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "6000V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40f1337e-d173-4e4f-974c-a1dea09d7507")
 			(effects
 				(font
 					(size 1 1)
@@ -10974,7 +11273,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "FIXED IND 22UH 2.2A 181.5 MOHM"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11110,7 +11409,7 @@
 		(descr "Diode SMF (DO-219AB), http://www.vishay.com/docs/95572/smf_do-219ab.pdf")
 		(tags "Diode SMF (DO-214AB)")
 		(property "Reference" "D8"
-			(at 0.1 1.95 180)
+			(at 3.4 -0.05 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "37b9119f-c75f-46c2-af3f-4c0a09704c9a")
@@ -11145,7 +11444,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Diode, SMF, Fast Recovery, 1200Vrmax"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11203,6 +11502,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "de2b857b-e2a2-4ca3-bf98-6e5b5c6d4443")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "1200V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a699f90-f25e-4b45-b06d-b422c2a296cf")
 			(effects
 				(font
 					(size 1 1)
@@ -11470,7 +11782,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "PCB TERMINAL BLOCK, SINGLE, LEVER, 4 MM"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11825,7 +12137,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 24PF 6KV NP0 RADIAL DISC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11857,6 +12169,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d40a3fbf-a40b-43e9-834a-edb0e7989883")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "898c40b0-d9a2-4bb0-8c72-8cbee001537b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "6000V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "699b2c8c-9714-4cc6-9523-19a2ab3d0100")
 			(effects
 				(font
 					(size 1 1)
@@ -12095,7 +12433,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12127,6 +12465,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "577902d1-3290-4454-8288-bb7066bbed38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "730c220a-b58c-4e89-895c-b7a9e243c358")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "500V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3deec5f0-09c2-495d-83b7-e66a3c819990")
 			(effects
 				(font
 					(size 1 1)
@@ -12323,7 +12687,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1206"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12355,6 +12719,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4df3f754-2b39-4260-b582-6402345e8702")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d3564b9-ab0a-4097-a911-9847164b9e91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "500V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78577076-8dfa-4408-9e42-a2c958039dfa")
 			(effects
 				(font
 					(size 1 1)
@@ -12936,7 +13326,7 @@
 				)
 			)
 		)
-		(property "Value" "10V"
+		(property "Value" "10V Zener"
 			(at 0 2.6 0)
 			(layer "F.Fab")
 			(uuid "4ab38c04-c9ae-4323-896f-3503f2a201d9")
@@ -12960,7 +13350,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "Zener diode SMA, 10V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13261,7 +13651,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13383,7 +13773,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13609,7 +13999,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "PCB Inductor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13855,7 +14245,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1111"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13887,6 +14277,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7ca366c1-040e-4fca-9355-460fb238d406")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56c61038-997e-42db-b67d-0a3148ff2021")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "2000V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda3b322-2f0b-4e57-b557-fd8875b9c313")
 			(effects
 				(font
 					(size 1 1)
@@ -14082,7 +14498,7 @@
 				)
 			)
 		)
-		(property "Description" "IC REG BUCK ADJ 1A SOT23-6"
+		(property "Description" "IC REG BUCK ADJ 1A 1.1MHz SOT23-6"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14434,7 +14850,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 0805"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14686,7 +15102,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 0805"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14939,7 +15355,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14971,6 +15387,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1146be5d-1506-4edd-ace4-60b4678973d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29c3bfdb-471f-4de6-9197-b2e72005782d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "1000V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22375297-b420-44b0-827e-e008e55bc1a0")
 			(effects
 				(font
 					(size 1 1)
@@ -15167,7 +15609,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 24PF 6KV NP0 RADIAL DISC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15199,6 +15641,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "be08abf3-f57d-4bf7-b09c-7f3c22d19f44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eef0dede-9752-4e77-a969-133f15972537")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "6000V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "576cbfab-7e95-4620-a387-b29e8af3f986")
 			(effects
 				(font
 					(size 1 1)
@@ -15543,7 +16011,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15575,6 +16043,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fb79f386-d73c-44fa-83f6-835f1282a69b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2cdceda-b840-424a-8f79-61b96bc6ca43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "1000V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "369db2fe-fe93-4438-82ab-bbad35ceb0f8")
 			(effects
 				(font
 					(size 1 1)
@@ -15771,7 +16265,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 0805"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16024,7 +16518,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 24PF 6KV NP0 RADIAL DISC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16056,6 +16550,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "41c47e37-804f-4459-8f57-cc5eb0467b80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebd39f21-9ed1-4c9f-8f17-3b25af20ca06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "6000V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ae8b212-48bf-4794-9dfb-faa8c93f5968")
 			(effects
 				(font
 					(size 1 1)
@@ -16294,7 +16814,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 2010"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16521,7 +17041,7 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer with a mounting pin"
+		(property "Description" "POT 1K OHM 1/20W CARBON LINEAR, NO SWITCH, DUAL GANG"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16930,7 +17450,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17051,7 +17571,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 0805"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17305,11 +17825,37 @@
 				)
 			)
 		)
+		(property "MPN" "SK 594 37,5 AL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "234e937c-2078-4b61-8383-66d374877c5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Fischer"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09e2cb9b-4fc6-447f-8682-68dd8d4a0ad7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Heatsink_*")
 		(path "/28bbe416-852a-4c72-8ad9-b0d31dc08649")
 		(sheetname "/")
 		(sheetfile "PlasmaTransformer.kicad_sch")
-		(attr through_hole allow_missing_courtyard dnp)
+		(attr through_hole allow_missing_courtyard)
 		(fp_line
 			(start -37.6 -18.9)
 			(end -37.6 18.9)
@@ -17502,7 +18048,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17534,6 +18080,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4ec5c0be-0ce1-467c-8dfd-a8e08e5bc3aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a651a88-c761-427b-b515-92d80b87a92d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "1000V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7b9529b-d42f-48cc-bdb8-ef73562ad546")
 			(effects
 				(font
 					(size 1 1)
@@ -17731,7 +18303,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17853,7 +18425,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Wire Connection, Thru-Hole, 1.4mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17870,7 +18442,7 @@
 		(path "/831c9d29-6747-488a-9de1-774b42777389")
 		(sheetname "/")
 		(sheetfile "PlasmaTransformer.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files dnp)
 		(fp_line
 			(start -2.1 -1.88)
 			(end -2.1 1.88)
@@ -18000,7 +18572,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 0805"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18229,7 +18801,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18351,7 +18923,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18383,6 +18955,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5219527c-2165-4e17-bd75-575899d7707c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56154c21-cc68-489e-9180-ad969944884f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "500V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b39a733-5339-44e6-8e35-c7fdcc688fbc")
 			(effects
 				(font
 					(size 1 1)
@@ -18579,7 +19177,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 2010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18807,7 +19405,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1111"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18839,6 +19437,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "29aea088-b92a-4d2e-b13b-bf6ef36fbbd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5f9af7d-f202-41af-83df-0147c76b4976")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "2000V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97143b3b-4e39-4d70-b634-ecdbf8f8c40f")
 			(effects
 				(font
 					(size 1 1)
@@ -19189,7 +19813,7 @@
 				)
 			)
 		)
-		(property "Description" "Depletion-mode N-channel MOSFET gate/drain/source"
+		(property "Description" "MOSFET N-CH 200V 50A TO247AC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19540,7 +20164,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 2010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19733,7 +20357,7 @@
 		(descr "Diode SMF (DO-219AB), http://www.vishay.com/docs/95572/smf_do-219ab.pdf")
 		(tags "Diode SMF (DO-214AB)")
 		(property "Reference" "D7"
-			(at 0 -2 180)
+			(at -3.5 -0.05 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9147b51b-6916-450c-a58d-4283a446c7a6")
@@ -19768,7 +20392,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Diode, SMF, Fast Recovery, 1200Vrmax"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19826,6 +20450,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fba9ea36-3594-470f-a3fd-1e4a70a3a526")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "1200V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63e55207-b040-44fd-a789-f9396d365d49")
 			(effects
 				(font
 					(size 1 1)
@@ -20095,7 +20732,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Single pin socket 0.60-0.85mm dia, press-fit"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20217,7 +20854,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1111"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20249,6 +20886,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d806f2ac-b084-4b35-8608-8bf772e8abdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e130c80-9b6b-43f8-a082-bdeb1ec6f907")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "2000V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b4277b0-20d9-467e-81c3-ecd56ff375d7")
 			(effects
 				(font
 					(size 1 1)
@@ -20445,7 +21108,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1812"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20477,6 +21140,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6126fd4f-37ff-4ca8-abd1-8baf23f1f68c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29ae1b40-598e-4c77-ba01-8eed718ce85e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "2000V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38f45ba8-43f6-4757-aeda-b23533a71e12")
 			(effects
 				(font
 					(size 1 1)
@@ -20674,7 +21363,7 @@
 				)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "Coaxial Connector SMA, Vertical"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20946,7 +21635,7 @@
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J2"
-			(at 1.25 3.55 90)
+			(at 6.3 -0.225 90)
 			(layer "B.SilkS")
 			(uuid "5b8b53bd-74a0-489b-8c0e-1bacee467e87")
 			(effects
@@ -20982,7 +21671,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST XH Pin Header 01x02, 2.5mm pitch"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21416,10 +22105,20 @@
 			)
 		)
 	)
+	(gr_line
+		(start 87.9 132.3)
+		(end 67.8 132.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "31a54174-9bcd-439b-83ed-e4e6a2454839")
+	)
 	(gr_arc
-		(start 79.478331 128.009498)
-		(mid 81.25 129.5)
-		(end 80.980416 131.799494)
+		(start 118.728331 124.609498)
+		(mid 120.5 126.1)
+		(end 120.230416 128.399494)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -21427,16 +22126,66 @@
 		(layer "F.SilkS")
 		(uuid "347cbd7e-67f8-4010-b240-bd3c57090432")
 	)
+	(gr_line
+		(start 67.8 132.3)
+		(end 67.8 126.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6febe257-9a24-4241-bc21-9b62d77db571")
+	)
+	(gr_line
+		(start 89.9 130.9)
+		(end 87.9 130.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7de2152e-127e-4c14-88d3-e361c9942e58")
+	)
+	(gr_line
+		(start 89.9 126.1)
+		(end 89.9 130.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8d776cf1-d575-42d2-a0ca-34685abf0990")
+	)
 	(gr_arc
-		(start 78.924979 129.681002)
-		(mid 80.680636 129.348404)
-		(end 82.380416 129.899494)
+		(start 118.174979 126.281002)
+		(mid 119.930636 125.948404)
+		(end 121.630416 126.499494)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "adfce2a8-0a75-4f87-af05-b5f41cd6a50a")
+	)
+	(gr_line
+		(start 67.8 126.1)
+		(end 89.9 126.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b7695bfb-9c00-46e3-a113-4ef98cb341d9")
+	)
+	(gr_line
+		(start 87.9 130.9)
+		(end 87.9 132.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "de57850e-01f3-45c1-be0b-3fdb71db57e8")
 	)
 	(gr_line
 		(start 145 55)
@@ -21477,6 +22226,237 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f254a136-e42d-4540-a49e-15de0f289437")
+	)
+	(gr_circle
+		(center 72.497056 121.4)
+		(end 73.697056 122.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "00005a48-ef29-45b7-a2d5-159f62791d96")
+	)
+	(gr_circle
+		(center 94.497056 111.5)
+		(end 95.697056 112.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "2a80e6a8-2541-4c62-9fc5-8ec6e0f7775e")
+	)
+	(gr_rect
+		(start 71.5 99)
+		(end 83.5 106)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "4a64bb21-5b63-4cff-9d67-2a52adb8a56e")
+	)
+	(gr_circle
+		(center 60.9 111.8)
+		(end 63.802944 116.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "4c99357f-d524-48c5-865a-cb424e52bc2f")
+	)
+	(gr_circle
+		(center 88.997056 111.5)
+		(end 90.197056 112.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "4fab65e6-b8b2-4ebc-b1f0-33ef19acc4b7")
+	)
+	(gr_rect
+		(start 72.5 52.5)
+		(end 79 57)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "752332b6-c1f1-420d-9131-8121aeb8542e")
+	)
+	(gr_rect
+		(start 88 32.5)
+		(end 100.5 55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "7cc31ce0-70ef-46b1-ae6a-ac5c16d16b00")
+	)
+	(gr_circle
+		(center 67 121.5)
+		(end 68.2 122.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "7fdf9402-2f17-455b-8b1f-a68328362eb9")
+	)
+	(gr_circle
+		(center 83.497056 111.4)
+		(end 84.697056 112.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "851a1197-007e-423c-bee9-e0a06e262443")
+	)
+	(gr_rect
+		(start 100.5 85)
+		(end 107.5 97)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "89ef27fb-7e21-490d-ad18-e4f6c538f9ce")
+	)
+	(gr_circle
+		(center 77.997056 121.5)
+		(end 79.197056 122.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "8f7952bd-7546-4ab3-94f7-023b6d57a7f9")
+	)
+	(gr_circle
+		(center 83.497056 121.5)
+		(end 84.697056 122.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "9fdc79c4-6ddf-491b-9866-3d78c2cf954a")
+	)
+	(gr_circle
+		(center 94.497056 121.5)
+		(end 95.697056 122.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "a87a9150-bae9-4435-abce-a49088b7943e")
+	)
+	(gr_circle
+		(center 77.997056 111.5)
+		(end 79.197056 112.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "c95c841b-4d51-4415-9733-2230eb06de21")
+	)
+	(gr_rect
+		(start 118 52)
+		(end 130.5 57.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "cb02aebb-20eb-4c1d-9462-00874e0c62ae")
+	)
+	(gr_circle
+		(center 88.997056 121.5)
+		(end 90.197056 122.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "cd7b1272-f85b-463f-9a00-f426952b7be4")
+	)
+	(gr_rect
+		(start 101.9 126.5)
+		(end 108.7 143.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "d351e113-4ab8-485d-aee7-0349d451636d")
+	)
+	(gr_rect
+		(start 92.7 126.5)
+		(end 99.5 143.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "dba3ff41-883b-4de6-9674-9af6284f36e6")
+	)
+	(gr_circle
+		(center 72.497056 111.4)
+		(end 73.697056 112.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "ebf3b8a2-c4bb-4e5f-8663-64f2da41056e")
+	)
+	(gr_circle
+		(center 67.097056 111.4)
+		(end 68.297056 112.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "fefe2eac-81cd-4c88-a30f-06013537e4b1")
+	)
+	(gr_rect
+		(start 138.5 65.5)
+		(end 145 74)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.3")
+		(uuid "41bc7aed-97ec-4f4f-965f-4907b5d0ea19")
 	)
 	(gr_text "EXPERIMENTAL!\nISOLATION REQ'D!\nNOT AUDIO IN!"
 		(at 72.5 62.2 180)
@@ -21637,8 +22617,21 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "SN"
+		(at 90.1 131.1 180)
+		(layer "F.SilkS")
+		(uuid "c2928ff5-0a7a-4994-86fc-65c859168945")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "IGNITER\nDESIGN BY\n@LTWIN8"
-		(at 118.6 126.1 180)
+		(at 117 126.1 180)
 		(layer "F.SilkS")
 		(uuid "c70ba010-8101-44fc-8afa-e1c116b2d3d7")
 		(effects
@@ -21659,6 +22652,18 @@
 				(thickness 0.25)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "FAB NOTES:\n1. FINISH: HASL LEAD FREE, ALTERNATE ENIG OK\n2. SOLDERMASK: WHITE\n3. SILKSCREEN: BLACK\n4. LAYERS: 2\n5. TOP AND BOTTOM WEIGHT: 1OZ\n6. INNER LAYERS WEIGHT: 1OZ\n7. TRACE/SPACE: 6MIL/6MIL\n8. MINIMUM DRILL: 0.3MM\n9. FINISHED THICKNESS: 1.6MM\n10: CONTROLLED IMPEDANCE: NO\n11. ITAR: NO\n12. BOARD DIMENSIONS: 90MM x 90MM\n\nASSY NOTES:\n1. CLASS 2 ASSEMBLY\n2. LEAD-FREE SOLDER\n3. DO NOT POPULATE REFERENCE DESIGNATORS THAT ARE MARKED IN THE BOM AS DNP.\n4. J7, J9, J10, J13-J21 ARE PRESS-FIT.  DO NOT SOLDER.\n5. POLARITY MARKERS\n    - PIN 1 IS MARKED BY A DOT, TRIANGLE, BEVEL, OR SQUARE PTH PAD\n    - POSITIVE TERMINAL FOR POLARIZED CAPACITORS IS INDICATED BY A '+' SYMBOL\n    - CATHODE TERMINAL FOR DIODES AND LEDS IS INDICATED BY A CLOSED SILKSCREEN END\n6. IF OUTDOOR USE IS REQUIRED, CONFORMAL COAT ACRYLIC CA3002 OR EQUIVALENT, AFTER Q1 AND STRIKER WIRE ARE INSTALLED.\n   MASK AREAS INDICATED BY COLOR AREAS ON LAYERS F.CCmask and B.CCmask"
+		(at 162.4 77.6 0)
+		(layer "F.Fab")
+		(uuid "cf152016-86c1-493a-b161-36a7352866b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
 		)
 	)
 	(segment
@@ -22941,6 +23946,15 @@
 		(uuid "fe7dadee-b0f3-4679-a8a5-a83621b108d5")
 	)
 	(via
+		(at 137 128.5)
+		(size 1)
+		(drill 0.6)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 30)
+		(uuid "4d4af490-d651-477a-856a-e95d97893515")
+	)
+	(via
 		(at 68 92)
 		(size 1)
 		(drill 0.6)
@@ -22949,13 +23963,13 @@
 		(uuid "6c6d38d0-713b-4ede-a7f6-f1e2d4d9a60c")
 	)
 	(via
-		(at 138 128.5)
+		(at 132.3 124.6)
 		(size 1)
 		(drill 0.6)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net 30)
-		(uuid "bfe3c0d0-78f1-47c9-a5f2-c8a524db0bff")
+		(uuid "89f0e4d3-f318-414b-a54a-b6bfceedfe1e")
 	)
 	(via
 		(at 122.5 125)
@@ -22967,7 +23981,7 @@
 		(uuid "ca274a39-4daa-4a08-843e-4c35a3c09955")
 	)
 	(via
-		(at 120.5 128.5)
+		(at 120.6 130)
 		(size 1)
 		(drill 0.6)
 		(layers "F.Cu" "B.Cu")
@@ -23851,30 +24865,24 @@
 				(xy 134.878313 71.35095) (xy 135.114535 71.253104) (xy 135.335965 71.125261) (xy 135.538813 70.96961)
 				(xy 135.71961 70.788813) (xy 135.875261 70.585965) (xy 136.003104 70.364535) (xy 136.10095 70.128313)
 				(xy 136.156226 69.922019) (xy 136.19259 69.86236) (xy 136.255437 69.831831) (xy 136.324812 69.840126)
-				(xy 136.37869 69.884611) (xy 136.399965 69.951163) (xy 136.4 69.954114) (xy 136.4 79.783717) (xy 136.380315 79.850756)
-				(xy 136.363681 79.871398) (xy 136.012221 80.222858) (xy 136.012218 80.222861) (xy 135.94254 80.292538)
-				(xy 135.872863 80.362215) (xy 135.822146 80.438116) (xy 135.817612 80.444459) (xy 135.81258 80.451051)
-				(xy 135.807288 80.456344) (xy 135.802015 80.464891) (xy 135.798273 80.469795) (xy 135.774877 80.486969)
-				(xy 135.753295 80.506381) (xy 135.74705 80.507397) (xy 135.74195 80.511141) (xy 135.71298 80.51294)
-				(xy 135.684332 80.517602) (xy 135.678529 80.51508) (xy 135.672215 80.515473) (xy 135.646872 80.501325)
-				(xy 135.62025 80.489758) (xy 135.614721 80.483377) (xy 135.611208 80.481416) (xy 135.608294 80.47596)
-				(xy 135.594168 80.459656) (xy 135.592319 80.456659) (xy 135.592316 80.456655) (xy 135.510562 80.374901)
-				(xy 135.477077 80.313578) (xy 135.482061 80.243886) (xy 135.514774 80.198961) (xy 135.513237 80.197424)
-				(xy 135.642315 80.068345) (xy 135.734356 79.919124) (xy 135.734358 79.919119) (xy 135.789505 79.752697)
-				(xy 135.789506 79.75269) (xy 135.799999 79.649986) (xy 135.8 79.649973) (xy 135.8 79) (xy 135.225 79)
-				(xy 135.225 80.05441) (xy 135.247166 80.095004) (xy 135.25 80.121362) (xy 135.25 82.631) (xy 135.230315 82.698039)
-				(xy 135.177511 82.743794) (xy 135.126 82.755) (xy 134.8625 82.755) (xy 134.8625 84.076) (xy 134.842815 84.143039)
-				(xy 134.790011 84.188794) (xy 134.7385 84.2) (xy 134.3865 84.2) (xy 134.319461 84.180315) (xy 134.273706 84.127511)
-				(xy 134.2625 84.076) (xy 134.2625 83.55) (xy 133.416704 83.55) (xy 133.448718 83.660198) (xy 133.448722 83.660208)
-				(xy 133.449716 83.661888) (xy 133.450093 83.663375) (xy 133.451817 83.667359) (xy 133.451174 83.667637)
-				(xy 133.466893 83.729613) (xy 133.451378 83.782451) (xy 133.451817 83.782641) (xy 133.450278 83.786196)
-				(xy 133.449716 83.788112) (xy 133.448722 83.789791) (xy 133.448716 83.789806) (xy 133.4029 83.947504)
-				(xy 133.402899 83.94751) (xy 133.400325 83.980228) (xy 133.375441 84.045517) (xy 133.319211 84.086988)
-				(xy 133.276707 84.0945) (xy 131.924 84.0945) (xy 131.923991 84.0945) (xy 131.92399 84.094501) (xy 131.816549 84.106052)
-				(xy 131.816537 84.106054) (xy 131.765027 84.11726) (xy 131.662502 84.151383) (xy 131.662496 84.151386)
-				(xy 131.541462 84.229171) (xy 131.541451 84.229179) (xy 131.488659 84.274923) (xy 131.394433 84.383664)
-				(xy 131.39443 84.383668) (xy 131.334664 84.514534) (xy 131.314976 84.581582) (xy 131.312596 84.598135)
-				(xy 131.2945 84.724) (xy 131.2945 92.976) (xy 131.294501 92.976009) (xy 131.306052 93.08345) (xy 131.306054 93.083462)
+				(xy 136.37869 69.884611) (xy 136.399965 69.951163) (xy 136.4 69.954114) (xy 136.4 79.433717) (xy 136.380315 79.500756)
+				(xy 136.363681 79.521398) (xy 136.012216 79.872863) (xy 135.989535 79.895543) (xy 135.928211 79.929027)
+				(xy 135.85852 79.924041) (xy 135.802587 79.882168) (xy 135.778172 79.816703) (xy 135.784151 79.768853)
+				(xy 135.789505 79.752696) (xy 135.789506 79.75269) (xy 135.799999 79.649986) (xy 135.8 79.649973)
+				(xy 135.8 79) (xy 135.225 79) (xy 135.225 80.05441) (xy 135.247166 80.095004) (xy 135.25 80.121362)
+				(xy 135.25 82.631) (xy 135.230315 82.698039) (xy 135.177511 82.743794) (xy 135.126 82.755) (xy 134.8625 82.755)
+				(xy 134.8625 84.076) (xy 134.842815 84.143039) (xy 134.790011 84.188794) (xy 134.7385 84.2) (xy 134.3865 84.2)
+				(xy 134.319461 84.180315) (xy 134.273706 84.127511) (xy 134.2625 84.076) (xy 134.2625 83.55) (xy 133.416704 83.55)
+				(xy 133.448718 83.660198) (xy 133.448722 83.660208) (xy 133.449716 83.661888) (xy 133.450093 83.663375)
+				(xy 133.451817 83.667359) (xy 133.451174 83.667637) (xy 133.466893 83.729613) (xy 133.451378 83.782451)
+				(xy 133.451817 83.782641) (xy 133.450278 83.786196) (xy 133.449716 83.788112) (xy 133.448722 83.789791)
+				(xy 133.448716 83.789806) (xy 133.4029 83.947504) (xy 133.402899 83.94751) (xy 133.400325 83.980228)
+				(xy 133.375441 84.045517) (xy 133.319211 84.086988) (xy 133.276707 84.0945) (xy 131.924 84.0945)
+				(xy 131.923991 84.0945) (xy 131.92399 84.094501) (xy 131.816549 84.106052) (xy 131.816537 84.106054)
+				(xy 131.765027 84.11726) (xy 131.662502 84.151383) (xy 131.662496 84.151386) (xy 131.541462 84.229171)
+				(xy 131.541451 84.229179) (xy 131.488659 84.274923) (xy 131.394433 84.383664) (xy 131.39443 84.383668)
+				(xy 131.334664 84.514534) (xy 131.314976 84.581582) (xy 131.312596 84.598135) (xy 131.2945 84.724)
+				(xy 131.2945 92.976) (xy 131.294501 92.976009) (xy 131.306052 93.08345) (xy 131.306054 93.083462)
 				(xy 131.31726 93.134972) (xy 131.351383 93.237497) (xy 131.351386 93.237503) (xy 131.429171 93.358537)
 				(xy 131.429179 93.358548) (xy 131.474923 93.41134) (xy 131.474926 93.411343) (xy 131.47493 93.411347)
 				(xy 131.583664 93.505567) (xy 131.583667 93.505568) (xy 131.583668 93.505569) (xy 131.701757 93.5595)
@@ -25167,14 +26175,14 @@
 				(xy 70.210001 76.872203) (xy 70.210001 76.872204) (xy 70.21 76.872204) (xy 70.1995 76.974983) (xy 70.1995 79.225001)
 				(xy 70.199501 79.225018) (xy 70.21 79.327796) (xy 70.210001 79.327799) (xy 70.238478 79.413736)
 				(xy 70.265186 79.494334) (xy 70.290773 79.535818) (xy 70.293539 79.540301) (xy 70.312 79.605398)
-				(xy 70.312 80.211042) (xy 70.323459 80.268651) (xy 70.323461 80.26866) (xy 70.324157 80.272157)
-				(xy 70.350449 80.404336) (xy 70.369157 80.4495) (xy 70.372456 80.457465) (xy 70.372457 80.457468)
-				(xy 70.425864 80.586406) (xy 70.425871 80.586419) (xy 70.53536 80.750282) (xy 70.679037 80.893959)
-				(xy 70.679059 80.893979) (xy 73.032235 83.247155) (xy 73.032264 83.247186) (xy 73.174717 83.389639)
-				(xy 73.250368 83.440187) (xy 73.338586 83.499132) (xy 73.338588 83.499133) (xy 73.338592 83.499135)
-				(xy 73.363812 83.509581) (xy 73.452427 83.546286) (xy 73.520664 83.574551) (xy 73.617312 83.593775)
-				(xy 73.689656 83.608165) (xy 73.713958 83.613) (xy 73.713959 83.613) (xy 73.71396 83.613) (xy 73.91104 83.613)
-				(xy 74.601459 83.613) (xy 79.744601 83.613) (xy 79.809697 83.631461) (xy 79.833732 83.646285) (xy 79.855666 83.659814)
+				(xy 70.312 80.211042) (xy 70.320607 80.254309) (xy 70.324157 80.272157) (xy 70.350449 80.404336)
+				(xy 70.362421 80.433238) (xy 70.366023 80.441934) (xy 70.366024 80.441938) (xy 70.425869 80.586417)
+				(xy 70.53536 80.750281) (xy 70.535363 80.750285) (xy 70.679037 80.893959) (xy 70.679059 80.893979)
+				(xy 73.032235 83.247155) (xy 73.032264 83.247186) (xy 73.174717 83.389639) (xy 73.250368 83.440187)
+				(xy 73.338586 83.499132) (xy 73.338588 83.499133) (xy 73.338592 83.499135) (xy 73.363812 83.509581)
+				(xy 73.452427 83.546286) (xy 73.520664 83.574551) (xy 73.617312 83.593775) (xy 73.689656 83.608165)
+				(xy 73.713958 83.613) (xy 73.713959 83.613) (xy 73.71396 83.613) (xy 73.91104 83.613) (xy 74.601459 83.613)
+				(xy 79.744601 83.613) (xy 79.809697 83.631461) (xy 79.833732 83.646285) (xy 79.855666 83.659814)
 				(xy 80.022203 83.714999) (xy 80.124991 83.7255) (xy 82.375008 83.725499) (xy 82.477797 83.714999)
 				(xy 82.644334 83.659814) (xy 82.673509 83.641818) (xy 82.690303 83.631461) (xy 82.755399 83.613)
 				(xy 85.151459 83.613) (xy 87.8755 83.613) (xy 87.942539 83.632685) (xy 87.988294 83.685489) (xy 87.9995 83.737)
