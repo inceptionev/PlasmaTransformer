@@ -21,7 +21,7 @@ This project mainly focuses on creating a driver and 3D-printed support structur
   - Provides directed airflow for cooling both the electronics and the globe for continuous use.
   - Supports the fan, board, coil, and globe with ideal spacing for achieving a levitating plasma halo.
   - Provides attachments for rubber bands to hold the globe in place for environments where the device may be in motion, or to attach a shade to make the plasma more visible in outdoor installations.
-  - Includes a cover and coil ring that prevents curious fingers away from the hazardous high-voltage parts. (But always practice caution aroung high voltage and RF)
+  - Includes a cover and coil ring that keeps curious fingers away from the hazardous high-voltage parts. (But caution is always advised around high voltage and RF)
 - 3D-printed assembly aids:
   - Coil forms for ease of making the plasma coil.
 
@@ -54,10 +54,11 @@ If you just want to print the files, look here:
 ## Additional Materials Needed:
 - 12 AWG magnet wire (2mm dia)
 - 12mm or 1/2" polyimide (kapton) tape
-- 4x M4*35mm self tapping screws
-- 4x M4*12mm self tapping screws
+- 4x M4*30mm self tapping screws
+- 4x M4*8mm self tapping screws
 - 4x M3 6x6mm Male/Female threaded standoff
 - 4x M3 6mm screws to mount PCB to heatsink
+- M3 washers and lockwashers
 - JST XHP-2 connector and contacts for fan
 - The appropriate capacitor values from the list below
 - Thermal pad for TO-247 MOSFET (example: SPK4-0.006-00-104)
@@ -65,34 +66,40 @@ If you just want to print the files, look here:
 - 4mm OD x 2.5mm ID PTFE tube (commonly sold as Bowden tube for 1.75mm filament 3D printers)
 
 ## Assembly instructions:
-- Assemble the PCB per the BOM EXCEPT for the MOSFET.  That component will be soldered last.
+- I recommend 3D-printing the coil forms and the spacer ring first, then the cooling shroud, cover, and foot.  You may also want to print a smaller coil form for pre-winding in the first batch, see coil instructions below.
+- The main cooling shroud may take 20+ hrs to print, so you can build the heatsink, coil and PCB while it is printing.
 - Prepare the heatsink
   - Drill and tap the holes in the heatsink.  They are all M3.  A DXF is provided if you wnat to use a CNC.
   - Mount the MOSFET into the heatsink with thermal pad LOOSELY (do not tighten yet)
   - Bend the MOSFET pins up 90 degrees
-  - Put the standoffs into the heatsink
-- Mount the heatsink to the PCB, threading the MOSFET pins through the holes in the board.  Make sure the MOSFET is loose so it can move into alighment with the board.
-- Now tighten the screw mounting the MOSFET to the heatsink.
+  - Install the standoffs into the heatsink
+- Assemble the PCB per the BOM EXCEPT for the MOSFET.  That component will be soldered last.
+- Mount the PCB to the heatsink with 4x M3x6mm screws, washers, and lockwashers, threading the MOSFET pins through the holes in the board.  Make sure the MOSFET is loose so it can move into alighment with the board.
+- Tighten the screws mounting the PCB to the heatsink first.
+- Then tighten the mounting screw of the MOSFET to the heatsink.
 - Solder the MOSFET in.
 - Add connector to the fan.  Pin 1 is positive.
-- Mount the foot and the fan to the bottom with the M4*35mm screws, threading the fan wires through the notch in the bottom.
-- Connect the fan to the PCB
-- Mount the PCB to the cooling shroud with the M4*12mm screws
 - Make the coil
   - Print out the coil form in the folder for the globe size you are using.
   - Push a length of 12AWG magnet wire in a length of insulating PTFE tube.  It helps if the tube and the wire are both straight.  Taping them to the edge of a table will accomplish this.
     - For the 13cm globe, push 171.6cm of wire into 151.6cm of PTFE tube.  Leave 10cm of wire sticking out at both ends.
 	- For the 20cm globe, push 203cm of wire into 175cm of of PTFE tube.  Leave 14cm of wire sticking out at both ends.
-  - First wrap the wire and insulator around an object slightly smaller than the coil form.  This will make wrapping on the coil form easier.
+  - First wrap the wire and insulator around an object slightly smaller than the coil form.  This will make wrapping on the coil form easier.  You can use the 13cm coil form as the pre-wind form for the 20cm coil. An stl file for an 80mm coil form is also provided to act as the pre-wind for the 13cm coil.
   - Wrap the slightly-smaller coil of wire and insulator onto the coil form.  Start at the lip, and work up from there in a clockwise direction with the lip facing away from you.  This ensures that the bottom coil connects to the RF Node (the right block on the PCB).  This is the higher voltage terminal, and having it on the bottom coil helps with levitation of the plasma.
     - 13cm Globe: you should get 4 coils, minus the 9mm gap where the ends meet.
 	- 20cm Globe: you should get 3 coils, minus the 9mm gap where the ends meet.
   - Use the slots in the coil form to tape up the coil so it holds its shape.  Polyimide (Kapton) tape is recommended.
   - Remove the coil from the form and wrap the coil again where the tail meets the coil
-  - Open the coil terminal latches and fit the coil into the assembly with the PCB, making bends to allow for the envelope of the globe.
+  - Open the coil terminal latches on the PCB and fit the coil into the assembly with the PCB, making bends to allow for the envelope of the globe.  Make an 'S' curve at the bottom of the coil wires where they exit the PCB blocks, to allow for adjusting the height.
   - Trim the coil tails if necessary.
-  - Burn about 12mm of insulation off the end of the coil tails and clean it up with sandpaper until you can see the shiny copper underneath.
-  - Latch the coil into the PCB.
+  - Burn about 12mm of insulation off the end of the coil tails and clean it up with sandpaper until you can see the shiny copper underneath.  A lighter works well for this.
+  - Install the coil spacer ring into the top of the coil, opposite of the direction where the wire tails go.
+- Mount the foot and the fan to the bottom with the M4*30mm screws, threading the fan wires through the notch in the bottom.  
+- Connect the fan to the PCB.  On the 20mm cooling shroud, a slot is provided in the wall next to the PCB to hold the fan connector temporarily for easy connecting and disconnecting.
+- Mount the PCB to the cooling shroud with the M4*8mm screws
+- Latch the coil into the PCB.
+- Screw in 5x M4x8mm screws into the bosses around the circumference of the cooling shroud. This can be used for shrouds or rubber bands to secure the globe.
+- Optionally install the cover into the cooling shroud.
 
 ## Known successful values from experimentation:
 
