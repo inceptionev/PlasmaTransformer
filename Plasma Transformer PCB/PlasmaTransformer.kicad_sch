@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Plasma Transformer")
-		(rev "5")
+		(rev "6")
 		(company "E. CHIU | Circuits Performers LLC")
 	)
 	(lib_symbols
@@ -353,6 +353,618 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ALibrary:IMT40R025M2HXTMA1"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IMT40R025M2HXTMA1"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-2_ThermalVias"
+				(at -23.622 -15.875 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-imt40r025m2h-datasheet-en.pdf"
+				(at -29.972 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET SIC N-Ch 400V 68A 25mohm HSOF-8"
+				(at 0.508 -13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel SiC MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "ST?PowerFLAT?HV*8x8mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IMT40R025M2HXTMA1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -3.175) (xy 2.54 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -3.175)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IMT40R025M2HXTMA1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Amplifier_Operational:LM358"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM358"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM358_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM358_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM358_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3602,188 +4214,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:Heatsink"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "HS"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Heatsink"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.3048 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0.3048 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Heatsink"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "thermal heat temperature"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Heatsink_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Heatsink_0_1"
-				(polyline
-					(pts
-						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
-						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
-						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
-						(xy -0.9652 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -4470,269 +4900,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET_Other:Q_NMOS_Depletion_GDS"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS_Depletion_GDS"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Depletion-mode N-channel MOSFET gate/drain/source"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NMOS_Depletion_GDS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NMOS_Depletion_GDS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "_Xenon:ZS_1052-S_HT(H)"
 			(pin_names
 				(offset 1.016)
@@ -5348,16 +5515,6 @@
 		)
 		(uuid "01b0d5d2-c0cf-4cc5-ba59-4db66722eeb4")
 	)
-	(text "Hole for TO-247 screw to heatsink"
-		(exclude_from_sim no)
-		(at 40.386 165.608 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1141e3f3-02e1-43ef-86cd-dcd51589d181")
-	)
 	(text "12V SUPPLY FOR FAN\nAND GATE CONTROL VREF"
 		(exclude_from_sim no)
 		(at 46.736 102.87 0)
@@ -5531,7 +5688,7 @@
 		)
 		(uuid "830a9446-85b3-48f6-aa22-bc0ab73bbed8")
 	)
-	(text "PLASMA TRANSFORMER REV 5"
+	(text "PLASMA TRANSFORMER REV 6"
 		(exclude_from_sim no)
 		(at 146.304 20.32 0)
 		(effects
@@ -5576,7 +5733,7 @@
 	)
 	(text "POWER SW"
 		(exclude_from_sim no)
-		(at 48.768 48.006 0)
+		(at 52.578 47.498 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5737,12 +5894,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30f6954d-e3a7-448e-adad-d4c44e70a38e")
-	)
-	(junction
-		(at 180.34 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "345f64df-0384-42df-922b-00d5cff31a67")
 	)
 	(junction
 		(at 66.04 38.1)
@@ -5931,6 +6082,12 @@
 		(uuid "b0442cd9-4b83-415d-89c9-39e308042ea5")
 	)
 	(junction
+		(at 180.34 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3f45305-22b5-43c6-a416-7bd8aeed74b1")
+	)
+	(junction
 		(at 264.16 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5989,6 +6146,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c717b4f6-25a1-4d88-85d5-63b9ffcf115e")
+	)
+	(junction
+		(at 186.69 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c797a6c3-e350-4ef9-8229-8bedcfdcc0e4")
 	)
 	(junction
 		(at 246.38 59.69)
@@ -6069,11 +6232,11 @@
 		(uuid "fcc656fa-5060-4dfc-83af-29469cf19051")
 	)
 	(no_connect
-		(at 22.86 45.72)
+		(at 19.05 45.72)
 		(uuid "1beca9ce-f564-4c84-9ae1-3d050f4c4c16")
 	)
 	(no_connect
-		(at 43.18 40.64)
+		(at 46.99 40.64)
 		(uuid "350e526b-6540-4f62-b22f-c2609c3816d7")
 	)
 	(no_connect
@@ -6114,7 +6277,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 44.45) (xy 34.29 40.64)
+			(xy 41.91 44.45) (xy 41.91 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6164,16 +6327,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 40.64) (xy 30.48 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08032b55-f39e-4f3d-add4-32b9913a88a2")
-	)
-	(wire
-		(pts
 			(xy 246.38 71.12) (xy 246.38 74.93)
 		)
 		(stroke
@@ -6191,6 +6344,16 @@
 			(type default)
 		)
 		(uuid "0ab0ad6d-b61d-4660-8d6f-be9ad6793fd7")
+	)
+	(wire
+		(pts
+			(xy 186.69 57.15) (xy 186.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf364df-0e4b-4fb7-a7c5-970c637de62b")
 	)
 	(wire
 		(pts
@@ -6331,6 +6494,16 @@
 			(type default)
 		)
 		(uuid "1ee66f51-4ce1-4967-a33e-1c76a4b3b465")
+	)
+	(wire
+		(pts
+			(xy 186.69 49.53) (xy 190.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fdc6fa7-32e4-419d-a398-6968568f2e35")
 	)
 	(wire
 		(pts
@@ -6604,7 +6777,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 49.53) (xy 190.5 49.53)
+			(xy 185.42 49.53) (xy 186.69 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6614,7 +6787,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 35.56) (xy 43.18 35.56)
+			(xy 26.67 35.56) (xy 46.99 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7044,7 +7217,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 57.15) (xy 180.34 74.93)
+			(xy 180.34 57.15) (xy 180.34 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7544,16 +7717,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 57.15) (xy 182.88 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7664d21-8080-4f6e-8309-e3cebe19993f")
-	)
-	(wire
-		(pts
 			(xy 109.22 72.39) (xy 109.22 76.2)
 		)
 		(stroke
@@ -7631,6 +7794,16 @@
 			(type default)
 		)
 		(uuid "cef88fd4-52e1-4620-8c3f-8ed5597a80e1")
+	)
+	(wire
+		(pts
+			(xy 180.34 59.69) (xy 180.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d050a08c-ea8a-4e04-8696-5d973229ce21")
 	)
 	(wire
 		(pts
@@ -7724,7 +7897,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 38.1) (xy 59.69 38.1)
+			(xy 57.15 38.1) (xy 59.69 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7734,7 +7907,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 49.53) (xy 190.5 57.15)
+			(xy 190.5 49.53) (xy 190.5 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7761,6 +7934,16 @@
 			(type default)
 		)
 		(uuid "dcde4360-3117-446f-8e77-9c5db74669cf")
+	)
+	(wire
+		(pts
+			(xy 34.29 40.64) (xy 26.67 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd775d45-172a-4ace-ab96-594fa8f3cc2a")
 	)
 	(wire
 		(pts
@@ -7801,6 +7984,16 @@
 			(type default)
 		)
 		(uuid "e88ad3f9-a3b7-4b94-9301-a867325e7659")
+	)
+	(wire
+		(pts
+			(xy 180.34 59.69) (xy 182.88 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91bee64-512a-4a48-b99f-e2474fbbcbeb")
 	)
 	(wire
 		(pts
@@ -7851,6 +8044,16 @@
 			(type default)
 		)
 		(uuid "f44fd4bc-1a11-4d57-805a-01b33af6861d")
+	)
+	(wire
+		(pts
+			(xy 182.88 57.15) (xy 186.69 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5db71e9-31c5-4c5a-a2c9-547896c6fedd")
 	)
 	(wire
 		(pts
@@ -7982,6 +8185,16 @@
 		)
 		(uuid "962aeaa6-6b39-4984-97a5-2edfeb837bef")
 	)
+	(label "GND-IN"
+		(at 26.67 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab49aa62-194d-4021-8492-ba2739dfcf5d")
+	)
 	(label "REF10V"
 		(at 114.3 62.23 0)
 		(effects
@@ -8059,7 +8272,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ15CA")
-		(at 186.69 57.15 0)
+		(at 186.69 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8067,7 +8280,7 @@
 		(dnp no)
 		(uuid "028c8ab9-608c-4907-8069-cb368450c6c0")
 		(property "Reference" "D2"
-			(at 185.928 60.198 0)
+			(at 185.928 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8076,7 +8289,7 @@
 			)
 		)
 		(property "Value" "15V TVS"
-			(at 181.356 62.484 0)
+			(at 181.356 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8085,7 +8298,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 186.69 62.23 0)
+			(at 186.69 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,7 +8307,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 186.69 57.15 0)
+			(at 186.69 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8103,7 +8316,7 @@
 			)
 		)
 		(property "Description" "400W bidirectional TVS Diode, 15.0Vr, SMA(DO-214AC)"
-			(at 186.69 57.15 0)
+			(at 186.69 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +8325,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 186.69 57.15 90)
+			(at 186.69 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,7 +8334,7 @@
 			)
 		)
 		(property "MPN" "5.0SMDJ15CA"
-			(at 186.69 57.15 90)
+			(at 186.69 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,88 +9016,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 20.32 172.72 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28bbe416-852a-4c72-8ad9-b0d31dc08649")
-		(property "Reference" "HS1"
-			(at 24.13 169.5449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 24.13 172.0849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:Heatsink_75x37.5mm_Fischer_SK-594-37.5-AL"
-			(at 20.6248 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 20.6248 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heatsink, dxf in repo for drill and tap layout"
-			(at 20.32 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SK 594 37,5 AL"
-			(at 20.32 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Fischer"
-			(at 20.32 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
-					(reference "HS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 158.75 96.52 90)
 		(mirror x)
@@ -8912,7 +9043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 162.56 97.4852 0)
 			(effects
 				(font
@@ -8930,7 +9061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 1812"
+		(property "Description" "Capacitor 0805"
 			(at 158.75 96.52 0)
 			(effects
 				(font
@@ -8939,7 +9070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" "Samsung"
 			(at 158.75 96.52 0)
 			(effects
 				(font
@@ -8948,7 +9079,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "VJ1812A102JXFTW1HV"
+		(property "MPN" "CL21C102JCFNNNE"
 			(at 167.64 97.79 0)
 			(effects
 				(font
@@ -8966,7 +9097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "2000V"
+		(property "Voltage" "100V"
 			(at 158.75 96.52 0)
 			(effects
 				(font
@@ -9168,7 +9299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 160.3248 38.1 0)
 			(effects
 				(font
@@ -9186,7 +9317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 1812"
+		(property "Description" "Capacitor 1206"
 			(at 161.29 41.91 0)
 			(effects
 				(font
@@ -9195,7 +9326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Vishay"
 			(at 161.29 41.91 0)
 			(effects
 				(font
@@ -9204,7 +9335,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC1812JKNPOCBN221"
+		(property "MPN" "VJ1206A221JBGTW1HV"
 			(at 160.02 33.02 0)
 			(effects
 				(font
@@ -9529,7 +9660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 247.3452 101.6 0)
 			(effects
 				(font
@@ -9547,7 +9678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 1812"
+		(property "Description" "Capacitor 1206"
 			(at 246.38 97.79 0)
 			(effects
 				(font
@@ -9556,7 +9687,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1812C182JCGACTU"
+		(property "MPN" "CC1206JKNPOZBN182"
 			(at 246.38 97.79 0)
 			(effects
 				(font
@@ -9565,7 +9696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Manufacturer" "Yageo"
 			(at 246.38 97.79 0)
 			(effects
 				(font
@@ -9583,7 +9714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "500V"
+		(property "Voltage" "630V"
 			(at 246.38 97.79 0)
 			(effects
 				(font
@@ -10696,6 +10827,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 111.76 127 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61337b22-ae33-4a70-a6a3-8954de288c64")
+		(property "Reference" "U2"
+			(at 111.76 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 111.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7797b9fe-fa0f-461c-b71b-0ec35f6f8ea1")
+		)
+		(pin "3"
+			(uuid "13a5bd35-4e2a-4807-8d6f-084c0d034950")
+		)
+		(pin "1"
+			(uuid "d40a000b-32cc-4c83-8561-60822428b481")
+		)
+		(pin "6"
+			(uuid "bb26f227-91f1-4a9b-837c-2ab228a42577")
+		)
+		(pin "7"
+			(uuid "ed4792fd-cd9f-4abe-b526-ce88e115613c")
+		)
+		(pin "5"
+			(uuid "d4592623-1a72-43f8-9afa-844d64eb7aeb")
+		)
+		(pin "8"
+			(uuid "d9615ee4-a2a3-436a-9589-2327ee96ec36")
+		)
+		(pin "4"
+			(uuid "9a2d4277-3b62-4453-b721-bd7e6aa7ce49")
+		)
+		(instances
+			(project ""
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 240.03 67.31 0)
 		(unit 1)
@@ -10827,7 +11044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 134.9248 81.28 0)
 			(effects
 				(font
@@ -10845,7 +11062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 1812"
+		(property "Description" "Capacitor 0805"
 			(at 135.89 85.09 0)
 			(effects
 				(font
@@ -10854,7 +11071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" "Samsung"
 			(at 135.89 85.09 0)
 			(effects
 				(font
@@ -10863,7 +11080,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "VJ1812A102JXFTW1HV"
+		(property "MPN" "CL21C102JCFNNNE"
 			(at 134.62 76.2 0)
 			(effects
 				(font
@@ -10881,7 +11098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "2000V"
+		(property "Voltage" "100V"
 			(at 135.89 85.09 0)
 			(effects
 				(font
@@ -11107,7 +11324,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GDS")
+		(lib_id "ALibrary:IMT40R025M2HXTMA1")
 		(at 180.34 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11117,7 +11334,7 @@
 		(fields_autoplaced yes)
 		(uuid "69234008-b648-469e-b106-cb655e5f0ae0")
 		(property "Reference" "Q1"
-			(at 180.34 40.64 90)
+			(at 180.6067 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,15 +11342,36 @@
 			)
 		)
 		(property "Value" "Q_NMOS_Depletion_GDS"
-			(at 180.34 43.18 90)
+			(at 180.6067 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
-			(at 180.34 52.07 0)
+		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-2_ThermalVias"
+			(at 196.215 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-imt40r025m2h-datasheet-en.pdf"
+			(at 198.12 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET SIC N-Ch 400V 68A 25mohm HSOF-8"
+			(at 194.056 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11141,26 +11379,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 180.34 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET N-CH 200V 50A TO247AC"
-			(at 180.34 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "IRFP260NPBF"
-			(at 180.34 45.72 90)
+		(property "MPN" "IMT40R025M2HXTMA1"
+			(at 180.6067 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11184,6 +11404,12 @@
 		)
 		(pin "2"
 			(uuid "6dcc3426-2a8d-4309-973b-c8d21f67f18e")
+		)
+		(pin "4"
+			(uuid "df480227-a198-4eb1-96b6-3c0dcb659dba")
+		)
+		(pin "4"
+			(uuid "ec22579f-2a08-40bf-8ccd-4c246afd3947")
 		)
 		(instances
 			(project ""
@@ -11279,7 +11505,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.8nF"
+		(property "Value" "3.3nF"
 			(at 232.41 99.0599 0)
 			(effects
 				(font
@@ -11288,7 +11514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 229.5652 101.6 0)
 			(effects
 				(font
@@ -11306,7 +11532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 1812"
+		(property "Description" "Capacitor 1206"
 			(at 228.6 97.79 0)
 			(effects
 				(font
@@ -11315,7 +11541,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1812C182JCGACTU"
+		(property "MPN" "C3216C0G2E332K085AA"
 			(at 228.6 97.79 0)
 			(effects
 				(font
@@ -11324,7 +11550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Manufacturer" "TDK"
 			(at 228.6 97.79 0)
 			(effects
 				(font
@@ -11342,7 +11568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "500V"
+		(property "Voltage" "250V"
 			(at 228.6 97.79 0)
 			(effects
 				(font
@@ -11488,7 +11714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 260.0452 101.6 0)
 			(effects
 				(font
@@ -11506,7 +11732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 1812"
+		(property "Description" "Capacitor 1206"
 			(at 259.08 97.79 0)
 			(effects
 				(font
@@ -11515,7 +11741,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1812C182JCGACTU"
+		(property "MPN" "CC1206JKNPOZBN182"
 			(at 259.08 97.79 0)
 			(effects
 				(font
@@ -11524,7 +11750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Manufacturer" "Yageo"
 			(at 259.08 97.79 0)
 			(effects
 				(font
@@ -11542,7 +11768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "500V"
+		(property "Voltage" "630V"
 			(at 259.08 97.79 0)
 			(effects
 				(font
@@ -11593,7 +11819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 137.4648 38.1 0)
 			(effects
 				(font
@@ -11611,7 +11837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 1812"
+		(property "Description" "Capacitor 1206"
 			(at 138.43 41.91 0)
 			(effects
 				(font
@@ -11620,7 +11846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Vishay"
 			(at 138.43 41.91 0)
 			(effects
 				(font
@@ -11629,7 +11855,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC1812JKNPOCBN221"
+		(property "MPN" "VJ1206A221JBGTW1HV"
 			(at 137.16 33.02 0)
 			(effects
 				(font
@@ -11762,6 +11988,91 @@
 			(project ""
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 38.1 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7546631f-2824-40e9-9145-2b9e7fbedfab")
+		(property "Reference" "R11"
+			(at 38.1 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.05"
+			(at 38.1 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 38.1 42.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRA2512-FZ-R050ELF"
+			(at 38.1 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 38.1 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d367da89-434a-486b-af0f-168489d1b87e")
+		)
+		(pin "2"
+			(uuid "f9cccf04-dae1-475d-a808-3ce062acd5f0")
+		)
+		(instances
+			(project ""
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -12392,7 +12703,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.7nF"
+		(property "Value" "3.3nF"
 			(at 219.71 99.0599 0)
 			(effects
 				(font
@@ -12401,7 +12712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 216.8652 101.6 0)
 			(effects
 				(font
@@ -12419,7 +12730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 1812"
+		(property "Description" "Capacitor 1206"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -12428,7 +12739,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1812GC272KAT1A"
+		(property "MPN" "C3216C0G2E332K085AA"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -12437,7 +12748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kyocera"
+		(property "Manufacturer" "TDK"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -12446,7 +12757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "NP0"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -12455,7 +12766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "2000V"
+		(property "Voltage" "250V"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -12646,6 +12957,92 @@
 			(project "PlasmaTransformer"
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 86.36 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84b09a95-56ca-4bea-b205-ec987c8e2624")
+		(property "Reference" "U2"
+			(at 86.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 86.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7797b9fe-fa0f-461c-b71b-0ec35f6f8ea1")
+		)
+		(pin "3"
+			(uuid "13a5bd35-4e2a-4807-8d6f-084c0d034950")
+		)
+		(pin "1"
+			(uuid "d40a000b-32cc-4c83-8561-60822428b481")
+		)
+		(pin "6"
+			(uuid "bb26f227-91f1-4a9b-837c-2ab228a42577")
+		)
+		(pin "7"
+			(uuid "ed4792fd-cd9f-4abe-b526-ce88e115613c")
+		)
+		(pin "5"
+			(uuid "d4592623-1a72-43f8-9afa-844d64eb7aeb")
+		)
+		(pin "8"
+			(uuid "d9615ee4-a2a3-436a-9589-2327ee96ec36")
+		)
+		(pin "4"
+			(uuid "9a2d4277-3b62-4453-b721-bd7e6aa7ce49")
+		)
+		(instances
+			(project ""
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -13106,7 +13503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 73.9648 38.1 0)
 			(effects
 				(font
@@ -13124,7 +13521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 1812"
+		(property "Description" "Capacitor 0805"
 			(at 74.93 41.91 0)
 			(effects
 				(font
@@ -13133,7 +13530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" "Samsung"
 			(at 74.93 41.91 0)
 			(effects
 				(font
@@ -13142,7 +13539,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "VJ1812A102JXFTW1HV"
+		(property "MPN" "CL21C102JCFNNNE"
 			(at 73.66 33.02 0)
 			(effects
 				(font
@@ -13160,7 +13557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "2000V"
+		(property "Voltage" "100V"
 			(at 74.93 41.91 0)
 			(effects
 				(font
@@ -13415,69 +13812,6 @@
 			(project "PlasmaTransformer"
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 20.32 161.29 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "9629dbdf-1568-479f-be6d-93293e7de7bf")
-		(property "Reference" "H2"
-			(at 19.05 157.226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Hole_Heatsink_Screw"
-			(at 22.86 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8"
-			(at 20.32 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 20.32 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 20.32 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -14166,7 +14500,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack_MountingPin")
-		(at 22.86 38.1 0)
+		(at 19.05 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14174,7 +14508,7 @@
 		(dnp no)
 		(uuid "a7eb2719-37cb-4225-ae0c-043aa2636c6f")
 		(property "Reference" "J1"
-			(at 22.86 28.448 0)
+			(at 19.05 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14182,7 +14516,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_MountingPin"
-			(at 22.86 31.75 0)
+			(at 19.05 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14191,7 +14525,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
-			(at 24.13 39.116 0)
+			(at 20.32 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14200,7 +14534,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 39.116 0)
+			(at 20.32 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14209,7 +14543,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with a mounting pin"
-			(at 22.86 38.1 0)
+			(at 19.05 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14218,7 +14552,7 @@
 			)
 		)
 		(property "Manufacturer" "CUI"
-			(at 22.86 38.1 0)
+			(at 19.05 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14227,7 +14561,7 @@
 			)
 		)
 		(property "MPN" "PJ-063AH"
-			(at 23.114 30.734 0)
+			(at 19.304 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14607,7 +14941,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 48.26 38.1 0)
+		(at 52.07 38.1 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14616,7 +14950,7 @@
 		(dnp no)
 		(uuid "b5761aa9-2c0b-4c12-b2dd-0aec19b4009d")
 		(property "Reference" "SW1"
-			(at 48.006 43.434 0)
+			(at 51.816 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14624,7 +14958,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 48.26 31.75 0)
+			(at 52.07 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14633,7 +14967,7 @@
 			)
 		)
 		(property "Footprint" "ALibrary:CKSW-E101J1AV2QE2"
-			(at 48.26 38.1 0)
+			(at 52.07 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14642,7 +14976,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 45.72 0)
+			(at 52.07 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14651,7 +14985,7 @@
 			)
 		)
 		(property "Description" "Rocker Switch, SPDT, 7.5A, 125V"
-			(at 48.26 38.1 0)
+			(at 52.07 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14660,7 +14994,7 @@
 			)
 		)
 		(property "Manufacturer" "C&K"
-			(at 48.26 38.1 0)
+			(at 52.07 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14669,7 +15003,7 @@
 			)
 		)
 		(property "MPN" "E101J1AV2QE2"
-			(at 48.514 45.466 0)
+			(at 52.324 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14932,16 +15266,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 44.45 0)
+		(at 41.91 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be6e52bb-7ba6-4ed3-8f5e-8c5a934035e3")
 		(property "Reference" "#PWR02"
-			(at 34.29 50.8 0)
+			(at 41.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14950,7 +15283,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 49.53 0)
+			(at 41.91 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14958,7 +15291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 44.45 0)
+			(at 41.91 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14967,7 +15300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 44.45 0)
+			(at 41.91 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14976,7 +15309,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 44.45 0)
+			(at 41.91 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15603,7 +15936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 152.7048 38.1 0)
 			(effects
 				(font
@@ -15621,7 +15954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 1812"
+		(property "Description" "Capacitor 1206"
 			(at 153.67 41.91 0)
 			(effects
 				(font
@@ -15630,7 +15963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Vishay"
 			(at 153.67 41.91 0)
 			(effects
 				(font
@@ -15639,7 +15972,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC1812JKNPOCBN221"
+		(property "MPN" "VJ1206A221JBGTW1HV"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -15858,7 +16191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 145.0848 38.1 0)
 			(effects
 				(font
@@ -15876,7 +16209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 1812"
+		(property "Description" "Capacitor 1206"
 			(at 146.05 41.91 0)
 			(effects
 				(font
@@ -15885,7 +16218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Vishay"
 			(at 146.05 41.91 0)
 			(effects
 				(font
@@ -15894,7 +16227,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC1812JKNPOCBN221"
+		(property "MPN" "VJ1206A221JBGTW1HV"
 			(at 144.78 33.02 0)
 			(effects
 				(font
@@ -17117,6 +17450,94 @@
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "J10")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 88.9 157.48 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edd58162-e663-495d-a7bb-c78d3b8193e2")
+		(property "Reference" "U2"
+			(at 87.63 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM358"
+			(at 87.63 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 88.9 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 88.9 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7797b9fe-fa0f-461c-b71b-0ec35f6f8ea1")
+		)
+		(pin "3"
+			(uuid "13a5bd35-4e2a-4807-8d6f-084c0d034950")
+		)
+		(pin "1"
+			(uuid "d40a000b-32cc-4c83-8561-60822428b481")
+		)
+		(pin "6"
+			(uuid "bb26f227-91f1-4a9b-837c-2ab228a42577")
+		)
+		(pin "7"
+			(uuid "ed4792fd-cd9f-4abe-b526-ce88e115613c")
+		)
+		(pin "5"
+			(uuid "d4592623-1a72-43f8-9afa-844d64eb7aeb")
+		)
+		(pin "8"
+			(uuid "d9615ee4-a2a3-436a-9589-2327ee96ec36")
+		)
+		(pin "4"
+			(uuid "9a2d4277-3b62-4453-b721-bd7e6aa7ce49")
+		)
+		(instances
+			(project ""
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
