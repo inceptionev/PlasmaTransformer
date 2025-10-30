@@ -4214,6 +4214,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -5710,6 +5793,16 @@
 		)
 		(uuid "a1fbc788-1aee-4ec1-b9b2-05ae8cab2090")
 	)
+	(text "CURRENT CONTROL FEEDBACK"
+		(exclude_from_sim no)
+		(at 87.376 143.256 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "a2765a8a-b1c8-456a-bf44-20410e9957fa")
+	)
 	(text "Recommended \nGate-Drain Cap:\n20cm Globe: none\n13cm Globe: none"
 		(exclude_from_sim no)
 		(at 123.698 52.324 0)
@@ -5815,7 +5908,7 @@
 	)
 	(text "FAN"
 		(exclude_from_sim no)
-		(at 28.448 146.304 0)
+		(at 28.448 172.974 0)
 		(effects
 			(font
 				(size 2 2)
@@ -6016,6 +6109,12 @@
 		(uuid "814179da-b830-433d-88dd-4fa86820a78c")
 	)
 	(junction
+		(at 78.74 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82f91f9b-cd08-49e5-883e-50ada38c09c9")
+	)
+	(junction
 		(at 220.98 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6068,6 +6167,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1f3bc7f-b315-4c95-9322-91915fbe34fd")
+	)
+	(junction
+		(at 78.74 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac6d384b-c0a6-45d7-b631-ca38b5ed452f")
+	)
+	(junction
+		(at 73.66 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acb92497-bcc6-41e2-840a-93333215cf4c")
 	)
 	(junction
 		(at 246.38 105.41)
@@ -6214,6 +6325,12 @@
 		(uuid "e8e6f183-a626-4dd2-afde-383c11841796")
 	)
 	(junction
+		(at 148.59 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f30627c3-6a35-4626-ae15-277cc0f40f75")
+	)
+	(junction
 		(at 246.38 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6230,6 +6347,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcc656fa-5060-4dfc-83af-29469cf19051")
+	)
+	(junction
+		(at 97.79 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd7267e6-67dd-42a0-88a5-afbb7f2c4b69")
 	)
 	(no_connect
 		(at 19.05 45.72)
@@ -6287,6 +6410,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 118.11) (xy 78.74 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03bd5cbc-4295-4d95-a265-4a9f68a5181d")
+	)
+	(wire
+		(pts
 			(xy 246.38 105.41) (xy 259.08 105.41)
 		)
 		(stroke
@@ -6294,6 +6427,16 @@
 			(type default)
 		)
 		(uuid "059ac2dc-918d-4f40-ba37-e77c1873d2e7")
+	)
+	(wire
+		(pts
+			(xy 97.79 125.73) (xy 106.68 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064e5e35-01f6-4198-9743-04f69d4abbdf")
 	)
 	(wire
 		(pts
@@ -6787,6 +6930,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 125.73) (xy 97.79 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409a295b-d97b-4bcd-bc96-6bd7aa802137")
+	)
+	(wire
+		(pts
 			(xy 26.67 35.56) (xy 46.99 35.56)
 		)
 		(stroke
@@ -6847,7 +7000,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 134.62) (xy 35.56 134.62)
+			(xy 25.4 161.29) (xy 35.56 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6864,6 +7017,16 @@
 			(type default)
 		)
 		(uuid "46c36600-6880-4fa8-a5a9-6b1e07a4269e")
+	)
+	(wire
+		(pts
+			(xy 97.79 125.73) (xy 97.79 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c5ef45-7549-49df-813a-ff0f907f0f56")
 	)
 	(wire
 		(pts
@@ -7047,6 +7210,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 123.19) (xy 59.69 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6022ceee-be8e-4aa3-a239-2d6f55ab2d1f")
+	)
+	(wire
+		(pts
 			(xy 59.69 71.12) (xy 67.31 71.12)
 		)
 		(stroke
@@ -7054,6 +7227,16 @@
 			(type default)
 		)
 		(uuid "60d99f85-a4e8-4aab-b2c7-b80afa5328dd")
+	)
+	(wire
+		(pts
+			(xy 121.92 123.19) (xy 124.46 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62fe221c-2384-4f01-a12a-8f3024c4c7db")
 	)
 	(wire
 		(pts
@@ -7094,6 +7277,16 @@
 			(type default)
 		)
 		(uuid "69f90ae1-d40a-48e7-b25f-b650f66f5a20")
+	)
+	(wire
+		(pts
+			(xy 73.66 130.81) (xy 78.74 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae3ca09-4136-4277-be9b-b2110990c301")
 	)
 	(wire
 		(pts
@@ -7267,6 +7460,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 118.11) (xy 90.17 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841a83ce-15e8-407a-8c81-e0df8cd198ec")
+	)
+	(wire
+		(pts
 			(xy 166.37 74.93) (xy 180.34 74.93)
 		)
 		(stroke
@@ -7327,6 +7530,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 123.19) (xy 78.74 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4fedba-c65a-460f-9e1a-f487125d4c80")
+	)
+	(wire
+		(pts
 			(xy 74.93 38.1) (xy 82.55 38.1)
 		)
 		(stroke
@@ -7357,6 +7570,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 81.28) (xy 148.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea829b4-7db8-443b-a6e2-fc81cebe801a")
+	)
+	(wire
+		(pts
 			(xy 180.34 74.93) (xy 182.88 74.93)
 		)
 		(stroke
@@ -7374,6 +7597,26 @@
 			(type default)
 		)
 		(uuid "8eaebca2-6f83-4b56-a03e-972ac285385d")
+	)
+	(wire
+		(pts
+			(xy 67.31 123.19) (xy 73.66 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91fbef27-b07e-47ec-b213-b1e514c6de98")
+	)
+	(wire
+		(pts
+			(xy 82.55 118.11) (xy 78.74 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92314f18-82c7-4636-8ae3-db8c82aa3187")
 	)
 	(wire
 		(pts
@@ -7587,7 +7830,17 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 137.16) (xy 27.94 137.16)
+			(xy 148.59 74.93) (xy 149.86 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5816155-bfda-4c62-92b3-d188993833a2")
+	)
+	(wire
+		(pts
+			(xy 25.4 163.83) (xy 27.94 163.83)
 		)
 		(stroke
 			(width 0)
@@ -7604,6 +7857,16 @@
 			(type default)
 		)
 		(uuid "b6000385-bb86-4a12-884b-3456632f2716")
+	)
+	(wire
+		(pts
+			(xy 148.59 81.28) (xy 148.59 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ec3951-5740-42c3-bca8-dc51261862d6")
 	)
 	(wire
 		(pts
@@ -7707,6 +7970,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 123.19) (xy 143.51 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a2d53f-141d-4590-836e-8c8d2619b5f4")
+	)
+	(wire
+		(pts
 			(xy 74.93 86.36) (xy 74.93 91.44)
 		)
 		(stroke
@@ -7727,13 +8000,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 74.93) (xy 149.86 74.93)
+			(xy 147.32 74.93) (xy 148.59 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c7cdd7cd-f23c-469a-ace8-d9981337fee7")
+	)
+	(wire
+		(pts
+			(xy 132.08 123.19) (xy 143.51 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c814b3ed-1b79-499d-8015-d1ecf0bdd13f")
 	)
 	(wire
 		(pts
@@ -7907,6 +8190,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 128.27) (xy 78.74 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d825c0e6-969e-4e05-bd88-1a8f4bed33df")
+	)
+	(wire
+		(pts
 			(xy 190.5 49.53) (xy 190.5 59.69)
 		)
 		(stroke
@@ -8004,6 +8297,16 @@
 			(type default)
 		)
 		(uuid "ea68b09b-a9e3-46f6-b254-b065282e08b1")
+	)
+	(wire
+		(pts
+			(xy 78.74 130.81) (xy 78.74 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15570c2-60cc-4dfd-9fca-c0a0eb2e8045")
 	)
 	(wire
 		(pts
@@ -8204,6 +8507,16 @@
 			(justify left bottom)
 		)
 		(uuid "b87863bd-aaac-4c75-8aa7-a20375752c33")
+	)
+	(label "GND-IN"
+		(at 52.07 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f905e4c2-56b6-457e-a538-93da8f7b93fc")
 	)
 	(symbol
 		(lib_id "power:+1V0")
@@ -8563,6 +8876,71 @@
 			(project "PlasmaTransformer-RF-Node-Igniter"
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1593a725-51e6-445e-b9af-5d88d430c214")
+		(property "Reference" "#PWR025"
+			(at 43.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72af12cb-82d5-430a-bf22-41d6c05a6976")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9273,6 +9651,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 78.74 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "309b3090-c2fa-4ca0-984e-d80837179c1e")
+		(property "Reference" "#PWR023"
+			(at 78.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ef61c2f-5728-4a70-a209-62eee36ae07c")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 161.29 41.91 180)
 		(unit 1)
@@ -9437,6 +9880,70 @@
 			(project "PlasmaTransformer"
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 35.56 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "39325d08-4da9-484a-a373-c248f8727e34")
+		(property "Reference" "H4"
+			(at 38.1 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 38.1 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 35.56 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 35.56 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -10388,7 +10895,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 35.56 134.62 0)
+		(at 35.56 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10396,7 +10903,7 @@
 		(dnp no)
 		(uuid "4bb85eaa-2047-4d83-a256-9dbde86ef4b1")
 		(property "Reference" "#PWR020"
-			(at 35.56 138.43 0)
+			(at 35.56 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10405,7 +10912,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 35.56 129.54 0)
+			(at 35.56 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10413,7 +10920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 134.62 0)
+			(at 35.56 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10422,7 +10929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 134.62 0)
+			(at 35.56 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10431,7 +10938,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 35.56 134.62 0)
+			(at 35.56 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10828,7 +11335,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 111.76 127 0)
+		(at 114.3 123.19 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10837,7 +11344,7 @@
 		(fields_autoplaced yes)
 		(uuid "61337b22-ae33-4a70-a6a3-8954de288c64")
 		(property "Reference" "U2"
-			(at 111.76 116.84 0)
+			(at 114.3 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10845,15 +11352,15 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 111.76 119.38 0)
+			(at 114.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 111.76 127 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+			(at 114.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10862,7 +11369,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 111.76 127 0)
+			(at 114.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10871,7 +11378,25 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 111.76 127 0)
+			(at 114.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM358BIDDFR"
+			(at 114.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 114.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11236,6 +11761,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V0")
+		(at 43.18 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "652e4724-e9c4-4478-9948-2c0a7a515bff")
+		(property "Reference" "#PWR024"
+			(at 43.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 43.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 43.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17b07a40-2938-439b-928f-d5d49445750c")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Audio:AudioJack3")
 		(at 171.45 99.06 180)
 		(unit 1)
@@ -11349,7 +11939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-2_ThermalVias"
+		(property "Footprint" "IMT40R025M2HXTMA1"
 			(at 196.215 75.692 0)
 			(effects
 				(font
@@ -12970,10 +13560,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "84b09a95-56ca-4bea-b205-ec987c8e2624")
 		(property "Reference" "U2"
-			(at 86.36 115.57 0)
+			(at 89.662 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12981,14 +13570,14 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 86.36 118.11 0)
+			(at 90.17 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
 			(at 86.36 125.73 0)
 			(effects
 				(font
@@ -13007,6 +13596,24 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM358BIDDFR"
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
 			(at 86.36 125.73 0)
 			(effects
 				(font
@@ -13148,6 +13755,111 @@
 			(project "PlasmaTransformer"
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 73.66 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89a5d25b-bad3-43d1-a99f-9aadae82e1e2")
+		(property "Reference" "C31"
+			(at 73.152 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 73.152 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 72.6948 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 0805"
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21C102JCFNNNE"
+			(at 72.39 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f499e16-6e9c-41ad-84bf-4350989f46b0")
+		)
+		(pin "2"
+			(uuid "5ddbfcfd-af5c-4e04-8c2b-832837f6a28c")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -13884,6 +14596,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 86.36 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98110249-1626-4a69-83b3-e84fc748c8ed")
+		(property "Reference" "R12"
+			(at 86.36 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 86.36 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4d60d0a-a0f1-4397-a12f-82397e45eecc")
+		)
+		(pin "1"
+			(uuid "21d9c31b-4704-41b6-af1a-6979ad316bf6")
+		)
+		(instances
+			(project ""
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 91.44 0)
 		(unit 1)
@@ -14050,6 +14829,70 @@
 			(project "PlasmaTransformer-RF-Node-Igniter"
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 35.56 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "a0433b57-ce43-4f3d-a3df-94e4ec4f22a2")
+		(property "Reference" "H2"
+			(at 38.1 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 38.1 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 35.56 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 35.56 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -14940,6 +15783,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 35.56 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b0b725fb-c4b0-4e74-aa1a-9055b88953ce")
+		(property "Reference" "H3"
+			(at 38.1 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 38.1 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 35.56 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 35.56 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 52.07 38.1 0)
 		(mirror y)
@@ -15425,7 +16332,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 20.32 134.62 0)
+		(at 20.32 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15433,7 +16340,7 @@
 		(dnp no)
 		(uuid "ca480a98-547b-45a2-948e-a4d4c6d5499c")
 		(property "Reference" "J2"
-			(at 20.828 127 0)
+			(at 20.828 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15441,7 +16348,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 20.955 132.08 0)
+			(at 20.955 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15450,7 +16357,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 20.32 134.62 0)
+			(at 20.32 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15459,7 +16366,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 134.62 0)
+			(at 20.32 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15468,7 +16375,7 @@
 			)
 		)
 		(property "Description" "JST XH Pin Header 01x02, 2.5mm pitch"
-			(at 20.32 134.62 0)
+			(at 20.32 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15477,7 +16384,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 20.32 134.62 0)
+			(at 20.32 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15486,7 +16393,7 @@
 			)
 		)
 		(property "MPN" "B2B-XH-A"
-			(at 24.892 129.032 0)
+			(at 24.892 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16628,6 +17535,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 128.27 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0795865-073a-480d-84e4-c7473b7ada81")
+		(property "Reference" "R15"
+			(at 128.016 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.016 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 128.27 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0805"
+			(at 128.27 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 128.27 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 128.27 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 128.27 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "748c4771-9063-4869-9659-4b5afe4287be")
+		)
+		(pin "1"
+			(uuid "107e9379-8266-40c6-bf0a-1c72b02d08de")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 241.3 144.78 0)
 		(mirror y)
@@ -17456,7 +18457,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 88.9 157.48 0)
+		(at 45.72 124.46 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17465,7 +18466,7 @@
 		(fields_autoplaced yes)
 		(uuid "edd58162-e663-495d-a7bb-c78d3b8193e2")
 		(property "Reference" "U2"
-			(at 87.63 156.2099 0)
+			(at 44.45 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17474,7 +18475,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 87.63 158.7499 0)
+			(at 44.45 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17482,8 +18483,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 88.9 157.48 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+			(at 45.72 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17492,7 +18493,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 88.9 157.48 0)
+			(at 45.72 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17501,7 +18502,25 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 88.9 157.48 0)
+			(at 45.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM358BIDDFR"
+			(at 45.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 45.72 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17742,7 +18761,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 137.16 0)
+		(at 27.94 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17750,7 +18769,7 @@
 		(dnp no)
 		(uuid "fc4eef94-ff67-42db-882b-c7579db7eb00")
 		(property "Reference" "#PWR03"
-			(at 27.94 143.51 0)
+			(at 27.94 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17759,7 +18778,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 142.24 0)
+			(at 27.94 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17767,7 +18786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 137.16 0)
+			(at 27.94 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17776,7 +18795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 137.16 0)
+			(at 27.94 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17785,7 +18804,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 137.16 0)
+			(at 27.94 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17979,6 +18998,100 @@
 			(project "PlasmaInductor-Top"
 				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff201fc8-3f2c-404d-bb7a-21e79bce3197")
+		(property "Reference" "R14"
+			(at 63.246 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 63.246 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 63.5 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0805"
+			(at 63.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 63.5 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 63.5 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 63.5 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d22db96-8c1a-4c7d-8393-2e2ac843a26f")
+		)
+		(pin "1"
+			(uuid "69bff93a-0781-4c2b-bdc8-95b857cd0a26")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "R14")
 					(unit 1)
 				)
 			)
