@@ -119,6 +119,11 @@ Gate-Source Cap:
 - 20cm Globe: 2.7nF + 3.6nF + 1.8nF + 1.8nF
 - 13cm Globe: 2.7nF
 
+Measured Air Core Inductance of Globe Coils (no globe or plasma present):
+- 13cm Globe, 4 turns 122mm x 16mm long: 3.3uH
+- 20cm Globe, 3 turns 187mm dia x 12mm long: 3.6uH
+
+
 ## Tips and Tricks for Experimenting with Plasma Toroids:
 - The goal of feedback tuning is to minimize the source-drain voltage across the MOSFET during the points of switching, otherwise it will get hot quickly.
 - Also be mindful of the voltage rating on the cap between the plasma globe coil and the gate.  This cap will see 1000V+ when the coil is unloaded (when there is no plasma).
