@@ -39,6 +39,10 @@ KiCAD PCB files are found in the /Plasma Transformer PCB folder.  If you want to
 - Plasma Transformer PCB/manufacturing/[the zip file with the latest rev]
 - Plasma Transformer/bom/[the bom file matching that rev]
 
+Rev 5 PCB specific note:
+The holes for the capacitor sockets are too large, so instead of being press-fit, they will need to be soldered in.  I recommend using a piece of paper tape to hold them in place on the top side, then soldering them on the bottom side.  Or you can skip the sockets and solder in the capacitors directly.
+
+
 3d print design files and a dxf for the heatsink hole pattern are found in the 3D Print and CNC folder.  The heatsink holes are all M3 drill/tap.
 
 If you are doing turnkey PCBA assembly, you probably want to DNP the fan, heatsink, and MOSFET from the BOM, as you will assemble these later.
