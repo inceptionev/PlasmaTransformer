@@ -37,7 +37,7 @@ Native design files and manufacturing files in gerber and stl format are provide
 
 KiCAD PCB files are found in the /Plasma Transformer PCB folder.  If you want to edit the design, the files are in the folder.  If you just want to make the boards, you need:
 - Plasma Transformer PCB/manufacturing/[the zip file with the latest rev]
-- Plasma Transformer/bom/[the bom file matching that rev]
+- Plasma Transformer PCB/bom/[the bom file matching that rev]
 
 Rev 5 PCB specific note:
 The holes for the capacitor sockets are too large, so instead of being press-fit, they will need to be soldered in.  I recommend using a piece of paper tape to hold them in place on the top side, then soldering them on the bottom side.  Or you can skip the sockets and solder in the capacitors directly.
