@@ -117,7 +117,7 @@ Gate-Drain Cap:
 
 Resonant Cap:
 - 20cm Globe: 3x 24pF 564RC0GAJ602EJ240J
-- 13cm Globe: 3x 12pF CGP1C120KNSDAAWL25
+- 13cm Globe: 3x 24pF 564RC0GAJ602EJ240J
 
 Gate-Source Cap:
 - 20cm Globe: 2.7nF + 3.6nF + 1.8nF + 1.8nF
