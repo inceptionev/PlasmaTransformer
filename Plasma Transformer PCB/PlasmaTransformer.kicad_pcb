@@ -21540,7 +21540,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "7025ca1d-fa2b-46f8-9090-d45e277ccc9e")
 		)
 		(pad "4" thru_hole circle
 			(at -0.72 -1.2 270)
@@ -21551,7 +21551,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "f83bc786-efad-4a01-9c71-4f951806b8e0")
 		)
 		(pad "4" thru_hole circle
 			(at -0.72 0 270)
@@ -21562,7 +21562,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "a300b810-c462-4275-816e-826f40e7ef35")
 		)
 		(pad "4" thru_hole circle
 			(at -0.72 1.2 270)
@@ -21573,7 +21573,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "ae2d0250-e8c2-401f-a843-1bfcb4d25eac")
 		)
 		(pad "4" thru_hole circle
 			(at -0.72 2.4 270)
@@ -21584,7 +21584,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "9c6f4287-6af0-460b-9bb3-2a71f0749d95")
 		)
 		(pad "4" thru_hole circle
 			(at -0.72 3.6 270)
@@ -21595,7 +21595,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "00e9a8a5-39c1-4a9c-92ec-d1b2b4be380c")
 		)
 		(pad "4" thru_hole circle
 			(at 0.48 -3.6 270)
@@ -21606,7 +21606,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "c4e165f6-eb42-4e88-ad3c-800ecb92d5ec")
 		)
 		(pad "4" thru_hole circle
 			(at 0.48 -2.4 270)
@@ -21617,7 +21617,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "9b656157-9ef0-4584-a42f-f817a1486f9f")
 		)
 		(pad "4" thru_hole circle
 			(at 0.48 -1.2 270)
@@ -21628,7 +21628,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "4ab1bdff-e2d4-4955-ae4e-dfce7ac0362e")
 		)
 		(pad "4" thru_hole circle
 			(at 0.48 0 270)
@@ -21639,7 +21639,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "388e81af-e16f-44f0-aa94-aedc4090aadb")
 		)
 		(pad "4" thru_hole circle
 			(at 0.48 1.2 270)
@@ -21650,7 +21650,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "f63de835-cb02-40a4-b106-1a74d9637e5e")
 		)
 		(pad "4" thru_hole circle
 			(at 0.48 2.4 270)
@@ -21661,7 +21661,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "72662c49-056f-493c-ab4a-993db6343e86")
 		)
 		(pad "4" thru_hole circle
 			(at 0.48 3.6 270)
@@ -21672,7 +21672,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "7c8c3c40-326d-4796-96a6-92f06b8004e3")
 		)
 		(pad "4" thru_hole circle
 			(at 1.68 -3.6 270)
@@ -21683,7 +21683,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "8e2f0c0e-df21-44c0-8ccd-57a113cfcaf3")
 		)
 		(pad "4" thru_hole circle
 			(at 1.68 -2.4 270)
@@ -21694,7 +21694,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "02bc6a88-a7c1-4eca-9a9f-e8175fd1d5b3")
 		)
 		(pad "4" thru_hole circle
 			(at 1.68 -1.2 270)
@@ -21705,7 +21705,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "967aa037-451f-4c89-b0bd-8147fb8bc174")
 		)
 		(pad "4" thru_hole circle
 			(at 1.68 0 270)
@@ -21716,7 +21716,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "6de3b6f9-e9a8-4343-9e55-e603a3f47fd1")
 		)
 		(pad "4" thru_hole circle
 			(at 1.68 1.2 270)
@@ -21727,7 +21727,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "8a8bbda0-5de5-4ac2-9610-73fcfd918ab4")
 		)
 		(pad "4" thru_hole circle
 			(at 1.68 2.4 270)
@@ -21738,7 +21738,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "ebd37a0a-8c3e-46c1-a00a-574d69b2d03d")
 		)
 		(pad "4" thru_hole circle
 			(at 1.68 3.6 270)
@@ -21749,7 +21749,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "81aa800d-fb73-4cff-83c4-2fcd74766a5b")
 		)
 		(pad "4" thru_hole circle
 			(at 2.88 -3.6 270)
@@ -21760,7 +21760,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "c2cfc203-3c56-4ebc-91a1-a6002fc477be")
 		)
 		(pad "4" thru_hole circle
 			(at 2.88 -2.4 270)
@@ -21771,7 +21771,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "5cc34d39-693e-44fc-808d-2f5bdd01e7df")
 		)
 		(pad "4" thru_hole circle
 			(at 2.88 -1.2 270)
@@ -21782,7 +21782,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "95fa7ad0-c5b5-4a80-8572-6fa229188b95")
 		)
 		(pad "4" thru_hole circle
 			(at 2.88 0 270)
@@ -21793,7 +21793,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "300c0f24-2834-4e5b-842a-d173391700a4")
 		)
 		(pad "4" thru_hole circle
 			(at 2.88 1.2 270)
@@ -21804,7 +21804,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "0725f195-d0e0-40c2-9895-ab51f7d5556a")
 		)
 		(pad "4" thru_hole circle
 			(at 2.88 2.4 270)
@@ -21815,7 +21815,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "95530189-9ea6-4132-819a-b0a0eb93d617")
 		)
 		(pad "4" thru_hole circle
 			(at 2.88 3.6 270)
@@ -21826,7 +21826,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "80a4c731-c428-45b4-b4ab-bce4434e1af4")
 		)
 		(pad "4" smd custom
 			(at 3.75 0 270)
@@ -21857,7 +21857,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "0cb8b357-260a-4d61-b0f5-c324836670f2")
 		)
 		(pad "4" smd custom
 			(at 3.75 0 270)
@@ -21888,7 +21888,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "69897e73-9e34-46ed-9f1b-8c747b542f8a")
 		)
 		(pad "4" thru_hole circle
 			(at 4.08 -3.6 270)
@@ -21899,7 +21899,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "7f327a00-2ed4-41bb-86cb-ca111f49a1c8")
 		)
 		(pad "4" thru_hole circle
 			(at 4.08 -2.4 270)
@@ -21910,7 +21910,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "4f489110-c20a-48e3-9026-c9bb4bf9cada")
 		)
 		(pad "4" thru_hole circle
 			(at 4.08 -1.2 270)
@@ -21921,7 +21921,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "cea4e39c-d7f9-4c5e-842b-185ea23441f5")
 		)
 		(pad "4" thru_hole circle
 			(at 4.08 0 270)
@@ -21932,7 +21932,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "188fefaa-578a-463e-8b58-e178f1bc31a7")
 		)
 		(pad "4" thru_hole circle
 			(at 4.08 1.2 270)
@@ -21943,7 +21943,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "bccc9b4d-5bba-4161-8f8c-2bc52a014a35")
 		)
 		(pad "4" thru_hole circle
 			(at 4.08 2.4 270)
@@ -21954,7 +21954,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "c5e15559-c333-4111-8f0c-cb3fc8a0c9ae")
 		)
 		(pad "4" thru_hole circle
 			(at 4.08 3.6 270)
@@ -21965,7 +21965,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "9d21bcdb-d5da-4360-b6bf-b3e10171e227")
 		)
 		(pad "4" thru_hole circle
 			(at 5.28 -3.6 270)
@@ -21976,7 +21976,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "957786ce-0b73-4ca9-9c26-7710275d47f6")
 		)
 		(pad "4" thru_hole circle
 			(at 5.28 -2.4 270)
@@ -21987,7 +21987,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "919725a6-ee7e-4454-9844-80f537e65b33")
 		)
 		(pad "4" thru_hole circle
 			(at 5.28 -1.2 270)
@@ -21998,7 +21998,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "4a7c71e8-a899-412a-8968-51ec3af35520")
 		)
 		(pad "4" thru_hole circle
 			(at 5.28 0 270)
@@ -22009,7 +22009,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "45c63b5b-4b06-4cf9-afdb-af50b7ecf3fc")
 		)
 		(pad "4" thru_hole circle
 			(at 5.28 1.2 270)
@@ -22020,7 +22020,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "bd2b328a-c10b-4c5a-ab65-6a22186ca608")
 		)
 		(pad "4" thru_hole circle
 			(at 5.28 2.4 270)
@@ -22031,7 +22031,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "2a227df3-8f44-41ab-bb01-143331a6961a")
 		)
 		(pad "4" thru_hole circle
 			(at 5.28 3.6 270)
@@ -22042,7 +22042,7 @@
 			(net 30 "/DRAIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "104205d1-ee29-4ac8-8ae1-eaa3dece92b5")
+			(uuid "286d0d52-419f-4050-8068-24ae28099eef")
 		)
 		(embedded_fonts no)
 		(model "C:/Projects/PlasmaTransformer/Library/Library.pretty/PG-HSOF-8-2_Z8B00174210_V03_3D.stp"
