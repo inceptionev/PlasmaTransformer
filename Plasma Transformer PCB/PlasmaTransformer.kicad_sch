@@ -5995,6 +5995,12 @@
 		(uuid "30f6954d-e3a7-448e-adad-d4c44e70a38e")
 	)
 	(junction
+		(at 39.37 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32b18fcc-2c6b-46de-9f81-a27732a71843")
+	)
+	(junction
 		(at 66.04 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6319,6 +6325,12 @@
 		(uuid "e19ebd52-6429-4377-a977-2c58cd0209e6")
 	)
 	(junction
+		(at 33.02 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5599214-808a-4807-b27f-3099751fef9c")
+	)
+	(junction
 		(at 24.13 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6483,16 +6495,6 @@
 			(type default)
 		)
 		(uuid "0e2ad6ce-bf0f-4096-b38a-ab89e0a4a0a7")
-	)
-	(wire
-		(pts
-			(xy 41.91 133.35) (xy 64.77 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fa5d5f8-1f76-4bf7-9ac6-f3a65219b678")
 	)
 	(wire
 		(pts
@@ -6733,6 +6735,16 @@
 			(type default)
 		)
 		(uuid "2465ade4-3a47-45cb-b45c-0899e6251c6e")
+	)
+	(wire
+		(pts
+			(xy 39.37 129.54) (xy 39.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25bcc034-209a-4ef6-9a46-e8ea6076e6df")
 	)
 	(wire
 		(pts
@@ -7123,6 +7135,16 @@
 			(type default)
 		)
 		(uuid "553c2f63-7dbd-49c6-9e42-5548544e90fa")
+	)
+	(wire
+		(pts
+			(xy 39.37 118.11) (xy 39.37 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57664eb5-6389-46bc-b5bd-cd47264f2525")
 	)
 	(wire
 		(pts
@@ -7596,6 +7618,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 133.35) (xy 64.77 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e70acd4-c4e4-4d77-a622-9a015130bd5b")
+	)
+	(wire
+		(pts
 			(xy 149.86 62.23) (xy 149.86 74.93)
 		)
 		(stroke
@@ -7743,6 +7775,16 @@
 			(type default)
 		)
 		(uuid "9dc0c6fb-844a-4bf2-898b-a62e0cbdc2cd")
+	)
+	(wire
+		(pts
+			(xy 33.02 133.35) (xy 39.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb37aa4-8c80-439d-a8d0-d41824ec9c9c")
 	)
 	(wire
 		(pts
@@ -8393,6 +8435,16 @@
 			(type default)
 		)
 		(uuid "f37b9850-187e-46d9-99f9-d0ff0bbbac34")
+	)
+	(wire
+		(pts
+			(xy 33.02 118.11) (xy 39.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40f110b-1412-4843-87e8-6f8ac049c8a2")
 	)
 	(wire
 		(pts
@@ -11951,7 +12003,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 41.91 118.11 0)
+		(at 33.02 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11959,7 +12011,7 @@
 		(dnp no)
 		(uuid "652e4724-e9c4-4478-9948-2c0a7a515bff")
 		(property "Reference" "#PWR024"
-			(at 41.91 121.92 0)
+			(at 33.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11968,7 +12020,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 41.91 113.03 0)
+			(at 33.02 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11976,7 +12028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 118.11 0)
+			(at 33.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11985,7 +12037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 118.11 0)
+			(at 33.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11994,7 +12046,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 41.91 118.11 0)
+			(at 33.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16605,6 +16657,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 39.37 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbc1ad02-d1e5-4747-a0d5-d09fc4ba96e8")
+		(property "Reference" "C32"
+			(at 38.862 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 38.862 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 38.4048 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 0805"
+			(at 39.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 39.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21C102JCFNNNE"
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 39.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 39.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dcff177-0185-4c01-b96d-d027a84910db")
+		)
+		(pin "2"
+			(uuid "dc3fc4c4-6d01-4cf4-b407-1c23fb1bc88f")
+		)
+		(instances
+			(project "PlasmaTransformer"
+				(path "/3647fd41-d415-410e-af0c-f9576953ab1f"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
 		(at 227.33 69.85 90)
 		(unit 1)
@@ -18740,7 +18897,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 44.45 125.73 0)
+		(at 35.56 125.73 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18748,7 +18905,7 @@
 		(dnp no)
 		(uuid "edd58162-e663-495d-a7bb-c78d3b8193e2")
 		(property "Reference" "U2"
-			(at 35.814 124.206 0)
+			(at 26.924 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18757,7 +18914,7 @@
 			)
 		)
 		(property "Value" "TLV9302IDDFR"
-			(at 25.908 126.746 0)
+			(at 17.018 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18766,7 +18923,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
-			(at 44.45 125.73 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18775,7 +18932,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9302.pdf"
-			(at 44.45 125.73 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18784,7 +18941,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 44.45 125.73 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18793,7 +18950,7 @@
 			)
 		)
 		(property "MPN" "TLV9302IDDFR"
-			(at 44.45 125.73 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18802,7 +18959,7 @@
 			)
 		)
 		(property "Manufacturer" "TI"
-			(at 44.45 125.73 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
