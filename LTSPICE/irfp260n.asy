@@ -5,7 +5,7 @@ WINDOW 0 0 -40 Bottom 2
 WINDOW 3 0 40 Top 2
 SYMATTR Value irfp260n
 SYMATTR Prefix X
-SYMATTR ModelFile C:\Users\userl\Downloads\irfp260n.spi
+SYMATTR ModelFile C:\Projects\PlasmaTransformer\LTSPICE\irfp260n.spi
 PIN 32 -16 RIGHT 8
 PINATTR PinName 1
 PINATTR SpiceOrder 1
