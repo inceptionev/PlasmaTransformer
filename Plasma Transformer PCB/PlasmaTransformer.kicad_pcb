@@ -86,7 +86,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555f55_575775ff)
+			(layerselection 0x00000000_00000000_55555f5d_575775ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
@@ -4022,7 +4022,7 @@
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at 0 -2.63 0)
+			(at 0 -2.7 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e469b198-5dc0-422d-892d-5fb571a753d5")
@@ -5233,7 +5233,7 @@
 		(descr "Diode SMC (DO-214AB)")
 		(tags "Diode SMC (DO-214AB)")
 		(property "Reference" "D2"
-			(at -6.3 -1.4 0)
+			(at -6.3 -1.2 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "348d7ff7-ea89-4377-ba8e-c95092f3a8c5")
@@ -8166,7 +8166,7 @@
 		(descr "surface-mounted straight pin header, 2x04, 2.54mm pitch, double rows")
 		(tags "Surface mounted pin header SMD 2x04 2.54mm double row")
 		(property "Reference" "J4"
-			(at -0.125 6.29 180)
+			(at 5.7 3.9 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e6b49cd6-69b3-48d5-88d0-8031546eb354")
@@ -10762,7 +10762,7 @@
 		(descr "SMD capacitor, aluminum electrolytic, Vishay 1616, 16.0x17.5mm, http://www.vishay.com/docs/28395/150crz.pdf")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C2"
-			(at 10 -4 0)
+			(at 9.4 -7.6 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "84b78459-ee5e-41d3-b06a-6438ee3fce63")
@@ -20278,7 +20278,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R10"
-			(at -0.1 1.7 90)
+			(at 0.3 1.6 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5117d9c1-d5ec-4e10-a7e1-ba87ced317d7")
@@ -26619,6 +26619,17 @@
 		(layer "User.2")
 		(uuid "4a64bb21-5b63-4cff-9d67-2a52adb8a56e")
 	)
+	(gr_rect
+		(start 59.4 88.6)
+		(end 66.4 96)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "4abe2f23-ecd3-4ba0-940d-6117ae080092")
+	)
 	(gr_circle
 		(center 60.9 111.8)
 		(end 63.802944 116.6)
@@ -26653,8 +26664,8 @@
 		(uuid "752332b6-c1f1-420d-9131-8121aeb8542e")
 	)
 	(gr_rect
-		(start 77.25 32.4)
-		(end 89.75 54.9)
+		(start 74.15 33.15)
+		(end 86.65 55.65)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26686,8 +26697,8 @@
 		(uuid "851a1197-007e-423c-bee9-e0a06e262443")
 	)
 	(gr_rect
-		(start 174.5 121.5)
-		(end 181.5 133.5)
+		(start 118.1 95.9)
+		(end 125.1 107.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26706,6 +26717,17 @@
 		(fill yes)
 		(layer "User.2")
 		(uuid "8f7952bd-7546-4ab3-94f7-023b6d57a7f9")
+	)
+	(gr_rect
+		(start 59.7 73.75)
+		(end 66.7 81.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "939b9f92-a765-48b4-b001-3cbc82a6abc5")
 	)
 	(gr_circle
 		(center 83.497056 121.5)
@@ -26741,8 +26763,8 @@
 		(uuid "c95c841b-4d51-4415-9733-2230eb06de21")
 	)
 	(gr_rect
-		(start 130.25 41)
-		(end 142.75 46.5)
+		(start 105.85 51.8)
+		(end 118.35 57.3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26816,6 +26838,17 @@
 		(fill yes)
 		(layer "User.3")
 		(uuid "41bc7aed-97ec-4f4f-965f-4907b5d0ea19")
+	)
+	(gr_rect
+		(start 82.334418 63.834418)
+		(end 131.795172 108.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.3")
+		(uuid "eac3407f-3f7c-43d4-816c-3fef53ea1451")
 	)
 	(gr_text "EXPERIMENTAL!\nISOLATION REQ'D!\nNOT AN AUDIO IN!"
 		(at 85 65.5 180)
@@ -26963,6 +26996,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GATE-DRAIN CAP"
+		(at 116.8 107.8 180)
+		(layer "F.SilkS")
+		(uuid "a85fba84-8a44-43d1-af7e-049f110d5257")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "REV 6 | NOV 2025 | E. CHIU"
 		(at 86 77.5 180)
 		(layer "F.SilkS")
@@ -27025,7 +27070,7 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "FAB NOTES:\n1. FINISH: HASL LEAD FREE, ALTERNATE ENIG OK\n2. SOLDERMASK: WHITE\n3. SILKSCREEN: BLACK\n4. LAYERS: 2\n5. TOP AND BOTTOM WEIGHT: 1OZ\n6. INNER LAYERS WEIGHT: 1OZ\n7. TRACE/SPACE: 6MIL/6MIL\n8. MINIMUM DRILL: 0.3MM\n9. FINISHED THICKNESS: 1.6MM\n10: CONTROLLED IMPEDANCE: NO\n11. ITAR: NO\n12. BOARD DIMENSIONS: 90MM x 90MM\n\nASSY NOTES:\n1. CLASS 2 ASSEMBLY\n2. LEAD-FREE SOLDER\n3. DO NOT POPULATE REFERENCE DESIGNATORS THAT ARE MARKED IN THE BOM AS DNP.\n4. J7, J9, J10, J13-J21 ARE PRESS-FIT.  DO NOT SOLDER.\n5. POLARITY MARKERS\n    - PIN 1 IS MARKED BY A DOT, TRIANGLE, BEVEL, OR SQUARE PTH PAD\n    - POSITIVE TERMINAL FOR POLARIZED CAPACITORS IS INDICATED BY A '+' SYMBOL\n    - CATHODE TERMINAL FOR DIODES AND LEDS IS INDICATED BY A CLOSED SILKSCREEN END\n6. IF OUTDOOR USE IS REQUIRED, CONFORMAL COAT ACRYLIC CA3002 OR EQUIVALENT, AFTER Q1 AND STRIKER WIRE ARE INSTALLED.\n   MASK AREAS INDICATED BY COLOR AREAS ON LAYERS F.CCmask and B.CCmask"
+	(gr_text "FAB NOTES:\n1. FINISH: HASL LEAD FREE, ALTERNATE ENIG OK\n2. SOLDERMASK: BLACK\n3. SILKSCREEN: WHITE\n4. LAYERS: 2\n5. TOP AND BOTTOM WEIGHT: 1OZ\n6. INNER LAYERS WEIGHT: 1OZ\n7. TRACE/SPACE: 6MIL/6MIL\n8. MINIMUM DRILL: 0.3MM\n9. FINISHED THICKNESS: 1.6MM\n10: CONTROLLED IMPEDANCE: NO\n11. ITAR: NO\n12. BOARD DIMENSIONS: 90MM x 90MM\n\nASSY NOTES:\n1. CLASS 2 ASSEMBLY\n2. LEAD-FREE SOLDER\n3. DO NOT POPULATE REFERENCE DESIGNATORS THAT ARE MARKED IN THE BOM AS DNP.\n4. J7, J9, J10, J13-J21 ARE PRESS-FIT.  DO NOT SOLDER.\n5. POLARITY MARKERS\n    - PIN 1 IS MARKED BY A DOT, TRIANGLE, BEVEL, OR SQUARE PTH PAD\n    - POSITIVE TERMINAL FOR POLARIZED CAPACITORS IS INDICATED BY A '+' SYMBOL\n    - CATHODE TERMINAL FOR DIODES AND LEDS IS INDICATED BY A CLOSED SILKSCREEN END\n6. IF OUTDOOR USE IS REQUIRED, CONFORMAL COAT ACRYLIC CA3002 OR EQUIVALENT, AFTER Q1 AND STRIKER WIRE ARE INSTALLED.\n   MASK AREAS INDICATED BY COLOR AREAS ON LAYERS F.CCmask and B.CCmask"
 		(at 162.4 77.6 0)
 		(layer "F.Fab")
 		(uuid "cf152016-86c1-493a-b161-36a7352866b5")
@@ -30933,9 +30978,9 @@
 				(xy 72.296666 76.423372) (xy 72.2995 76.44973) (xy 72.2995 76.45027) (xy 72.279815 76.517309) (xy 72.263181 76.537951)
 				(xy 72.244789 76.556342) (xy 72.152687 76.705663) (xy 72.152686 76.705666) (xy 72.097501 76.872203)
 				(xy 72.097501 76.872204) (xy 72.0975 76.872204) (xy 72.087 76.974983) (xy 72.087 79.225001) (xy 72.087001 79.225018)
-				(xy 72.0975 79.327796) (xy 72.097501 79.327799) (xy 72.125978 79.413736) (xy 72.152686 79.494334)
-				(xy 72.226106 79.613368) (xy 72.244789 79.643657) (xy 72.263181 79.662049) (xy 72.296666 79.723372)
-				(xy 72.2995 79.74973) (xy 72.2995 85.79854) (xy 72.302774 85.814997) (xy 72.302774 85.815001) (xy 72.337947 85.991828)
+				(xy 72.0975 79.327796) (xy 72.097501 79.327799) (xy 72.152685 79.494331) (xy 72.152687 79.494336)
+				(xy 72.244789 79.643657) (xy 72.263181 79.662049) (xy 72.296666 79.723372) (xy 72.2995 79.74973)
+				(xy 72.2995 85.79854) (xy 72.302774 85.814997) (xy 72.302774 85.815001) (xy 72.337947 85.991828)
 				(xy 72.33795 85.99184) (xy 72.353866 86.030264) (xy 72.413364 86.173907) (xy 72.413371 86.17392)
 				(xy 72.522859 86.33778) (xy 72.52286 86.337781) (xy 72.522861 86.337782) (xy 72.662218 86.477139)
 				(xy 72.662219 86.477139) (xy 72.669286 86.484206) (xy 72.669285 86.484206) (xy 72.669289 86.484209)
@@ -31888,7 +31933,7 @@
 				(xy 109.477139 80.337782) (xy 109.47714 80.337779) (xy 109.484206 80.330714) (xy 109.484209 80.33071)
 				(xy 109.837778 79.977141) (xy 109.837782 79.977139) (xy 109.977139 79.837782) (xy 110.086632 79.673914)
 				(xy 110.089124 79.667899) (xy 110.125442 79.580218) (xy 110.15457 79.509896) (xy 110.162051 79.491836)
-				(xy 110.185765 79.372618) (xy 110.2005 79.298541) (xy 110.2005 74.213732) (xy 110.220185 74.146693)
+				(xy 110.185767 79.37261) (xy 110.2005 79.298541) (xy 110.2005 74.213732) (xy 110.220185 74.146693)
 				(xy 110.272989 74.100938) (xy 110.285495 74.096026) (xy 110.319334 74.084814) (xy 110.468656 73.992712)
 				(xy 110.592712 73.868656) (xy 110.684814 73.719334) (xy 110.739999 73.552797) (xy 110.7505 73.450009)
 				(xy 110.7505 72.4245) (xy 110.770185 72.357461) (xy 110.822989 72.311706) (xy 110.8745 72.3005)
