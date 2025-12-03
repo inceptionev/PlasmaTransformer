@@ -11600,7 +11600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+		(property "Footprint" "ALibrary:SOT-23-8-Soldermask-Defined"
 			(at 114.3 123.19 0)
 			(effects
 				(font
@@ -13818,7 +13818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+		(property "Footprint" "ALibrary:SOT-23-8-Soldermask-Defined"
 			(at 86.36 125.73 0)
 			(effects
 				(font
@@ -14861,7 +14861,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 87.63 135.128 90)
 			(effects
 				(font
@@ -14881,6 +14881,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 87.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 87.63 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 87.63 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18922,7 +18940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+		(property "Footprint" "ALibrary:SOT-23-8-Soldermask-Defined"
 			(at 35.56 125.73 0)
 			(effects
 				(font

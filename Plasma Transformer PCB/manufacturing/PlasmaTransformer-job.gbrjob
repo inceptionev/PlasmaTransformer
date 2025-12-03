@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "9.0.5"
     },
-    "CreationDate": "2025-11-30T01:28:21-08:00"
+    "CreationDate": "2025-12-02T21:57:05-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "PlasmaTransformer",
       "GUID": "506c6173-6d61-4547-9261-6e73666f726d",
-      "Revision": "5"
+      "Revision": "6"
     },
     "Size": {
       "X": 90.05,
