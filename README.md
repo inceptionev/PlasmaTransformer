@@ -41,7 +41,7 @@ KiCAD PCB files are found in the /Plasma Transformer PCB folder.  If you want to
 
 3d print design files and a dxf for the heatsink hole pattern are found in the 3D Print and CNC folder.  The heatsink holes are all M3 drill/tap.
 
-If you are doing turnkey PCBA assembly, you probably want to DNP the fan, heatsink, and MOSFET from the BOM, as you will assemble these later.
+If you are doing turnkey PCBA assembly, you probably want to DNP the fan (M1), heatsink (HS1), MOSFET (Q1), and tank capacitors (C1, C16-20) from the BOM in the Turnkey Assembly ZIP package, as you will assemble these later.
 
 <p align="center">
   <img src="https://github.com/inceptionev/PlasmaTransformer/blob/master/images/pcbRev5.png" width="400">
