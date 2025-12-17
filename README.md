@@ -37,7 +37,11 @@ Native design files and manufacturing files in gerber and stl format are provide
 
 KiCAD PCB files are found in the /Plasma Transformer PCB folder.  If you want to edit the design, the files are in the folder.  If you just want to make the boards, you need:
 - Plasma Transformer PCB/manufacturing/[the zip file with the latest rev]
-- Plasma Transformer/bom/[the bom file matching that rev]
+- Plasma Transformer PCB/bom/[the bom file matching that rev]
+
+Rev 5 PCB specific note:
+The holes for the capacitor sockets are too large, so instead of being press-fit, they will need to be soldered in.  I recommend using a piece of paper tape to hold them in place on the top side, then soldering them on the bottom side.  Or you can skip the sockets and solder in the capacitors directly.
+
 
 3d print design files and a dxf for the heatsink hole pattern are found in the 3D Print and CNC folder.  The heatsink holes are all M3 drill/tap.
 
@@ -113,11 +117,16 @@ Gate-Drain Cap:
 
 Resonant Cap:
 - 20cm Globe: 3x 24pF 564RC0GAJ602EJ240J
-- 13cm Globe: 3x 12pF CGP1C120KNSDAAWL25
+- 13cm Globe: 3x 24pF 564RC0GAJ602EJ240J
 
 Gate-Source Cap:
 - 20cm Globe: 2.7nF + 3.6nF + 1.8nF + 1.8nF
 - 13cm Globe: 2.7nF
+
+Measured Air Core Inductance of Globe Coils (no globe or plasma present):
+- 13cm Globe, 4 turns 122mm x 16mm long: 3.3uH
+- 20cm Globe, 3 turns 187mm dia x 12mm long: 3.6uH
+
 
 ## Tips and Tricks for Experimenting with Plasma Toroids:
 - The goal of feedback tuning is to minimize the source-drain voltage across the MOSFET during the points of switching, otherwise it will get hot quickly.
