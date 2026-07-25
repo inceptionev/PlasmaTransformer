@@ -9119,7 +9119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ALibrary:Bourns-Potentiometer-PTD902-2"
+		(property "Footprint" "AFootprints:Bourns-Potentiometer-PTD902-2"
 			(at 127 74.93 0)
 			(effects
 				(font
@@ -9209,7 +9209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ALibrary:L_Pana_PCC-KVP_5.5x5mm"
+		(property "Footprint" "AFootprints:L_Pana_PCC-KVP_5.5x5mm"
 			(at 71.12 71.12 0)
 			(effects
 				(font
@@ -9295,7 +9295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ALibrary:BO-02"
+		(property "Footprint" "AFootprints:BO-02"
 			(at 187.706 140.462 0)
 			(effects
 				(font
@@ -9834,7 +9834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 240.03 69.85 0)
 			(effects
 				(font
@@ -10219,7 +10219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 233.68 69.85 0)
 			(effects
 				(font
@@ -10807,7 +10807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:ZS 1052-S HT(H)"
+		(property "Footprint" "AFootprints:ZS 1052-S HT(H)"
 			(at 214.63 140.97 0)
 			(effects
 				(font
@@ -11228,7 +11228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALibrary:SMA_Amphenol_901-144_Vertical"
+		(property "Footprint" "AFootprints:SMA_Amphenol_901-144_Vertical"
 			(at 179.07 81.28 0)
 			(effects
 				(font
@@ -11316,7 +11316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALibrary:SMA_Amphenol_901-144_Vertical"
+		(property "Footprint" "AFootprints:SMA_Amphenol_901-144_Vertical"
 			(at 210.82 43.18 0)
 			(effects
 				(font
@@ -12091,7 +12091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ALibrary:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
+		(property "Footprint" "AFootprints:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
 			(at 171.45 99.06 0)
 			(effects
 				(font
@@ -12937,7 +12937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 220.98 69.85 0)
 			(effects
 				(font
@@ -13022,7 +13022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 233.68 64.77 0)
 			(effects
 				(font
@@ -14134,7 +14134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 220.98 64.77 0)
 			(effects
 				(font
@@ -14219,7 +14219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:FAN AXIAL 92X25.4MM"
+		(property "Footprint" "AFootprints:FAN AXIAL 92X25.4MM"
 			(at 20.32 186.436 0)
 			(effects
 				(font
@@ -14307,7 +14307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 252.73 64.77 0)
 			(effects
 				(font
@@ -15984,7 +15984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 240.03 64.77 0)
 			(effects
 				(font
@@ -16132,7 +16132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:CKSW-E101J1AV2QE2"
+		(property "Footprint" "AFootprints:CKSW-E101J1AV2QE2"
 			(at 52.07 38.1 0)
 			(effects
 				(font
@@ -16807,7 +16807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 227.33 69.85 0)
 			(effects
 				(font
@@ -17313,7 +17313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 246.38 69.85 0)
 			(effects
 				(font
@@ -17659,7 +17659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ALibrary:B82559B_TDK"
+		(property "Footprint" "AFootprints:B82559B_TDK"
 			(at 115.57 38.1 0)
 			(effects
 				(font
@@ -17745,7 +17745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALibrary:CP_Elec_16x17.5_FK_Series"
+		(property "Footprint" "AFootprints:CP_Elec_16x17.5_FK_Series"
 			(at 66.04 41.91 0)
 			(effects
 				(font
@@ -17851,7 +17851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 246.38 64.77 0)
 			(effects
 				(font
@@ -17936,7 +17936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:CONN_2604-3101_WAG"
+		(property "Footprint" "AFootprints:CONN_2604-3101_WAG"
 			(at 269.24 33.02 0)
 			(effects
 				(font
@@ -18219,7 +18219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 252.73 69.85 0)
 			(effects
 				(font
@@ -18401,7 +18401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:CONN_2604-3101_WAG"
+		(property "Footprint" "AFootprints:CONN_2604-3101_WAG"
 			(at 269.24 48.26 0)
 			(effects
 				(font
@@ -18856,7 +18856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 227.33 64.77 0)
 			(effects
 				(font
