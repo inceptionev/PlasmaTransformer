@@ -11592,7 +11592,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV9302IDDFR"
+		(property "Value" "TLV9302IDR"
 			(at 119.126 118.11 0)
 			(effects
 				(font
@@ -11600,7 +11600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ALibrary:SOT-23-8-Soldermask-Defined"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 114.3 123.19 0)
 			(effects
 				(font
@@ -11627,7 +11627,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TLV9302IDDFR"
+		(property "MPN" "TLV9302IDR"
 			(at 114.3 123.19 0)
 			(effects
 				(font
@@ -13810,7 +13810,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV9302IDDFR"
+		(property "Value" "TLV9302IDR"
 			(at 93.218 120.904 0)
 			(effects
 				(font
@@ -13818,7 +13818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ALibrary:SOT-23-8-Soldermask-Defined"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 86.36 125.73 0)
 			(effects
 				(font
@@ -13845,7 +13845,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TLV9302IDDFR"
+		(property "MPN" "TLV9302IDR"
 			(at 86.36 125.73 0)
 			(effects
 				(font
@@ -18931,7 +18931,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TLV9302IDDFR"
+		(property "Value" "TLV9302IDR"
 			(at 17.018 126.746 0)
 			(effects
 				(font
@@ -18940,7 +18940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALibrary:SOT-23-8-Soldermask-Defined"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 35.56 125.73 0)
 			(effects
 				(font
@@ -18967,7 +18967,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TLV9302IDDFR"
+		(property "MPN" "TLV9302IDR"
 			(at 35.56 125.73 0)
 			(effects
 				(font
