@@ -613,7 +613,7 @@
 			)
 		)
 	)
-	(footprint "ALibrary:H8501-05"
+	(footprint "AFootprints:H8501-05"
 		(layer "F.Cu")
 		(uuid "0bcab53c-3139-4d43-8046-a37108cf907b")
 		(at 89 111.45)
@@ -622,7 +622,6 @@
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "ccd05f27-5ea1-47a9-ae76-5b07dd1c839d")
 			(effects
 				(font
@@ -674,7 +673,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "986aa433-7b9b-41c6-a2f4-b9805f97dca2")
+			(uuid "d0f9dc11-6219-420b-aacd-1c2740b9d702")
 			(effects
 				(font
 					(size 1 1)
@@ -687,7 +686,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5996ad61-1d19-4f15-927f-e29b1a091611")
+			(uuid "990959ce-8379-4009-92ba-5667ec622083")
 			(effects
 				(font
 					(size 1 1)
@@ -715,7 +714,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.5 3.5)
-			(drill 2.057)
+			(drill 1.9304)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 40 "/FEEDBACK")
@@ -1226,7 +1225,7 @@
 			)
 		)
 	)
-	(footprint "ALibrary:H8501-05"
+	(footprint "AFootprints:H8501-05"
 		(layer "F.Cu")
 		(uuid "15f12b8f-8b03-4cd6-9a1e-a56e54fcea19")
 		(at 83.5 121.45)
@@ -1235,7 +1234,6 @@
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "4196d911-40f6-4e22-b90a-b9711f6a697d")
 			(effects
 				(font
@@ -1287,7 +1285,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab9673df-98e0-4d27-b376-210becf45e9b")
+			(uuid "d50f393d-9b96-4882-b51d-d541804cb41d")
 			(effects
 				(font
 					(size 1 1)
@@ -1300,7 +1298,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4929bd26-408b-4938-b6c2-e16c4d09f982")
+			(uuid "ae790510-a3da-45a7-8fb8-3858b6cbd1c1")
 			(effects
 				(font
 					(size 1 1)
@@ -1328,7 +1326,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.5 3.5)
-			(drill 2.057)
+			(drill 1.9304)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 39 "/RF-NODE")
@@ -1423,6 +1421,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "70fa984f-82e9-46a0-9b53-506161b07573")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56312b0b-71fc-48bf-82be-47e6b6f7a9ed")
 			(effects
 				(font
 					(size 1 1)
@@ -1577,7 +1588,7 @@
 			)
 		)
 	)
-	(footprint "ALibrary:H8501-05"
+	(footprint "AFootprints:H8501-05"
 		(layer "F.Cu")
 		(uuid "1b846df1-a9cb-4361-9349-74ff00648e82")
 		(at 83.5 111.45)
@@ -1586,7 +1597,6 @@
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "7059efce-8c78-42c3-afc1-ddf0c373b9be")
 			(effects
 				(font
@@ -1638,7 +1648,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3389adc-9ae9-4d8a-8331-8f89bb4525a1")
+			(uuid "ca13c980-0bcd-4212-be74-73931a3606c5")
 			(effects
 				(font
 					(size 1 1)
@@ -1651,7 +1661,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d7402c9-6b32-4240-89c0-7998794662d5")
+			(uuid "de077ca6-0fc6-4261-aa66-e8624fbe6368")
 			(effects
 				(font
 					(size 1 1)
@@ -1679,7 +1689,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.5 3.5)
-			(drill 2.057)
+			(drill 1.9304)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 40 "/FEEDBACK")
@@ -3083,7 +3093,7 @@
 			)
 		)
 	)
-	(footprint "ALibrary:H8501-05"
+	(footprint "AFootprints:H8501-05"
 		(layer "F.Cu")
 		(uuid "2428f10c-adcf-4fe5-942d-e62534263783")
 		(at 67 111.45)
@@ -3092,7 +3102,6 @@
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "419d4703-b841-4389-ba4d-89a93090cc8d")
 			(effects
 				(font
@@ -3144,7 +3153,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3383d2d3-1b21-415f-be56-f1eeac683648")
+			(uuid "c86450d7-cb1b-4344-b5c5-9d20d3e88fb8")
 			(effects
 				(font
 					(size 1 1)
@@ -3157,7 +3166,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6178de1-574e-42d0-93ea-7298cec788b9")
+			(uuid "aaf3bcc6-03e9-4a8c-97bf-591b0638e40c")
 			(effects
 				(font
 					(size 1 1)
@@ -3185,7 +3194,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.5 3.5)
-			(drill 2.057)
+			(drill 1.9304)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 40 "/FEEDBACK")
@@ -4514,7 +4523,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "Hole_Heatsink_Screw"
 			(at 0 9.4 0)
 			(layer "F.Fab")
 			(uuid "fcb9d4eb-8982-4fce-9df3-188829e71a26")
@@ -5015,6 +5024,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a4b2ea0e-75f1-4c09-8613-c36d8d00542c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f925c620-6ec4-49f7-805b-3e8f1cbe88ad")
 			(effects
 				(font
 					(size 1 1)
@@ -6702,6 +6724,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb729415-6133-450a-b7ba-c0e29a68cf9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/28065d38-31d5-4a57-af9d-7d4f754c6c5b")
 		(sheetname "/")
@@ -6849,7 +6884,7 @@
 			)
 		)
 	)
-	(footprint "ALibrary:H8501-05"
+	(footprint "AFootprints:H8501-05"
 		(layer "F.Cu")
 		(uuid "4947ed4e-dd5e-40bc-8331-64faeb2c7b30")
 		(at 94.5 121.45)
@@ -6858,7 +6893,6 @@
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "7eebe8bc-afa9-413f-a0d4-b2911aec31ff")
 			(effects
 				(font
@@ -6910,7 +6944,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "957eee74-164b-44db-91e2-f487aa00a53e")
+			(uuid "94710747-9329-489b-8bac-0749271e4c95")
 			(effects
 				(font
 					(size 1 1)
@@ -6923,7 +6957,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85203a69-d270-4345-8411-1bc01aef1bec")
+			(uuid "941589be-47f5-4207-841d-bd425947c6a7")
 			(effects
 				(font
 					(size 1 1)
@@ -6951,7 +6985,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.5 3.5)
-			(drill 2.057)
+			(drill 1.9304)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 39 "/RF-NODE")
@@ -6972,7 +7006,7 @@
 			)
 		)
 	)
-	(footprint "ALibrary:H8501-05"
+	(footprint "AFootprints:H8501-05"
 		(layer "F.Cu")
 		(uuid "4a5e8ad9-19fc-45c3-9245-9200e4697a28")
 		(at 78 121.45)
@@ -6981,7 +7015,6 @@
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "584b94a9-6a21-43f7-b2c9-cbf0e08d8b40")
 			(effects
 				(font
@@ -7033,7 +7066,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "28553c0b-e3cc-44cd-8c67-e516a9c6af75")
+			(uuid "8f3ecf54-b388-4b1c-8634-343836ce43ca")
 			(effects
 				(font
 					(size 1 1)
@@ -7046,7 +7079,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7cf8fcd5-2375-4101-b3e9-4b599b37b634")
+			(uuid "7e028236-b4f5-4dfb-b465-c80b8962ab8d")
 			(effects
 				(font
 					(size 1 1)
@@ -7074,7 +7107,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.5 3.5)
-			(drill 2.057)
+			(drill 1.9304)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 39 "/RF-NODE")
@@ -8404,7 +8437,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1111"
+		(property "Description" "Capacitor 1111 (1210 footprint compatible)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8616,7 +8649,7 @@
 			)
 		)
 	)
-	(footprint "ALibrary:H8501-05"
+	(footprint "AFootprints:H8501-05"
 		(layer "F.Cu")
 		(uuid "59b15e0f-7eb0-4311-99af-f3d7bbe9ec54")
 		(at 94.5 111.45)
@@ -8625,7 +8658,6 @@
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "c4b30110-f02b-4474-a06e-c2855d8072a5")
 			(effects
 				(font
@@ -8677,7 +8709,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7259b4e4-7787-4720-8e0c-4cfafa1fbe58")
+			(uuid "0f8aa00b-71f7-45fc-b42e-f86634d3acbf")
 			(effects
 				(font
 					(size 1 1)
@@ -8690,7 +8722,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "41b34714-7c03-40fe-9a95-ec4a2dc7100e")
+			(uuid "08997cde-315e-4705-ab6d-5589106ae8f1")
 			(effects
 				(font
 					(size 1 1)
@@ -8718,7 +8750,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.5 3.5)
-			(drill 2.057)
+			(drill 1.9304)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 40 "/FEEDBACK")
@@ -9993,6 +10025,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6045c325-69c5-417e-b3b0-7fa125bdd38a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cb90e46-2b43-477e-86af-abcfc37c299c")
 			(effects
 				(font
 					(size 1 1)
@@ -13608,7 +13653,7 @@
 			)
 		)
 	)
-	(footprint "ALibrary:H8501-05"
+	(footprint "AFootprints:H8501-05"
 		(layer "F.Cu")
 		(uuid "7373d38b-72ed-4edf-af07-425bdcb68e68")
 		(at 78 111.45)
@@ -13617,7 +13662,6 @@
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "621db72f-5e0c-41c5-8649-a73f82216910")
 			(effects
 				(font
@@ -13669,7 +13713,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1843535c-a94d-4d5b-9838-dbc29e0e93b7")
+			(uuid "b0c22432-b6bd-4b59-a2c5-a8d5fc75a0a8")
 			(effects
 				(font
 					(size 1 1)
@@ -13682,7 +13726,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7aafa1be-7130-467c-8b62-55b624244e76")
+			(uuid "0b764296-37e6-41cd-bcb0-bc0b25b60f64")
 			(effects
 				(font
 					(size 1 1)
@@ -13710,7 +13754,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.5 3.5)
-			(drill 2.057)
+			(drill 1.9304)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 40 "/FEEDBACK")
@@ -13805,6 +13849,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d0fd6a4d-2fab-4509-b61c-90da66982bd5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa1aad7d-562e-495b-8bdf-722e95e7fd42")
 			(effects
 				(font
 					(size 1 1)
@@ -14245,7 +14302,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1111"
+		(property "Description" "Capacitor 1111 (1210 footprint compatible)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15881,7 +15938,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "Pad_Doorknob_Cap"
 			(at 0 6.3 0)
 			(layer "F.Fab")
 			(uuid "e95d971f-c9d8-4844-aa79-fa512db6f989")
@@ -16853,6 +16910,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6757589-2edd-4442-b0ee-4d084caf30f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5599a36d-b2fb-4706-b221-9841eab46338")
 		(sheetname "/")
@@ -17407,7 +17477,7 @@
 			)
 		)
 	)
-	(footprint "ALibrary:H8501-05"
+	(footprint "AFootprints:H8501-05"
 		(layer "F.Cu")
 		(uuid "bf30538e-6e0a-4fa9-acb8-bd67af633436")
 		(at 89 121.45)
@@ -17416,7 +17486,6 @@
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "34296534-c59c-4f00-b318-da95d6df7fcc")
 			(effects
 				(font
@@ -17468,7 +17537,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "58d80422-5a72-4e42-acb8-3f7c5664880a")
+			(uuid "07a85293-c2fb-4fe2-a342-0b6f1f1337c6")
 			(effects
 				(font
 					(size 1 1)
@@ -17481,7 +17550,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf1e9450-d9f4-444c-a5ba-49856eeac060")
+			(uuid "e2fa804a-7301-4ca4-ab29-b0200bfe924c")
 			(effects
 				(font
 					(size 1 1)
@@ -17509,7 +17578,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.5 3.5)
-			(drill 2.057)
+			(drill 1.9304)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 39 "/RF-NODE")
@@ -17812,7 +17881,7 @@
 				)
 			)
 		)
-		(property "Description" "Heatsink"
+		(property "Description" "Heatsink, dxf in repo for drill and tap layout"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18260,7 +18329,7 @@
 			)
 		)
 	)
-	(footprint "ALibrary:H8501-05"
+	(footprint "AFootprints:H8501-05"
 		(layer "F.Cu")
 		(uuid "c4f54706-3e01-4f29-83d2-947c7539d9a9")
 		(at 67 121.45)
@@ -18269,7 +18338,6 @@
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "1d2ef82f-091d-43b6-8d11-373111bcdae9")
 			(effects
 				(font
@@ -18321,7 +18389,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b6b2883-03d7-4ca2-9afe-0364b5633baf")
+			(uuid "12d6a100-0366-4b24-95c5-db7f7596bf43")
 			(effects
 				(font
 					(size 1 1)
@@ -18334,7 +18402,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "070ab919-62a3-4e6b-804c-ce836a360896")
+			(uuid "83a6cef3-48af-460e-8739-739c464727f2")
 			(effects
 				(font
 					(size 1 1)
@@ -18362,7 +18430,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.5 3.5)
-			(drill 2.057)
+			(drill 1.9304)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 39 "/RF-NODE")
@@ -18611,6 +18679,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69f0d099-1b1d-4e5b-ba93-fea83db47323")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/41c0bfb3-ea7f-41f9-8fbf-fb5a794aeb6c")
 		(sheetname "/")
@@ -18758,7 +18839,7 @@
 			)
 		)
 	)
-	(footprint "ALibrary:H8501-05"
+	(footprint "AFootprints:H8501-05"
 		(layer "F.Cu")
 		(uuid "d00b9a65-a29f-4947-9e22-83cb22dbce8f")
 		(at 72.5 111.45)
@@ -18767,7 +18848,6 @@
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "ff65bdaa-d8f6-4cbd-aabf-15536b5fca3a")
 			(effects
 				(font
@@ -18819,7 +18899,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1033bb59-25f5-4bc6-a66c-afb304be5523")
+			(uuid "fe7f0066-dfb0-4bf9-b037-5b3a74571b47")
 			(effects
 				(font
 					(size 1 1)
@@ -18832,7 +18912,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "058484fd-387c-454e-b460-ec7a9dba0fbf")
+			(uuid "5a9c003d-df6a-4207-b00f-043e5e0aecad")
 			(effects
 				(font
 					(size 1 1)
@@ -18860,7 +18940,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.5 3.5)
-			(drill 2.057)
+			(drill 1.9304)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 40 "/FEEDBACK")
@@ -19216,6 +19296,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a64088cd-2c28-4c26-b5fa-744771e7391a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6b650d11-b665-49b7-a72c-ecbeed3260fc")
 		(sheetname "/")
@@ -19405,7 +19498,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1111"
+		(property "Description" "Capacitor 1111 (1210 footprint compatible)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20203,6 +20296,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cb72bae-6ade-4241-a7eb-58192e80ba14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7c6963a6-39a6-47c7-9650-95e36e2e77fd")
 		(sheetname "/")
@@ -20689,7 +20795,7 @@
 			)
 		)
 	)
-	(footprint "ALibrary:H8501-05"
+	(footprint "AFootprints:H8501-05"
 		(layer "F.Cu")
 		(uuid "f330125f-5f78-480c-9b52-abaec13e7729")
 		(at 72.5 121.45)
@@ -20698,7 +20804,6 @@
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "30b64cb8-3a6a-41aa-9e9b-dfabce5d8f45")
 			(effects
 				(font
@@ -20750,7 +20855,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74d6fbfd-f47c-48ea-a89c-7f966159013a")
+			(uuid "064878b5-ca27-40f7-a908-fd506d78abca")
 			(effects
 				(font
 					(size 1 1)
@@ -20763,7 +20868,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19b71261-370c-43bc-ac2a-4da4b87b44b8")
+			(uuid "70d48dec-fa43-4d2f-8faf-20110ffc2322")
 			(effects
 				(font
 					(size 1 1)
@@ -20791,7 +20896,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.5 3.5)
-			(drill 2.057)
+			(drill 1.9304)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 39 "/RF-NODE")
@@ -20854,7 +20959,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1111"
+		(property "Description" "Capacitor 1111 (1210 footprint compatible)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")

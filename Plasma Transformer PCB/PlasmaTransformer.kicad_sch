@@ -9084,7 +9084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 240.03 69.85 0)
 			(effects
 				(font
@@ -9339,7 +9339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 233.68 69.85 0)
 			(effects
 				(font
@@ -11795,7 +11795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 220.98 69.85 0)
 			(effects
 				(font
@@ -11880,7 +11880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 233.68 64.77 0)
 			(effects
 				(font
@@ -12784,7 +12784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 220.98 64.77 0)
 			(effects
 				(font
@@ -12957,7 +12957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 252.73 64.77 0)
 			(effects
 				(font
@@ -14548,7 +14548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 240.03 64.77 0)
 			(effects
 				(font
@@ -15203,7 +15203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 227.33 69.85 0)
 			(effects
 				(font
@@ -15709,7 +15709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 246.38 69.85 0)
 			(effects
 				(font
@@ -16153,7 +16153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 246.38 64.77 0)
 			(effects
 				(font
@@ -16427,7 +16427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 252.73 69.85 0)
 			(effects
 				(font
@@ -17064,7 +17064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ALibrary:H8501-05"
+		(property "Footprint" "AFootprints:H8501-05"
 			(at 227.33 64.77 0)
 			(effects
 				(font
